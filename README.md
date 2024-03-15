@@ -126,7 +126,7 @@ Prior Finals for Inspo
 | Michelin Stars | https://youtu.be/mt1E8Lp9SV0 | https://github.com/jcybul/datavis-final |
 | Correlation Judgement Playground | https://youtu.be/nKRtpC5UTgA | https://github.com/TrumanLarson/mqp-corr |
 | Visualizing Consensus | https://youtu.be/z5D1gk7UiBQ | https://github.com/hilsonshrestha/datavis-final |
-| Tuberculosis | https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvimeo.com%2Fmanage%2Fvideos%2F705224444%2Fprivacy&data=05%7C01%7Cmnorales%40wpi.edu%7C582951e48b554a738ba708da2be74e3d%7C589c76f5ca1541f9884b55ec15a0672a%7C0%7C0%7C637870569699354063%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=wbYcxIgi3g1pUxCwDu%2By%2FXOlHL9pmUJO4lpB%2BV5lz%2BM%3D&reserved=0 | https://github.com/mnorales/datavis-final |
+| Tuberculosis | https://vimeo.com/705224444 | https://github.com/mnorales/datavis-final |
 | Unknown | n/a | https://github.com/zihao777/datavis-final |
 | Unknown | n/a | https://github.com/jhyuen/datavis-final |
 | Unknown | n/a | https://github.com/jwu2018/datavis-final |
