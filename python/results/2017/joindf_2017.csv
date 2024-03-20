@@ -1,0 +1,254 @@
+Round,Pick_No,Team,Player,Player_Link,Pos,College,Conf,ID,Conf_Clean,Div,MVP,SB_MVP,SB_WIN,OPOY,DPOY,OROY,DROY,First_AP,Second_AP,Pro_Bowl
+1,1,Cleveland Browns,Myles Garrett,https://en.wikipedia.org/wiki/Myles_Garrett ,DE,Texas AM,SEC,2017001,SEC,AFC North,0,0,0,0,1,0,0,3,2,5
+1,2,Chicago Bears,Mitchell Trubisky,https://en.wikipedia.org/wiki/Mitchell_Trubisky ,QB,North Carolina,ACC,2017002,ACC,NFC North,0,0,0,0,0,0,0,0,0,1
+1,3,San Francisco 49ers,Solomon Thomas,https://en.wikipedia.org/wiki/Solomon_Thomas ,DE,Stanford,Pac12,2017003,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+1,4,Jacksonville Jaguars,Leonard Fournette,https://en.wikipedia.org/wiki/Leonard_Fournette ,RB,LSU,SEC,2017004,SEC,AFC South,0,0,1,0,0,0,0,0,0,0
+1,5,Tennessee Titans,Corey Davis,https://en.wikipedia.org/wiki/Corey_Davis_(wide_receiver) ,WR,Western Michigan,MAC,2017005,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+1,6,New York Jets,Jamal Adams,https://en.wikipedia.org/wiki/Jamal_Adams ,S,LSU,SEC,2017006,SEC,AFC East,0,0,0,0,0,0,0,1,2,3
+1,7,Los Angeles Chargers,Mike Williams,"https://en.wikipedia.org/wiki/Mike_Williams_(wide_receiver,_born_1994) ",WR,Clemson,ACC,2017007,ACC,AFC West,0,0,0,0,0,0,0,0,0,0
+1,8,Carolina Panthers,Christian McCaffrey,https://en.wikipedia.org/wiki/Christian_McCaffrey ,RB,Stanford,Pac12,2017008,Pac12,NFC South,0,0,0,1,0,0,0,3,1,3
+1,9,Cincinnati Bengals,John Ross,https://en.wikipedia.org/wiki/John_Ross_(American_football) ,WR,Washington,Pac12,2017009,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+1,10,Kansas City Chiefs,Patrick Mahomes,https://en.wikipedia.org/wiki/Patrick_Mahomes ,QB,Texas Tech,Big 12,2017010,Big 12,AFC West,2,3,3,1,0,0,0,2,1,6
+1,11,New Orleans Saints,Marshon Lattimore,https://en.wikipedia.org/wiki/Marshon_Lattimore ,CB,Ohio State,Big Ten,2017011,Big Ten,NFC South,0,0,0,0,0,0,1,0,0,4
+1,12,Houston Texans,Deshaun Watson,https://en.wikipedia.org/wiki/Deshaun_Watson ,QB,Clemson,ACC,2017012,ACC,AFC South,0,0,0,0,0,0,0,0,0,3
+1,13,Arizona Cardinals,Haason Reddick,https://en.wikipedia.org/wiki/Haason_Reddick ,LB,Temple,The American,2017013,Other,NFC West,0,0,0,0,0,0,0,0,1,2
+1,14,Philadelphia Eagles,Derek Barnett,https://en.wikipedia.org/wiki/Derek_Barnett ,DE,Tennessee,SEC,2017014,SEC,NFC East,0,0,1,0,0,0,0,0,0,0
+1,15,Indianapolis Colts,Malik Hooker,https://en.wikipedia.org/wiki/Malik_Hooker ,S,Ohio State,Big Ten,2017015,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+1,16,Baltimore Ravens,Marlon Humphrey,https://en.wikipedia.org/wiki/Marlon_Humphrey ,CB,Alabama,SEC,2017016,SEC,AFC North,0,0,0,0,0,0,0,1,0,3
+1,17,Washington Commanders,Jonathan Allen,https://en.wikipedia.org/wiki/Jonathan_Allen ,DE,Alabama,SEC,2017017,SEC,NFC East,0,0,0,0,0,0,0,0,0,2
+1,18,Tennessee Titans,Adoree Jackson,https://en.wikipedia.org/wiki/Adoree%27_Jackson ,CB,USC,Pac12,2017018,Pac12,AFC South,0,0,0,0,0,0,0,0,0,0
+1,19,Tampa Bay Buccaneers,O J Howard,https://en.wikipedia.org/wiki/O._J._Howard ,TE,Alabama,SEC,2017019,SEC,NFC South,0,0,1,0,0,0,0,0,0,0
+1,20,Denver Broncos,Garett Bolles,https://en.wikipedia.org/wiki/Garett_Bolles ,OT,Utah,Pac12,2017020,Pac12,AFC West,0,0,0,0,0,0,0,0,1,0
+1,21,Detroit Lions,Jarrad Davis,https://en.wikipedia.org/wiki/Jarrad_Davis ,LB,Florida,SEC,2017021,SEC,NFC North,0,0,0,0,0,0,0,0,0,0
+1,22,Miami Dolphins,Charles Harris,https://en.wikipedia.org/wiki/Charles_Harris_(American_football) ,DE,Missouri,SEC,2017022,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+1,23,New York Giants,Evan Engram,https://en.wikipedia.org/wiki/Evan_Engram ,TE,Ole Miss,SEC,2017023,SEC,NFC East,0,0,0,0,0,0,0,0,0,2
+1,24,Las Vegas Raiders,Gareon Conley,https://en.wikipedia.org/wiki/Gareon_Conley ,CB,Ohio State,Big Ten,2017024,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+1,25,Cleveland Browns,Jabrill Peppers,https://en.wikipedia.org/wiki/Jabrill_Peppers ,S,Michigan,Big Ten,2017025,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+1,26,Atlanta Falcons,Takkarist McKinley,https://en.wikipedia.org/wiki/Takkarist_McKinley ,DE,UCLA,Pac12,2017026,Pac12,NFC South,0,0,0,0,0,0,0,0,0,0
+1,27,Buffalo Bills,TreDavious White,https://en.wikipedia.org/wiki/Tre%27Davious_White ,CB,LSU,SEC,2017027,SEC,AFC East,0,0,0,0,0,0,0,1,1,2
+1,28,Dallas Cowboys,Taco Charlton,https://en.wikipedia.org/wiki/Taco_Charlton ,DE,Michigan,Big Ten,2017028,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+1,29,Cleveland Browns,David Njoku,https://en.wikipedia.org/wiki/David_Njoku ,TE,Miami FL,ACC,2017029,ACC,AFC North,0,0,0,0,0,0,0,0,0,1
+1,30,Pittsburgh Steelers,T J Watt,https://en.wikipedia.org/wiki/T._J._Watt ,LB,Wisconsin,Big Ten,2017030,Big Ten,AFC North,0,0,0,0,1,0,0,4,1,6
+1,31,San Francisco 49ers,Reuben Foster,https://en.wikipedia.org/wiki/Reuben_Foster ,LB,Alabama,SEC,2017031,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+1,32,New Orleans Saints,Ryan Ramczyk,https://en.wikipedia.org/wiki/Ryan_Ramczyk ,OT,Wisconsin,Big Ten,2017032,Big Ten,NFC South,0,0,0,0,0,0,0,1,2,0
+2,33,Green Bay Packers,Kevin King,https://en.wikipedia.org/wiki/Kevin_King_(American_football) ,CB,Washington,Pac12,2017033,Pac12,NFC North,0,0,0,0,0,0,0,0,0,0
+2,34,Jacksonville Jaguars,Cam Robinson,https://en.wikipedia.org/wiki/Cam_Robinson ,OT,Alabama,SEC,2017034,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+2,35,Seattle Seahawks,Malik McDowell,https://en.wikipedia.org/wiki/Malik_McDowell ,DT,Michigan State,Big Ten,2017035,Big Ten,NFC West,0,0,0,0,0,0,0,0,0,0
+2,36,Arizona Cardinals,Budda Baker,https://en.wikipedia.org/wiki/Budda_Baker ,S,Washington,Pac12,2017036,Pac12,NFC West,0,0,0,0,0,0,0,2,1,6
+2,37,Buffalo Bills,Zay Jones,https://en.wikipedia.org/wiki/Zay_Jones ,WR,East Carolina,The American,2017037,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+2,38,Los Angeles Chargers,Forrest Lamp,https://en.wikipedia.org/wiki/Forrest_Lamp ,OG,Western Kentucky,CUSA,2017038,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+2,39,New York Jets,Marcus Maye,https://en.wikipedia.org/wiki/Marcus_Maye ,S,Florida,SEC,2017039,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+2,40,Carolina Panthers,Curtis Samuel,https://en.wikipedia.org/wiki/Curtis_Samuel ,WR,Ohio State,Big Ten,2017040,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+2,41,Minnesota Vikings,Dalvin Cook,https://en.wikipedia.org/wiki/Dalvin_Cook ,RB,Florida State,ACC,2017041,ACC,NFC North,0,0,0,0,0,0,0,0,0,4
+2,42,New Orleans Saints,Marcus Williams,https://en.wikipedia.org/wiki/Marcus_Williams_(safety) ,S,Utah,Pac12,2017042,Pac12,NFC South,0,0,0,0,0,0,0,0,0,0
+2,43,Philadelphia Eagles,Sidney Jones,https://en.wikipedia.org/wiki/Sidney_Jones_(American_football) ,CB,Washington,Pac12,2017043,Pac12,NFC East,0,0,1,0,0,0,0,0,0,0
+2,44,Los Angeles Rams,Gerald Everett,https://en.wikipedia.org/wiki/Gerald_Everett ,TE,South Alabama,Sun Belt,2017044,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+2,45,Chicago Bears,Adam Shaheen,https://en.wikipedia.org/wiki/Adam_Shaheen_(American_football) ,TE,Ashland,GLIAC,2017045,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+2,46,Indianapolis Colts,Quincy Wilson,https://en.wikipedia.org/wiki/Quincy_Wilson_(cornerback) ,CB,Florida,SEC,2017046,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+2,47,Baltimore Ravens,Tyus Bowser,https://en.wikipedia.org/wiki/Tyus_Bowser ,LB,Houston,The American,2017047,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+2,48,Cincinnati Bengals,Joe Mixon,https://en.wikipedia.org/wiki/Joe_Mixon ,RB,Oklahoma,Big 12,2017048,Big 12,AFC North,0,0,0,0,0,0,0,0,0,1
+2,49,Washington Commanders,Ryan Anderson,https://en.wikipedia.org/wiki/Ryan_Anderson_(linebacker) ,LB,Alabama,SEC,2017049,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+2,50,Tampa Bay Buccaneers,Justin Evans,https://en.wikipedia.org/wiki/Justin_Evans_(American_football) ,S,Texas AM,SEC,2017050,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+2,51,Denver Broncos,DeMarcus Walker,https://en.wikipedia.org/wiki/DeMarcus_Walker ,DE,Florida State,ACC,2017051,ACC,AFC West,0,0,0,0,0,0,0,0,0,0
+2,52,Cleveland Browns,DeShone Kizer,https://en.wikipedia.org/wiki/DeShone_Kizer ,QB,Notre Dame,Ind FBS,2017052,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+2,53,Detroit Lions,Teez Tabor,https://en.wikipedia.org/wiki/Teez_Tabor ,CB,Florida,SEC,2017053,SEC,NFC North,0,0,0,0,0,0,0,0,0,0
+2,54,Miami Dolphins,Raekwon McMillan,https://en.wikipedia.org/wiki/Raekwon_McMillan ,LB,Ohio State,Big Ten,2017054,Big Ten,AFC East,0,0,0,0,0,0,0,0,0,0
+2,55,New York Giants,Dalvin Tomlinson,https://en.wikipedia.org/wiki/Dalvin_Tomlinson ,DT,Alabama,SEC,2017055,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+2,56,Las Vegas Raiders,Obi Melifonwu,https://en.wikipedia.org/wiki/Obi_Melifonwu ,S,UConn,The American,2017056,Other,AFC West,0,0,1,0,0,0,0,0,0,0
+2,57,Houston Texans,Zach Cunningham,https://en.wikipedia.org/wiki/Zach_Cunningham ,LB,Vanderbilt,SEC,2017057,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+2,58,Seattle Seahawks,Ethan Pocic,https://en.wikipedia.org/wiki/Ethan_Pocic ,C,LSU,SEC,2017058,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+2,59,Kansas City Chiefs,Tanoh Kpassagnon,https://en.wikipedia.org/wiki/Tanoh_Kpassagnon ,DE,Villanova,CAA,2017059,Other,AFC West,0,0,1,0,0,0,0,0,0,0
+2,60,Dallas Cowboys,Chidobe Awuzie,https://en.wikipedia.org/wiki/Chidobe_Awuzie ,CB,Colorado,Pac12,2017060,Pac12,NFC East,0,0,0,0,0,0,0,0,0,0
+2,61,Green Bay Packers,Josh Jones,https://en.wikipedia.org/wiki/Josh_Jones_(safety) ,S,NC State,ACC,2017061,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+2,62,Pittsburgh Steelers,JuJu SmithSchuster,https://en.wikipedia.org/wiki/JuJu_Smith-Schuster ,WR,USC,Pac12,2017062,Pac12,AFC North,0,0,1,0,0,0,0,0,0,1
+2,63,Buffalo Bills,Dion Dawkins,https://en.wikipedia.org/wiki/Dion_Dawkins ,OG,Temple,The American,2017063,Other,AFC East,0,0,0,0,0,0,0,0,0,3
+2,64,Carolina Panthers,Taylor Moton,https://en.wikipedia.org/wiki/Taylor_Moton ,OG,Western Michigan,MAC,2017064,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+3,65,Cleveland Browns,Larry Ogunjobi,https://en.wikipedia.org/wiki/Larry_Ogunjobi ,DT,Charlotte,CUSA,2017065,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+3,66,San Francisco 49ers,Ahkello Witherspoon,https://en.wikipedia.org/wiki/Ahkello_Witherspoon ,CB,Colorado,Pac12,2017066,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+3,67,New Orleans Saints,Alvin Kamara,https://en.wikipedia.org/wiki/Alvin_Kamara ,RB,Tennessee,SEC,2017067,SEC,NFC South,0,0,0,0,0,1,0,0,2,5
+3,68,Jacksonville Jaguars,Dawuane Smoot,https://en.wikipedia.org/wiki/Dawuane_Smoot ,DE,Illinois,Big Ten,2017068,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+3,69,Los Angeles Rams,Cooper Kupp,https://en.wikipedia.org/wiki/Cooper_Kupp ,WR,Eastern Washington,Big Sky,2017069,Other,NFC West,0,1,1,1,0,0,0,1,0,1
+3,70,Minnesota Vikings,Pat Elflein,https://en.wikipedia.org/wiki/Pat_Elflein ,C,Ohio State,Big Ten,2017070,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+3,71,Los Angeles Chargers,Dan Feeney,https://en.wikipedia.org/wiki/Dan_Feeney ,OG,Indiana,Big Ten,2017071,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+3,72,Tennessee Titans,Taywan Taylor,https://en.wikipedia.org/wiki/Taywan_Taylor ,WR,Western Kentucky,CUSA,2017072,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+3,73,Cincinnati Bengals,Jordan Willis,https://en.wikipedia.org/wiki/Jordan_Willis_(American_football) ,DE,Kansas State,Big 12,2017073,Big 12,AFC North,0,0,0,0,0,0,0,0,0,0
+3,74,Baltimore Ravens,Chris Wormley,https://en.wikipedia.org/wiki/Chris_Wormley ,DE,Michigan,Big Ten,2017074,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+3,75,Atlanta Falcons,Duke Riley,https://en.wikipedia.org/wiki/Duke_Riley_(American_football) ,LB,LSU,SEC,2017075,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+3,76,New Orleans Saints,Alex Anzalone,https://en.wikipedia.org/wiki/Alex_Anzalone ,LB,Florida,SEC,2017076,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+3,77,Carolina Panthers,Daeshon Hall,https://en.wikipedia.org/wiki/Daeshon_Hall ,DE,Texas AM,SEC,2017077,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+3,78,Baltimore Ravens,Tim Williams,https://en.wikipedia.org/wiki/Tim_Williams_(American_football) ,LB,Alabama,SEC,2017078,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+3,79,New York Jets,ArDarius Stewart,https://en.wikipedia.org/wiki/ArDarius_Stewart ,WR,Alabama,SEC,2017079,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+3,80,Indianapolis Colts,Tarell Basham,https://en.wikipedia.org/wiki/Tarell_Basham ,DE,Ohio,MAC,2017080,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+3,81,Washington Commanders,Fabian Moreau,https://en.wikipedia.org/wiki/Fabian_Moreau ,CB,UCLA,Pac12,2017081,Pac12,NFC East,0,0,0,0,0,0,0,0,0,0
+3,82,Denver Broncos,Carlos Henderson,https://en.wikipedia.org/wiki/Carlos_Henderson ,WR,Louisiana Tech,CUSA,2017082,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+3,83,New England Patriots,Derek Rivers,https://en.wikipedia.org/wiki/Derek_Rivers ,DE,Youngstown State,MVFC,2017083,Other,AFC East,0,0,1,0,0,0,0,0,0,0
+3,84,Tampa Bay Buccaneers,Chris Godwin,https://en.wikipedia.org/wiki/Chris_Godwin ,WR,Penn State,Big Ten,2017084,Big Ten,NFC South,0,0,1,0,0,0,0,0,1,1
+3,85,New England Patriots,Antonio Garcia,https://en.wikipedia.org/wiki/Antonio_Garcia_(American_football) ,OT,Troy,Sun Belt,2017085,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+3,86,Kansas City Chiefs,Kareem Hunt,https://en.wikipedia.org/wiki/Kareem_Hunt ,RB,Toledo,MAC,2017086,Other,AFC West,0,0,0,0,0,0,0,0,0,1
+3,87,New York Giants,Davis Webb,https://en.wikipedia.org/wiki/Davis_Webb ,QB,California,Pac12,2017087,Pac12,NFC East,0,0,0,0,0,0,0,0,0,0
+3,88,Las Vegas Raiders,Eddie Vanderdoes,https://en.wikipedia.org/wiki/Eddie_Vanderdoes ,DT,UCLA,Pac12,2017088,Pac12,AFC West,0,0,0,0,0,0,0,0,0,0
+3,89,Houston Texans,DOnta Foreman,https://en.wikipedia.org/wiki/D%27Onta_Foreman ,RB,Texas,Big 12,2017089,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+3,90,Seattle Seahawks,Shaquill Griffin,https://en.wikipedia.org/wiki/Shaquill_Griffin ,CB,UCF,The American,2017090,Other,NFC West,0,0,0,0,0,0,0,0,0,1
+3,91,Los Angeles Rams,John Johnson,https://en.wikipedia.org/wiki/John_Johnson_(safety) ,S,Boston College,ACC,2017091,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+3,92,Dallas Cowboys,Jourdan Lewis,https://en.wikipedia.org/wiki/Jourdan_Lewis ,CB,Michigan,Big Ten,2017092,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+3,93,Green Bay Packers,Montravius Adams,https://en.wikipedia.org/wiki/Montravius_Adams ,DT,Auburn,SEC,2017093,SEC,NFC North,0,0,0,0,0,0,0,0,0,0
+3,94,Pittsburgh Steelers,Cameron Sutton,https://en.wikipedia.org/wiki/Cameron_Sutton ,CB,Tennessee,SEC,2017094,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+3,95,Seattle Seahawks,Lano Hill,https://en.wikipedia.org/wiki/Lano_Hill ,S,Michigan,Big Ten,2017095,Big Ten,NFC West,0,0,0,0,0,0,0,0,0,0
+3,96,Detroit Lions,Kenny Golladay,https://en.wikipedia.org/wiki/Kenny_Golladay ,WR,Northern Illinois,MAC,2017096,Other,NFC North,0,0,0,0,0,0,0,0,0,1
+3,97,Miami Dolphins,Cordrea Tankersley,https://en.wikipedia.org/wiki/Cordrea_Tankersley ,CB,Clemson,ACC,2017097,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+3,98,Arizona Cardinals,Chad Williams,https://en.wikipedia.org/wiki/Chad_Williams_(wide_receiver) ,WR,Grambling State,SWAC,2017098,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+3,99,Philadelphia Eagles,Rasul Douglas,https://en.wikipedia.org/wiki/Rasul_Douglas ,CB,West Virginia,Big 12,2017099,Big 12,NFC East,0,0,1,0,0,0,0,0,0,0
+3,100,Tennessee Titans,Jonnu Smith,https://en.wikipedia.org/wiki/Jonnu_Smith ,TE,FIU,CUSA,2017100,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+3,101,Denver Broncos,Brendan Langley,https://en.wikipedia.org/wiki/Brendan_Langley ,CB,Lamar,Southland,2017101,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+3,102,Seattle Seahawks,Nazair Jones,https://en.wikipedia.org/wiki/Nazair_Jones ,DT,North Carolina,ACC,2017102,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+3,103,New Orleans Saints,Trey Hendrickson,https://en.wikipedia.org/wiki/Trey_Hendrickson ,LB,Florida Atlantic,CUSA,2017103,Other,NFC South,0,0,0,0,0,0,0,0,0,3
+3,104,San Francisco 49ers,C J Beathard,https://en.wikipedia.org/wiki/C._J._Beathard ,QB,Iowa,Big Ten,2017104,Big Ten,NFC West,0,0,0,0,0,0,0,0,0,0
+3,105,Pittsburgh Steelers,James Conner,https://en.wikipedia.org/wiki/James_Conner_(American_football) ,RB,Pittsburgh,ACC,2017105,ACC,AFC North,0,0,0,0,0,0,0,0,0,2
+3,106,Seattle Seahawks,Amara Darboh,https://en.wikipedia.org/wiki/Amara_Darboh ,WR,Michigan,Big Ten,2017106,Big Ten,NFC West,0,0,0,0,0,0,0,0,0,0
+3,107,Tampa Bay Buccaneers,Kendell Beckwith,https://en.wikipedia.org/wiki/Kendell_Beckwith ,LB,LSU,SEC,2017107,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+4,108,Green Bay Packers,Vince Biegel,https://en.wikipedia.org/wiki/Vince_Biegel ,LB,Wisconsin,Big Ten,2017108,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+4,109,Minnesota Vikings,Jaleel Johnson,https://en.wikipedia.org/wiki/Jaleel_Johnson ,DT,Iowa,Big Ten,2017109,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+4,110,Jacksonville Jaguars,Dede Westbrook,https://en.wikipedia.org/wiki/Dede_Westbrook ,WR,Oklahoma,Big 12,2017110,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+4,111,Seattle Seahawks,Tedric Thompson,https://en.wikipedia.org/wiki/Tedric_Thompson ,S,Colorado,Pac12,2017111,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+4,112,Chicago Bears,Eddie Jackson,https://en.wikipedia.org/wiki/Eddie_Jackson_(safety) ,S,Alabama,SEC,2017112,SEC,NFC North,0,0,0,0,0,0,0,1,0,2
+4,113,Los Angeles Chargers,Rayshawn Jenkins,https://en.wikipedia.org/wiki/Rayshawn_Jenkins ,S,Miami FL,ACC,2017113,ACC,AFC West,0,0,0,0,0,0,0,0,0,0
+4,114,Washington Commanders,Samaje Perine,https://en.wikipedia.org/wiki/Samaje_Perine ,RB,Oklahoma,Big 12,2017114,Big 12,NFC East,0,0,0,0,0,0,0,0,0,0
+4,115,Arizona Cardinals,Dorian Johnson,https://en.wikipedia.org/wiki/Dorian_Johnson ,OG,Pittsburgh,ACC,2017115,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+4,116,Cincinnati Bengals,Carl Lawson,https://en.wikipedia.org/wiki/Carl_Lawson_(American_football) ,DE,Auburn,SEC,2017116,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+4,117,Los Angeles Rams,Josh Reynolds,https://en.wikipedia.org/wiki/Josh_Reynolds_(American_football) ,WR,Texas AM,SEC,2017117,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+4,118,Philadelphia Eagles,Mack Hollins,https://en.wikipedia.org/wiki/Mack_Hollins ,WR,North Carolina,ACC,2017118,ACC,NFC East,0,0,1,0,0,0,0,0,0,0
+4,119,Chicago Bears,Tarik Cohen,https://en.wikipedia.org/wiki/Tarik_Cohen ,RB,North Carolina AT,MEAC,2017119,Other,NFC North,0,0,0,0,0,0,0,1,0,1
+4,120,Minnesota Vikings,Ben Gedeon,https://en.wikipedia.org/wiki/Ben_Gedeon ,LB,Michigan,Big Ten,2017120,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+4,121,San Francisco 49ers,Joe Williams,"https://en.wikipedia.org/wiki/Joe_Williams_(running_back,_born_1993) ",RB,Utah,Pac12,2017121,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+4,122,Baltimore Ravens,Nico Siragusa,https://en.wikipedia.org/wiki/Nico_Siragusa ,OG,San Diego State,MW,2017122,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+4,123,Washington Commanders,Montae Nicholson,https://en.wikipedia.org/wiki/Montae_Nicholson ,S,Michigan State,Big Ten,2017123,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+4,124,Detroit Lions,Jalen ReevesMaybin,https://en.wikipedia.org/wiki/Jalen_Reeves-Maybin ,LB,Tennessee,SEC,2017124,SEC,NFC North,0,0,0,0,0,0,0,0,1,1
+4,125,Los Angeles Rams,Samson Ebukam,https://en.wikipedia.org/wiki/Samson_Ebukam ,LB,Eastern Washington,Big Sky,2017125,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+4,126,Cleveland Browns,Howard Wilson,https://en.wikipedia.org/wiki/Howard_Wilson_(American_football) ,CB,Houston,The American,2017126,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+4,127,Detroit Lions,Michael Roberts,https://en.wikipedia.org/wiki/Michael_Roberts_(American_football) ,TE,Toledo,MAC,2017127,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+4,128,Cincinnati Bengals,Josh Malone,https://en.wikipedia.org/wiki/Josh_Malone ,WR,Tennessee,SEC,2017128,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+4,129,Las Vegas Raiders,David Sharpe,https://en.wikipedia.org/wiki/David_Sharpe_(American_football) ,OT,Florida,SEC,2017129,SEC,AFC West,0,0,0,0,0,0,0,0,0,0
+4,130,Houston Texans,Julién Davenport,https://en.wikipedia.org/wiki/Juli%C3%A9n_Davenport ,OT,Bucknell,Patriot,2017130,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+4,131,New England Patriots,Deatrich Wise Jr,https://en.wikipedia.org/wiki/Deatrich_Wise_Jr. ,DE,Arkansas,SEC,2017131,SEC,AFC East,0,0,1,0,0,0,0,0,0,0
+4,132,Philadelphia Eagles,Donnel Pumphrey,https://en.wikipedia.org/wiki/Donnel_Pumphrey ,RB,San Diego State,MW,2017132,Other,NFC East,0,0,1,0,0,0,0,0,0,0
+4,133,Dallas Cowboys,Ryan Switzer,https://en.wikipedia.org/wiki/Ryan_Switzer ,WR,North Carolina,ACC,2017133,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+4,134,Green Bay Packers,Jamaal Williams,https://en.wikipedia.org/wiki/Jamaal_Williams ,RB,BYU,Ind FBS,2017134,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+4,135,Pittsburgh Steelers,Joshua Dobbs,https://en.wikipedia.org/wiki/Joshua_Dobbs ,QB,Tennessee,SEC,2017135,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+4,136,Atlanta Falcons,Sean Harlow,https://en.wikipedia.org/wiki/Sean_Harlow ,C,Oregon State,Pac12,2017136,Pac12,NFC South,0,0,0,0,0,0,0,0,0,0
+4,137,Indianapolis Colts,Zach Banner,https://en.wikipedia.org/wiki/Zach_Banner ,OG,USC,Pac12,2017137,Pac12,AFC South,0,0,0,0,0,0,0,0,0,0
+4,138,Cincinnati Bengals,Ryan Glasgow,https://en.wikipedia.org/wiki/Ryan_Glasgow ,DT,Michigan,Big Ten,2017138,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+4,139,Kansas City Chiefs,Jehu Chesson,https://en.wikipedia.org/wiki/Jehu_Chesson ,WR,Michigan,Big Ten,2017139,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+4,140,New York Giants,Wayne Gallman,https://en.wikipedia.org/wiki/Wayne_Gallman ,RB,Clemson,ACC,2017140,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+4,141,New York Jets,Chad Hansen,https://en.wikipedia.org/wiki/Chad_Hansen ,WR,California,Pac12,2017141,Pac12,AFC East,0,0,0,0,0,0,0,0,0,0
+4,142,Houston Texans,Carlos Watkins,https://en.wikipedia.org/wiki/Carlos_Watkins ,DT,Clemson,ACC,2017142,ACC,AFC South,0,0,0,0,0,0,0,0,0,0
+4,143,Indianapolis Colts,Marlon Mack,https://en.wikipedia.org/wiki/Marlon_Mack ,RB,South Florida,The American,2017143,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+4,144,Indianapolis Colts,Grover Stewart,https://en.wikipedia.org/wiki/Grover_Stewart ,DT,Albany State,SIAC,2017144,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+5,145,Denver Broncos,Jake Butt,https://en.wikipedia.org/wiki/Jake_Butt ,TE,Michigan,Big Ten,2017145,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+5,146,San Francisco 49ers,George Kittle,https://en.wikipedia.org/wiki/George_Kittle ,TE,Iowa,Big Ten,2017146,Big Ten,NFC West,0,0,0,0,0,0,0,2,2,5
+5,147,Chicago Bears,Jordan Morgan,https://en.wikipedia.org/wiki/Jordan_Morgan_(American_football) ,OG,Kutztown,PSAC,2017147,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+5,148,Jacksonville Jaguars,Blair Brown,https://en.wikipedia.org/wiki/Blair_Brown_(American_football) ,LB,Ohio,MAC,2017148,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+5,149,Atlanta Falcons,Damontae Kazee,https://en.wikipedia.org/wiki/Damontae_Kazee ,CB,San Diego State,MW,2017149,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+5,150,New York Jets,Jordan Leggett,https://en.wikipedia.org/wiki/Jordan_Leggett ,TE,Clemson,ACC,2017150,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+5,151,Los Angeles Chargers,Desmond King,https://en.wikipedia.org/wiki/Desmond_King_(American_football) ,CB,Iowa,Big Ten,2017151,Big Ten,AFC West,0,0,0,0,0,0,0,1,1,0
+5,152,Carolina Panthers,Corn Elder,https://en.wikipedia.org/wiki/Corn_Elder ,CB,Miami FL,ACC,2017152,ACC,NFC South,0,0,0,0,0,0,0,0,0,0
+5,153,Cincinnati Bengals,Jake Elliott,https://en.wikipedia.org/wiki/Jake_Elliott ,K,Memphis,The American,2017153,Other,AFC North,0,0,1,0,0,0,0,0,1,1
+5,154,Washington Commanders,Jeremy Sprinkle,https://en.wikipedia.org/wiki/Jeremy_Sprinkle ,TE,Arkansas,SEC,2017154,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+5,155,Tennessee Titans,Jayon Brown,https://en.wikipedia.org/wiki/Jayon_Brown ,LB,UCLA,Pac12,2017155,Pac12,AFC South,0,0,0,0,0,0,0,0,0,0
+5,156,Atlanta Falcons,Brian Hill,https://en.wikipedia.org/wiki/Brian_Hill_(American_football) ,RB,Wyoming,MW,2017156,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+5,157,Arizona Cardinals,Will Holden,https://en.wikipedia.org/wiki/Will_Holden_(American_football) ,OT,Vanderbilt,SEC,2017157,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+5,158,Indianapolis Colts,Nate Hairston,https://en.wikipedia.org/wiki/Nate_Hairston ,CB,Temple,The American,2017158,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+5,159,Baltimore Ravens,Jermaine Eluemunor,https://en.wikipedia.org/wiki/Jermaine_Eluemunor ,OT,Texas AM,SEC,2017159,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+5,160,Cleveland Browns,Roderick Johnson,https://en.wikipedia.org/wiki/Roderick_Johnson ,OT,Florida State,ACC,2017160,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+5,161,Indianapolis Colts,Anthony Walker Jr,https://en.wikipedia.org/wiki/Anthony_Walker_Jr. ,LB,Northwestern,Big Ten,2017161,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+5,162,Tampa Bay Buccaneers,Jeremy McNichols,https://en.wikipedia.org/wiki/Jeremy_McNichols ,RB,Boise State,MW,2017162,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+5,163,Buffalo Bills,Matt Milano,https://en.wikipedia.org/wiki/Matt_Milano ,LB,Boston College,ACC,2017163,ACC,AFC East,0,0,0,0,0,0,0,1,0,1
+5,164,Miami Dolphins,Isaac Asiata,https://en.wikipedia.org/wiki/Isaac_Asiata ,OG,Utah,Pac12,2017164,Pac12,AFC East,0,0,0,0,0,0,0,0,0,0
+5,165,Detroit Lions,Jamal Agnew,https://en.wikipedia.org/wiki/Jamal_Agnew ,CB,San Diego,Pioneer,2017165,Other,NFC North,0,0,0,0,0,0,0,1,0,1
+5,166,Philadelphia Eagles,Shelton Gibson,https://en.wikipedia.org/wiki/Shelton_Gibson ,WR,West Virginia,Big 12,2017166,Big 12,NFC East,0,0,1,0,0,0,0,0,0,0
+5,167,New York Giants,Avery Moss,https://en.wikipedia.org/wiki/Avery_Moss ,DE,Youngstown State,MVFC,2017167,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+5,168,Las Vegas Raiders,Marquel Lee,https://en.wikipedia.org/wiki/Marquel_Lee ,LB,Wake Forest,ACC,2017168,ACC,AFC West,0,0,0,0,0,0,0,0,0,0
+5,169,Houston Texans,Treston Decoud,https://en.wikipedia.org/wiki/Treston_Decoud ,CB,Oregon State,Pac12,2017169,Pac12,AFC South,0,0,0,0,0,0,0,0,0,0
+5,170,Minnesota Vikings,Rodney Adams,https://en.wikipedia.org/wiki/Rodney_Adams ,WR,South Florida,The American,2017170,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+5,171,Buffalo Bills,Nathan Peterman,https://en.wikipedia.org/wiki/Nathan_Peterman ,QB,Pittsburgh,ACC,2017171,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+5,172,Denver Broncos,Isaiah McKenzie,https://en.wikipedia.org/wiki/Isaiah_McKenzie ,WR,Georgia,SEC,2017172,SEC,AFC West,0,0,0,0,0,0,0,0,0,0
+5,173,Pittsburgh Steelers,Brian Allen,https://en.wikipedia.org/wiki/Brian_Allen_(cornerback) ,CB,Utah,Pac12,2017173,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+5,174,Atlanta Falcons,Eric Saubert,https://en.wikipedia.org/wiki/Eric_Saubert ,TE,Drake,Pioneer,2017174,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+5,175,Green Bay Packers,DeAngelo Yancey,https://en.wikipedia.org/wiki/DeAngelo_Yancey ,WR,Purdue,Big Ten,2017175,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+5,176,Cincinnati Bengals,J J Dielman,https://en.wikipedia.org/wiki/J._J._Dielman ,C,Utah,Pac12,2017176,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+5,177,San Francisco 49ers,Trent Taylor,https://en.wikipedia.org/wiki/Trent_Taylor ,WR,Louisiana Tech,CUSA,2017177,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+5,178,Miami Dolphins,Davon Godchaux,https://en.wikipedia.org/wiki/Davon_Godchaux ,DT,LSU,SEC,2017178,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+5,179,Arizona Cardinals,T J Logan,https://en.wikipedia.org/wiki/T._J._Logan ,RB,North Carolina,ACC,2017179,ACC,NFC West,0,0,1,0,0,0,0,0,0,0
+5,180,Minnesota Vikings,Danny Isidora,https://en.wikipedia.org/wiki/Danny_Isidora ,OG,Miami FL,ACC,2017180,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+5,181,New York Jets,Dylan Donahue,https://en.wikipedia.org/wiki/Dylan_Donahue ,DE,West Georgia,Gulf South,2017181,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+5,182,Green Bay Packers,Aaron Jones,https://en.wikipedia.org/wiki/Aaron_Jones_(running_back) ,RB,UTEP,CUSA,2017182,Other,NFC North,0,0,0,0,0,0,0,0,0,1
+5,183,Kansas City Chiefs,Ukeme Eligwe,https://en.wikipedia.org/wiki/Ukeme_Eligwe ,LB,Georgia Southern,Sun Belt,2017183,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+5,184,Philadelphia Eagles,Nathan Gerry,https://en.wikipedia.org/wiki/Nathan_Gerry ,S,Nebraska,Big Ten,2017184,Big Ten,NFC East,0,0,1,0,0,0,0,0,0,0
+6,185,Cleveland Browns,Caleb Brantley,https://en.wikipedia.org/wiki/Caleb_Brantley ,DT,Florida,SEC,2017185,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+6,186,Baltimore Ravens,Chuck Clark,https://en.wikipedia.org/wiki/Chuck_Clark ,S,Virginia Tech,ACC,2017186,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+6,187,Seattle Seahawks,Mike Tyson,https://en.wikipedia.org/wiki/Mike_Tyson_(American_football) ,S,Cincinnati,The American,2017187,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+6,188,New York Jets,Elijah McGuire,https://en.wikipedia.org/wiki/Elijah_McGuire ,RB,LouisianaLafayette,Sun Belt,2017188,Other,AFC East,0,0,1,0,0,0,0,0,0,0
+6,189,Los Angeles Rams,Tanzel Smart,https://en.wikipedia.org/wiki/Tanzel_Smart ,DT,Tulane,The American,2017189,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+6,190,Los Angeles Chargers,Sam Tevi,https://en.wikipedia.org/wiki/Sam_Tevi ,OT,Utah,Pac12,2017190,Pac12,AFC West,0,0,0,0,0,0,0,0,0,0
+6,191,Dallas Cowboys,Xavier Woods,https://en.wikipedia.org/wiki/Xavier_Woods_(American_football) ,S,Louisiana Tech,CUSA,2017191,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+6,192,Carolina Panthers,Alexander Armah,https://en.wikipedia.org/wiki/Alexander_Armah ,FB,West Georgia,Gulf South,2017192,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+6,193,Cincinnati Bengals,Jordan Evans,https://en.wikipedia.org/wiki/Jordan_Evans_(American_football) ,LB,Oklahoma,Big 12,2017193,Big 12,AFC North,0,0,0,0,0,0,0,0,0,0
+6,194,Miami Dolphins,Vincent Taylor,https://en.wikipedia.org/wiki/Vincent_Taylor_(American_football) ,DT,Oklahoma State,Big 12,2017194,Big 12,AFC East,0,0,0,0,0,0,0,0,0,0
+6,195,Buffalo Bills,Tanner Vallejo,https://en.wikipedia.org/wiki/Tanner_Vallejo ,LB,Boise State,MW,2017195,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+6,196,New Orleans Saints,AlQuadin Muhammad,https://en.wikipedia.org/wiki/Al-Quadin_Muhammad ,DE,Miami FL,ACC,2017196,ACC,NFC South,0,0,0,0,0,0,0,0,0,0
+6,197,New York Jets,Jeremy Clark,https://en.wikipedia.org/wiki/Jeremy_Clark_(defensive_back) ,CB,Michigan,Big Ten,2017197,Big Ten,AFC East,0,0,0,0,0,0,0,0,0,0
+6,198,San Francisco 49ers,D J Jones,https://en.wikipedia.org/wiki/D._J._Jones_(defensive_tackle) ,DT,Ole Miss,SEC,2017198,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+6,199,Washington Commanders,Chase Roullier,https://en.wikipedia.org/wiki/Chase_Roullier ,C,Wyoming,MW,2017199,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+6,200,New York Giants,Adam Bisnowaty,https://en.wikipedia.org/wiki/Adam_Bisnowaty ,OT,Pittsburgh,ACC,2017200,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+6,201,Minnesota Vikings,Bucky Hodges,https://en.wikipedia.org/wiki/Bucky_Hodges ,TE,Virginia Tech,ACC,2017201,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+6,202,San Francisco 49ers,Pita Taumoepenu,https://en.wikipedia.org/wiki/Pita_Taumoepenu ,DE,Utah,Pac12,2017202,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+6,203,Denver Broncos,DeAngelo Henderson,https://en.wikipedia.org/wiki/De%27Angelo_Henderson ,RB,Coastal Carolina,Ind FCS,2017203,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+6,204,New York Jets,Derrick Jones,https://en.wikipedia.org/wiki/Derrick_Jones_(cornerback) ,CB,Ole Miss,SEC,2017204,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+6,205,Detroit Lions,Jeremiah Ledbetter,https://en.wikipedia.org/wiki/Jeremiah_Ledbetter ,DE,Arkansas,SEC,2017205,SEC,NFC North,0,0,1,0,0,0,0,0,0,0
+6,206,Los Angeles Rams,Sam Rogers,https://en.wikipedia.org/wiki/Sam_Rogers_(fullback) ,FB,Virginia Tech,ACC,2017206,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+6,207,Cincinnati Bengals,Brandon Wilson,https://en.wikipedia.org/wiki/Brandon_Wilson_(American_football) ,CB,Houston,The American,2017207,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+6,208,Arizona Cardinals,Rudy Ford,https://en.wikipedia.org/wiki/Rudy_Ford ,S,Auburn,SEC,2017208,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+6,209,Washington Commanders,Robert Davis,https://en.wikipedia.org/wiki/Robert_Davis_(wide_receiver) ,WR,Georgia State,Sun Belt,2017209,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+6,210,Seattle Seahawks,Justin Senior,https://en.wikipedia.org/wiki/Justin_Senior ,OT,Mississippi State,SEC,2017210,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+6,211,New England Patriots,Conor McDermott,https://en.wikipedia.org/wiki/Conor_McDermott ,OT,UCLA,Pac12,2017211,Pac12,AFC East,0,0,0,0,0,0,0,0,0,0
+6,212,Green Bay Packers,Kofi Amichia,https://en.wikipedia.org/wiki/Kofi_Amichia ,OT,South Florida,The American,2017212,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+6,213,Pittsburgh Steelers,Colin Holba,https://en.wikipedia.org/wiki/Colin_Holba ,LS,Louisville,ACC,2017213,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+6,214,Philadelphia Eagles,Elijah Qualls,https://en.wikipedia.org/wiki/Elijah_Qualls ,DT,Washington,Pac12,2017214,Pac12,NFC East,0,0,1,0,0,0,0,0,0,0
+6,215,Detroit Lions,Brad Kaaya,https://en.wikipedia.org/wiki/Brad_Kaaya ,QB,Miami FL,ACC,2017215,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+6,216,Dallas Cowboys,Marquez White,https://en.wikipedia.org/wiki/Marquez_White ,CB,Florida State,ACC,2017216,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+6,217,Tennessee Titans,Corey Levin,https://en.wikipedia.org/wiki/Corey_Levin ,OG,Chattanooga,SoCon,2017217,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+6,218,Kansas City Chiefs,Leon McQuay,https://en.wikipedia.org/wiki/Leon_McQuay_III ,S,USC,Pac12,2017218,Pac12,AFC West,0,0,0,0,0,0,0,0,0,0
+7,219,Minnesota Vikings,Stacy Coley,https://en.wikipedia.org/wiki/Stacy_Coley ,WR,Miami FL,ACC,2017219,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+7,220,Minnesota Vikings,Ifeadi Odenigbo,https://en.wikipedia.org/wiki/Ifeadi_Odenigbo ,DE,Northwestern,Big Ten,2017220,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+7,221,Las Vegas Raiders,Shalom Luani,https://en.wikipedia.org/wiki/Shalom_Luani ,S,Washington State,Pac12,2017221,Pac12,AFC West,0,0,0,0,0,0,0,0,0,0
+7,222,Jacksonville Jaguars,Jalen Myrick,https://en.wikipedia.org/wiki/Jalen_Myrick ,CB,Minnesota,Big Ten,2017222,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+7,223,Tampa Bay Buccaneers,Stevie Tuikolovatu,https://en.wikipedia.org/wiki/Stevie_Tu%27ikolovatu ,DT,USC,Pac12,2017223,Pac12,NFC South,0,0,0,0,0,0,0,0,0,0
+7,224,Cleveland Browns,Zane Gonzalez,https://en.wikipedia.org/wiki/Zane_Gonzalez ,K,Arizona State,Pac12,2017224,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+7,225,Los Angeles Chargers,Isaac Rochell,https://en.wikipedia.org/wiki/Isaac_Rochell ,DE,Notre Dame,Ind FBS,2017225,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+7,226,Seattle Seahawks,David Moore,https://en.wikipedia.org/wiki/David_Moore_(wide_receiver) ,WR,East Central,GAC,2017226,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+7,227,Tennessee Titans,Josh Carraway,https://en.wikipedia.org/wiki/Josh_Carraway ,LB,TCU,Big 12,2017227,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+7,228,Dallas Cowboys,Joey Ivie,https://en.wikipedia.org/wiki/Joey_Ivie ,DT,Florida,SEC,2017228,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+7,229,San Francisco 49ers,Adrian Colbert,https://en.wikipedia.org/wiki/Adrian_Colbert ,CB,Miami FL,ACC,2017229,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+7,230,Washington Commanders,Josh HarveyClemons,https://en.wikipedia.org/wiki/Josh_Harvey-Clemons ,S,Louisville,ACC,2017230,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+7,231,Las Vegas Raiders,Jylan Ware,https://en.wikipedia.org/wiki/Jylan_Ware ,OT,Alabama State,SWAC,2017231,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+7,232,Minnesota Vikings,Elijah Lee,https://en.wikipedia.org/wiki/Elijah_Lee ,LB,Kansas State,Big 12,2017232,Big 12,NFC North,0,0,0,0,0,0,0,0,0,0
+7,233,Carolina Panthers,Harrison Butker,https://en.wikipedia.org/wiki/Harrison_Butker ,K,Georgia Tech,ACC,2017233,ACC,NFC South,0,0,3,0,0,0,0,0,0,0
+7,234,Los Angeles Rams,Ejuan Price,https://en.wikipedia.org/wiki/Ejuan_Price ,LB,Pittsburgh,ACC,2017234,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+7,235,Washington Commanders,Joshua Holsey,https://en.wikipedia.org/wiki/Joshua_Holsey ,CB,Auburn,SEC,2017235,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+7,236,Tennessee Titans,Brad Seaton,https://en.wikipedia.org/wiki/Brad_Seaton ,OT,Villanova,CAA,2017236,Other,AFC South,0,0,1,0,0,0,0,0,0,0
+7,237,Miami Dolphins,Isaiah Ford,https://en.wikipedia.org/wiki/Isaiah_Ford ,WR,Virginia Tech,ACC,2017237,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+7,238,Green Bay Packers,Devante Mays,https://en.wikipedia.org/wiki/Devante_Mays ,RB,Utah State,MW,2017238,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+7,239,Dallas Cowboys,Noah Brown,https://en.wikipedia.org/wiki/Noah_Brown_(American_football) ,WR,Ohio State,Big Ten,2017239,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+7,240,Jacksonville Jaguars,Marquez Williams,https://en.wikipedia.org/wiki/Marquez_Williams ,FB,Miami FL,ACC,2017240,ACC,AFC South,0,0,0,0,0,0,0,0,0,0
+7,241,Tennessee Titans,Khalfani Muhammad,https://en.wikipedia.org/wiki/Khalfani_Muhammad ,RB,California,Pac12,2017241,Pac12,AFC South,0,0,0,0,0,0,0,0,0,0
+7,242,Las Vegas Raiders,Elijah Hood,https://en.wikipedia.org/wiki/Elijah_Hood ,RB,North Carolina,ACC,2017242,ACC,AFC West,0,0,0,0,0,0,0,0,0,0
+7,243,Houston Texans,Kyle Fuller,https://en.wikipedia.org/wiki/Kyle_Fuller_(offensive_lineman) ,C,Baylor,Big 12,2017243,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+7,244,Las Vegas Raiders,Treyvon Hester,https://en.wikipedia.org/wiki/Treyvon_Hester ,DT,Toledo,MAC,2017244,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+7,245,Minnesota Vikings,Jack Tocho,https://en.wikipedia.org/wiki/Jack_Tocho ,CB,NC State,ACC,2017245,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+7,246,Dallas Cowboys,Jordan Carrell,https://en.wikipedia.org/wiki/Jordan_Carrell ,DT,Colorado,Pac12,2017246,Pac12,NFC East,0,0,0,0,0,0,0,0,0,0
+7,247,Green Bay Packers,Malachi Dupre,https://en.wikipedia.org/wiki/Malachi_Dupre ,WR,LSU,SEC,2017247,SEC,NFC North,0,0,0,0,0,0,0,0,0,0
+7,248,Pittsburgh Steelers,Keion Adams,https://en.wikipedia.org/wiki/Keion_Adams ,DE,Western Michigan,MAC,2017248,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+7,249,Seattle Seahawks,Chris Carson,https://en.wikipedia.org/wiki/Chris_Carson ,RB,Oklahoma State,Big 12,2017249,Big 12,NFC West,0,0,0,0,0,0,0,0,0,0
+7,250,Detroit Lions,Pat OConnor,https://en.wikipedia.org/wiki/Pat_O%27Connor_(American_football) ,DE,Eastern Michigan,MAC,2017250,Other,NFC North,0,0,1,0,0,0,0,0,0,0
+7,251,Cincinnati Bengals,Mason Schreck,https://en.wikipedia.org/wiki/Mason_Schreck ,TE,Buffalo,MAC,2017251,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+7,252,Cleveland Browns,Matthew Dayes,https://en.wikipedia.org/wiki/Matthew_Dayes ,RB,NC State,ACC,2017252,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+7,253,Denver Broncos,Chad Kelly,https://en.wikipedia.org/wiki/Chad_Kelly ,QB,Ole Miss,SEC,2017253,SEC,AFC West,0,0,0,0,0,0,0,0,0,0

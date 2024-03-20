@@ -1,0 +1,257 @@
+Round,Pick_No,Team,Player,Player_Link,Pos,College,Conf,ID,Conf_Clean,Div
+1,1,Cleveland Browns,Baker Mayfield,https://en.wikipedia.org/wiki/Baker_Mayfield ,QB,Oklahoma,Big 12,2018001,Big 12,AFC North
+1,2,New York Giants,Saquon Barkley,https://en.wikipedia.org/wiki/Saquon_Barkley ,RB,Penn State,Big Ten,2018002,Big Ten,NFC East
+1,3,New York Jets,Sam Darnold,https://en.wikipedia.org/wiki/Sam_Darnold ,QB,USC,Pac12,2018003,Pac12,AFC East
+1,4,Cleveland Browns,Denzel Ward,https://en.wikipedia.org/wiki/Denzel_Ward ,CB,Ohio State,Big Ten,2018004,Big Ten,AFC North
+1,5,Denver Broncos,Bradley Chubb,https://en.wikipedia.org/wiki/Bradley_Chubb ,DE,NC State,ACC,2018005,ACC,AFC West
+1,6,Indianapolis Colts,Quenton Nelson,https://en.wikipedia.org/wiki/Quenton_Nelson ,OG,Notre Dame,Ind FBS,2018006,Other,AFC South
+1,7,Buffalo Bills,Josh Allen,https://en.wikipedia.org/wiki/Josh_Allen ,QB,Wyoming,MW,2018007,Other,AFC East
+1,8,Chicago Bears,Roquan Smith,https://en.wikipedia.org/wiki/Roquan_Smith ,LB,Georgia,SEC,2018008,SEC,NFC North
+1,9,San Francisco 49ers,Mike McGlinchey,https://en.wikipedia.org/wiki/Mike_McGlinchey_(offensive_lineman) ,OT,Notre Dame,Ind FBS,2018009,Other,NFC West
+1,10,Arizona Cardinals,Josh Rosen,https://en.wikipedia.org/wiki/Josh_Rosen ,QB,UCLA,Pac12,2018010,Pac12,NFC West
+1,11,Miami Dolphins,Minkah Fitzpatrick,https://en.wikipedia.org/wiki/Minkah_Fitzpatrick ,S,Alabama,SEC,2018011,SEC,AFC East
+1,12,Tampa Bay Buccaneers,Vita Vea,https://en.wikipedia.org/wiki/Vita_Vea ,NT,Washington,Pac12,2018012,Pac12,NFC South
+1,13,Washington Commanders,Daron Payne,https://en.wikipedia.org/wiki/Daron_Payne ,NT,Alabama,SEC,2018013,SEC,NFC East
+1,14,New Orleans Saints,Marcus Davenport,https://en.wikipedia.org/wiki/Marcus_Davenport ,DE,UTSA,CUSA,2018014,Other,NFC South
+1,15,Las Vegas Raiders,Kolton Miller,https://en.wikipedia.org/wiki/Kolton_Miller ,OT,UCLA,Pac12,2018015,Pac12,AFC West
+1,16,Buffalo Bills,Tremaine Edmunds,https://en.wikipedia.org/wiki/Tremaine_Edmunds ,LB,Virginia Tech,ACC,2018016,ACC,AFC East
+1,17,Los Angeles Chargers,Derwin James,https://en.wikipedia.org/wiki/Derwin_James ,S,Florida State,ACC,2018017,ACC,AFC West
+1,18,Green Bay Packers,Jaire Alexander,https://en.wikipedia.org/wiki/Jaire_Alexander ,CB,Louisville,ACC,2018018,ACC,NFC North
+1,19,Dallas Cowboys,Leighton Vander Esch,https://en.wikipedia.org/wiki/Leighton_Vander_Esch ,LB,Boise State,MW,2018019,Other,NFC East
+1,20,Detroit Lions,Frank Ragnow,https://en.wikipedia.org/wiki/Frank_Ragnow ,C,Arkansas,SEC,2018020,SEC,NFC North
+1,21,Cincinnati Bengals,Billy Price,https://en.wikipedia.org/wiki/Billy_Price_(American_football) ,C,Ohio State,Big Ten,2018021,Big Ten,AFC North
+1,22,Tennessee Titans,Rashaan Evans,https://en.wikipedia.org/wiki/Rashaan_Evans ,LB,Alabama,SEC,2018022,SEC,AFC South
+1,23,New England Patriots,Isaiah Wynn,https://en.wikipedia.org/wiki/Isaiah_Wynn ,OT,Georgia,SEC,2018023,SEC,AFC East
+1,24,Carolina Panthers,D J Moore,https://en.wikipedia.org/wiki/D._J._Moore ,WR,Maryland,Big Ten,2018024,Big Ten,NFC South
+1,25,Baltimore Ravens,Hayden Hurst,https://en.wikipedia.org/wiki/Hayden_Hurst ,TE,South Carolina,SEC,2018025,SEC,AFC North
+1,26,Atlanta Falcons,Calvin Ridley,https://en.wikipedia.org/wiki/Calvin_Ridley ,WR,Alabama,SEC,2018026,SEC,NFC South
+1,27,Seattle Seahawks,Rashaad Penny,https://en.wikipedia.org/wiki/Rashaad_Penny ,RB,San Diego State,MW,2018027,Other,NFC West
+1,28,Pittsburgh Steelers,Terrell Edmunds,https://en.wikipedia.org/wiki/Terrell_Edmunds ,S,Virginia Tech,ACC,2018028,ACC,AFC North
+1,29,Jacksonville Jaguars,Taven Bryan,https://en.wikipedia.org/wiki/Taven_Bryan ,DT,Florida,SEC,2018029,SEC,AFC South
+1,30,Minnesota Vikings,Mike Hughes,https://en.wikipedia.org/wiki/Mike_Hughes_(American_football) ,CB,UCF,The American,2018030,Other,NFC North
+1,31,New England Patriots,Sony Michel,https://en.wikipedia.org/wiki/Sony_Michel ,RB,Georgia,SEC,2018031,SEC,AFC East
+1,32,Baltimore Ravens,Lamar Jackson,https://en.wikipedia.org/wiki/Lamar_Jackson ,QB,Louisville,ACC,2018032,ACC,AFC North
+2,33,Cleveland Browns,Austin Corbett,https://en.wikipedia.org/wiki/Austin_Corbett ,OT,Nevada,MW,2018033,Other,AFC North
+2,34,New York Giants,Will Hernandez,https://en.wikipedia.org/wiki/Will_Hernandez ,OG,UTEP,CUSA,2018034,Other,NFC East
+2,35,Cleveland Browns,Nick Chubb,https://en.wikipedia.org/wiki/Nick_Chubb ,RB,Georgia,SEC,2018035,SEC,AFC North
+2,36,Indianapolis Colts,Shaquille Leonard,https://en.wikipedia.org/wiki/Shaquille_Leonard ,LB,South Carolina State,MEAC,2018036,Other,AFC South
+2,37,Indianapolis Colts,Braden Smith,https://en.wikipedia.org/wiki/Braden_Smith ,OG,Auburn,SEC,2018037,SEC,AFC South
+2,38,Tampa Bay Buccaneers,Ronald Jones II,https://en.wikipedia.org/wiki/Ronald_Jones_(running_back) ,RB,USC,Pac12,2018038,Pac12,NFC South
+2,39,Chicago Bears,James Daniels,https://en.wikipedia.org/wiki/James_Daniels ,C,Iowa,Big Ten,2018039,Big Ten,NFC North
+2,40,Denver Broncos,Courtland Sutton,https://en.wikipedia.org/wiki/Courtland_Sutton ,WR,SMU,The American,2018040,Other,AFC West
+2,41,Tennessee Titans,Harold Landry,https://en.wikipedia.org/wiki/Harold_Landry ,LB,Boston College,ACC,2018041,ACC,AFC South
+2,42,Miami Dolphins,Mike Gesicki,https://en.wikipedia.org/wiki/Mike_Gesicki ,TE,Penn State,Big Ten,2018042,Big Ten,AFC East
+2,43,Detroit Lions,Kerryon Johnson,https://en.wikipedia.org/wiki/Kerryon_Johnson ,RB,Auburn,SEC,2018043,SEC,NFC North
+2,44,San Francisco 49ers,Dante Pettis,https://en.wikipedia.org/wiki/Dante_Pettis ,WR,Washington,Pac12,2018044,Pac12,NFC West
+2,45,Green Bay Packers,Josh Jackson,https://en.wikipedia.org/wiki/Josh_Jackson_(cornerback) ,CB,Iowa,Big Ten,2018045,Big Ten,NFC North
+2,46,Kansas City Chiefs,Breeland Speaks,https://en.wikipedia.org/wiki/Breeland_Speaks ,DE,Ole Miss,SEC,2018046,SEC,AFC West
+2,47,Arizona Cardinals,Christian Kirk,https://en.wikipedia.org/wiki/Christian_Kirk ,WR,Texas AM,SEC,2018047,SEC,NFC West
+2,48,Los Angeles Chargers,Uchenna Nwosu,https://en.wikipedia.org/wiki/Uchenna_Nwosu ,LB,USC,Pac12,2018048,Pac12,AFC West
+2,49,Philadelphia Eagles,Dallas Goedert,https://en.wikipedia.org/wiki/Dallas_Goedert ,TE,South Dakota State,MVFC,2018049,Other,NFC East
+2,50,Dallas Cowboys,Connor Williams,https://en.wikipedia.org/wiki/Connor_Williams_(American_football) ,OG,Texas,Big 12,2018050,Big 12,NFC East
+2,51,Chicago Bears,Anthony Miller,"https://en.wikipedia.org/wiki/Anthony_Miller_(wide_receiver,_born_1994) ",WR,Memphis,The American,2018051,Other,NFC North
+2,52,Indianapolis Colts,Kemoko Turay,https://en.wikipedia.org/wiki/Kemoko_Turay ,DE,Rutgers,Big Ten,2018052,Big Ten,AFC South
+2,53,Tampa Bay Buccaneers,M J Stewart,https://en.wikipedia.org/wiki/M._J._Stewart ,CB,North Carolina,ACC,2018053,ACC,NFC South
+2,54,Cincinnati Bengals,Jessie Bates,https://en.wikipedia.org/wiki/Jessie_Bates ,S,Wake Forest,ACC,2018054,ACC,AFC North
+2,55,Carolina Panthers,Donte Jackson,https://en.wikipedia.org/wiki/Donte_Jackson_(American_football) ,CB,LSU,SEC,2018055,SEC,NFC South
+2,56,New England Patriots,Duke Dawson,https://en.wikipedia.org/wiki/Duke_Dawson ,CB,Florida,SEC,2018056,SEC,AFC East
+2,57,Las Vegas Raiders,P J Hall,https://en.wikipedia.org/wiki/P._J._Hall ,DT,Sam Houston State,Southland,2018057,Other,AFC West
+2,58,Atlanta Falcons,Isaiah Oliver,https://en.wikipedia.org/wiki/Isaiah_Oliver ,CB,Colorado,Pac12,2018058,Pac12,NFC South
+2,59,Washington Commanders,Derrius Guice,https://en.wikipedia.org/wiki/Derrius_Guice ,RB,LSU,SEC,2018059,SEC,NFC East
+2,60,Pittsburgh Steelers,James Washington,https://en.wikipedia.org/wiki/James_Washington_(wide_receiver) ,WR,Oklahoma State,Big 12,2018060,Big 12,AFC North
+2,61,Jacksonville Jaguars,D J Chark,https://en.wikipedia.org/wiki/D._J._Chark ,WR,LSU,SEC,2018061,SEC,AFC South
+2,62,Minnesota Vikings,Brian ONeill,https://en.wikipedia.org/wiki/Brian_O%27Neill_(American_football) ,OT,Pittsburgh,ACC,2018062,ACC,NFC North
+2,63,Tampa Bay Buccaneers,Carlton Davis,https://en.wikipedia.org/wiki/Carlton_Davis ,CB,Auburn,SEC,2018063,SEC,NFC South
+2,64,Indianapolis Colts,Tyquan Lewis,https://en.wikipedia.org/wiki/Tyquan_Lewis ,DE,Ohio State,Big Ten,2018064,Big Ten,AFC South
+3,65,Las Vegas Raiders,Brandon Parker,https://en.wikipedia.org/wiki/Brandon_Parker ,OT,North Carolina AT,MEAC,2018065,Other,AFC West
+3,66,New York Giants,Lorenzo Carter,https://en.wikipedia.org/wiki/Lorenzo_Carter_(American_football) ,LB,Georgia,SEC,2018066,SEC,NFC East
+3,67,Cleveland Browns,Chad Thomas,https://en.wikipedia.org/wiki/Chad_Thomas ,DE,Miami FL,ACC,2018067,ACC,AFC North
+3,68,Houston Texans,Justin Reid,https://en.wikipedia.org/wiki/Justin_Reid ,S,Stanford,Pac12,2018068,Pac12,AFC South
+3,69,New York Giants,B J Hill,https://en.wikipedia.org/wiki/B._J._Hill_(American_football) ,DT,NC State,ACC,2018069,ACC,NFC East
+3,70,San Francisco 49ers,Fred Warner,https://en.wikipedia.org/wiki/Fred_Warner_(American_football) ,LB,BYU,Ind FBS,2018070,Other,NFC West
+3,71,Denver Broncos,Royce Freeman,https://en.wikipedia.org/wiki/Royce_Freeman ,RB,Oregon,Pac12,2018071,Pac12,AFC West
+3,72,New York Jets,Nathan Shepherd,https://en.wikipedia.org/wiki/Nathan_Shepherd ,DT,Fort Hays State,MIAA,2018072,Other,AFC East
+3,73,Miami Dolphins,Jerome Baker,https://en.wikipedia.org/wiki/Jerome_Baker_(American_football) ,LB,Ohio State,Big Ten,2018073,Big Ten,AFC East
+3,74,Washington Commanders,Geron Christian,https://en.wikipedia.org/wiki/Geron_Christian ,OT,Louisville,ACC,2018074,ACC,NFC East
+3,75,Kansas City Chiefs,Derrick Nnadi,https://en.wikipedia.org/wiki/Derrick_Nnadi ,DT,Florida State,ACC,2018075,ACC,AFC West
+3,76,Pittsburgh Steelers,Mason Rudolph,https://en.wikipedia.org/wiki/Mason_Rudolph_(American_football) ,QB,Oklahoma State,Big 12,2018076,Big 12,AFC North
+3,77,Cincinnati Bengals,Sam Hubbard,https://en.wikipedia.org/wiki/Sam_Hubbard ,DE,Ohio State,Big Ten,2018077,Big Ten,AFC North
+3,78,Cincinnati Bengals,Malik Jefferson,https://en.wikipedia.org/wiki/Malik_Jefferson ,LB,Texas,Big 12,2018078,Big 12,AFC North
+3,79,Seattle Seahawks,Rasheem Green,https://en.wikipedia.org/wiki/Rasheem_Green ,DE,USC,Pac12,2018079,Pac12,NFC West
+3,80,Houston Texans,Martinas Rankin,https://en.wikipedia.org/wiki/Martinas_Rankin ,OT,Mississippi State,SEC,2018080,SEC,AFC South
+3,81,Dallas Cowboys,Michael Gallup,https://en.wikipedia.org/wiki/Michael_Gallup ,WR,Colorado State,MW,2018081,Other,NFC East
+3,82,Detroit Lions,Tracy Walker,https://en.wikipedia.org/wiki/Tracy_Walker_(American_football) ,S,Louisiana,Sun Belt,2018082,Other,NFC North
+3,83,Baltimore Ravens,Orlando Brown Jr,https://en.wikipedia.org/wiki/Orlando_Brown_Jr. ,OT,Oklahoma,Big 12,2018083,Big 12,AFC North
+3,84,Los Angeles Chargers,Justin Jones,https://en.wikipedia.org/wiki/Justin_Jones_(American_football) ,DT,NC State,ACC,2018084,ACC,AFC West
+3,85,Carolina Panthers,Rashaan Gaulden,https://en.wikipedia.org/wiki/Rashaan_Gaulden ,CB,Tennessee,SEC,2018085,SEC,NFC South
+3,86,Baltimore Ravens,Mark Andrews,https://en.wikipedia.org/wiki/Mark_Andrews_(American_football) ,TE,Oklahoma,Big 12,2018086,Big 12,AFC North
+3,87,Las Vegas Raiders,Arden Key,https://en.wikipedia.org/wiki/Arden_Key ,DE,LSU,SEC,2018087,SEC,AFC West
+3,88,Green Bay Packers,Oren Burks,https://en.wikipedia.org/wiki/Oren_Burks ,LB,Vanderbilt,SEC,2018088,SEC,NFC North
+3,89,Los Angeles Rams,Joseph Noteboom,https://en.wikipedia.org/wiki/Joseph_Noteboom ,OT,TCU,Big 12,2018089,Big 12,NFC West
+3,90,Atlanta Falcons,Deadrin Senat,https://en.wikipedia.org/wiki/Deadrin_Senat ,DT,South Florida,The American,2018090,Other,NFC South
+3,91,New Orleans Saints,TreQuan Smith,https://en.wikipedia.org/wiki/Tre%27Quan_Smith ,WR,UCF,The American,2018091,Other,NFC South
+3,92,Pittsburgh Steelers,Chukwuma Okorafor,https://en.wikipedia.org/wiki/Chukwuma_Okorafor ,OT,Western Michigan,MAC,2018092,Other,AFC North
+3,93,Jacksonville Jaguars,Ronnie Harrison,https://en.wikipedia.org/wiki/Ronnie_Harrison ,S,Alabama,SEC,2018093,SEC,AFC South
+3,94,Tampa Bay Buccaneers,Alex Cappa,https://en.wikipedia.org/wiki/Alex_Cappa ,OT,Humboldt State,GNAC,2018094,Other,NFC South
+3,95,San Francisco 49ers,Tarvarius Moore,https://en.wikipedia.org/wiki/Tarvarius_Moore ,S,Southern Miss,CUSA,2018095,Other,NFC West
+3,96,Buffalo Bills,Harrison Phillips,https://en.wikipedia.org/wiki/Harrison_Phillips ,DT,Stanford,Pac12,2018096,Pac12,AFC East
+3,97,Arizona Cardinals,Mason Cole,https://en.wikipedia.org/wiki/Mason_Cole ,C,Michigan,Big Ten,2018097,Big Ten,NFC West
+3,98,Houston Texans,Jordan Akins,https://en.wikipedia.org/wiki/Jordan_Akins ,TE,UCF,The American,2018098,Other,AFC South
+3,99,Denver Broncos,Isaac Yiadom,https://en.wikipedia.org/wiki/Isaac_Yiadom ,CB,Boston College,ACC,2018099,ACC,AFC West
+3,100,Kansas City Chiefs,Dorian ODaniel,https://en.wikipedia.org/wiki/Dorian_O%27Daniel ,LB,Clemson,ACC,2018100,ACC,AFC West
+4,101,Carolina Panthers,Ian Thomas,https://en.wikipedia.org/wiki/Ian_Thomas_(American_football) ,TE,Indiana,Big Ten,2018101,Big Ten,NFC South
+4,102,Minnesota Vikings,Jalyn Holmes,https://en.wikipedia.org/wiki/Jalyn_Holmes ,DE,Ohio State,Big Ten,2018102,Big Ten,NFC North
+4,103,Houston Texans,Keke Coutee,https://en.wikipedia.org/wiki/Keke_Coutee ,WR,Texas Tech,Big 12,2018103,Big 12,AFC South
+4,104,Indianapolis Colts,Nyheim Hines,https://en.wikipedia.org/wiki/Nyheim_Hines ,RB,NC State,ACC,2018104,ACC,AFC South
+4,105,Cleveland Browns,Antonio Callaway,https://en.wikipedia.org/wiki/Antonio_Callaway ,WR,Florida,SEC,2018105,SEC,AFC North
+4,106,Denver Broncos,Josey Jewell,https://en.wikipedia.org/wiki/Josey_Jewell ,LB,Iowa,Big Ten,2018106,Big Ten,AFC West
+4,107,New York Jets,Chris Herndon,https://en.wikipedia.org/wiki/Chris_Herndon ,TE,Miami FL,ACC,2018107,ACC,AFC East
+4,108,New York Giants,Kyle Lauletta,https://en.wikipedia.org/wiki/Kyle_Lauletta ,QB,Richmond,CAA,2018108,Other,NFC East
+4,109,Washington Commanders,Troy Apke,https://en.wikipedia.org/wiki/Troy_Apke ,S,Penn State,Big Ten,2018109,Big Ten,NFC East
+4,110,Las Vegas Raiders,Nick Nelson,https://en.wikipedia.org/wiki/Nick_Nelson_(American_football) ,CB,Wisconsin,Big Ten,2018110,Big Ten,AFC West
+4,111,Los Angeles Rams,Brian Allen,https://en.wikipedia.org/wiki/Brian_Allen_(offensive_lineman) ,C,Michigan State,Big Ten,2018111,Big Ten,NFC West
+4,112,Cincinnati Bengals,Mark Walton,https://en.wikipedia.org/wiki/Mark_Walton_(American_football) ,RB,Miami FL,ACC,2018112,ACC,AFC North
+4,113,Denver Broncos,DaeSean Hamilton,https://en.wikipedia.org/wiki/DaeSean_Hamilton ,WR,Penn State,Big Ten,2018113,Big Ten,AFC West
+4,114,Detroit Lions,DaShawn Hand,https://en.wikipedia.org/wiki/Da%27Shawn_Hand ,DE,Alabama,SEC,2018114,SEC,NFC North
+4,115,Chicago Bears,Joel Iyiegbuniwe,https://en.wikipedia.org/wiki/Joel_Iyiegbuniwe ,LB,Western Kentucky,CUSA,2018115,Other,NFC North
+4,116,Dallas Cowboys,Dorance Armstrong,https://en.wikipedia.org/wiki/Dorance_Armstrong ,DE,Kansas,Big 12,2018116,Big 12,NFC East
+4,117,Tampa Bay Buccaneers,Jordan Whitehead,https://en.wikipedia.org/wiki/Jordan_Whitehead ,S,Pittsburgh,ACC,2018117,ACC,NFC South
+4,118,Baltimore Ravens,Anthony Averett,https://en.wikipedia.org/wiki/Anthony_Averett ,CB,Alabama,SEC,2018118,SEC,AFC North
+4,119,Los Angeles Chargers,Kyzir White,https://en.wikipedia.org/wiki/Kyzir_White ,S,West Virginia,Big 12,2018119,Big 12,AFC West
+4,120,Seattle Seahawks,Will Dissly,https://en.wikipedia.org/wiki/Will_Dissly ,TE,Washington,Pac12,2018120,Pac12,NFC West
+4,121,Buffalo Bills,Taron Johnson,https://en.wikipedia.org/wiki/Taron_Johnson ,CB,Weber State,Big Sky,2018121,Other,AFC East
+4,122,Baltimore Ravens,Kenny Young,https://en.wikipedia.org/wiki/Kenny_Young_(American_football) ,LB,UCLA,Pac12,2018122,Pac12,AFC North
+4,123,Miami Dolphins,Durham Smythe,https://en.wikipedia.org/wiki/Durham_Smythe ,TE,Notre Dame,Ind FBS,2018123,Other,AFC East
+4,124,Kansas City Chiefs,Armani Watts,https://en.wikipedia.org/wiki/Armani_Watts ,S,Texas AM,SEC,2018124,SEC,AFC West
+4,125,Philadelphia Eagles,Avonte Maddox,https://en.wikipedia.org/wiki/Avonte_Maddox ,CB,Pittsburgh,ACC,2018125,ACC,NFC East
+4,126,Atlanta Falcons,Ito Smith,https://en.wikipedia.org/wiki/Ito_Smith ,RB,Southern Miss,CUSA,2018126,Other,NFC South
+4,127,New Orleans Saints,Rick Leonard,https://en.wikipedia.org/wiki/Rick_Leonard ,OT,Florida State,ACC,2018127,ACC,NFC South
+4,128,San Francisco 49ers,Kentavius Street,https://en.wikipedia.org/wiki/Kentavius_Street ,DE,NC State,ACC,2018128,ACC,NFC West
+4,129,Jacksonville Jaguars,Will Richardson,https://en.wikipedia.org/wiki/Will_Richardson_(American_football) ,OT,NC State,ACC,2018129,ACC,AFC South
+4,130,Philadelphia Eagles,Josh Sweat,https://en.wikipedia.org/wiki/Josh_Sweat ,DE,Florida State,ACC,2018130,ACC,NFC East
+4,131,Miami Dolphins,Kalen Ballage,https://en.wikipedia.org/wiki/Kalen_Ballage ,RB,Arizona State,Pac12,2018131,Pac12,AFC East
+4,132,Baltimore Ravens,Jaleel Scott,https://en.wikipedia.org/wiki/Jaleel_Scott ,WR,New Mexico State,Sun Belt,2018132,Other,AFC North
+4,133,Green Bay Packers,JMon Moore,https://en.wikipedia.org/wiki/J%27Mon_Moore ,WR,Missouri,SEC,2018133,SEC,NFC North
+4,134,Arizona Cardinals,Chase Edmonds,https://en.wikipedia.org/wiki/Chase_Edmonds ,RB,Fordham,Patriot,2018134,Other,NFC West
+4,135,Los Angeles Rams,John FranklinMyers,https://en.wikipedia.org/wiki/John_Franklin-Myers ,DE,Stephen F Austin,Southland,2018135,Other,NFC West
+4,136,Carolina Panthers,Marquis Haynes,https://en.wikipedia.org/wiki/Marquis_Haynes ,DE,Ole Miss,SEC,2018136,SEC,NFC South
+4,137,Dallas Cowboys,Dalton Schultz,https://en.wikipedia.org/wiki/Dalton_Schultz ,TE,Stanford,Pac12,2018137,Pac12,NFC East
+5,138,Green Bay Packers,Cole Madison,https://en.wikipedia.org/wiki/Cole_Madison ,OG,Washington State,Pac12,2018138,Pac12,NFC North
+5,139,New York Giants,R J McIntosh,https://en.wikipedia.org/wiki/R._J._McIntosh ,DT,Miami FL,ACC,2018139,ACC,NFC East
+5,140,Las Vegas Raiders,Maurice Hurst,https://en.wikipedia.org/wiki/Maurice_Hurst_Jr. ,DT,Michigan,Big Ten,2018140,Big Ten,AFC West
+5,141,Seattle Seahawks,Shaquem Griffin,https://en.wikipedia.org/wiki/Shaquem_Griffin ,LB,UCF,The American,2018141,Other,NFC West
+5,142,San Francisco 49ers,D J Reed,https://en.wikipedia.org/wiki/D._J._Reed ,CB,Kansas State,Big 12,2018142,Big 12,NFC West
+5,143,New England Patriots,JaWhaun Bentley,https://en.wikipedia.org/wiki/Ja%27Whaun_Bentley ,LB,Purdue,Big Ten,2018143,Big Ten,AFC East
+5,144,Tampa Bay Buccaneers,Justin Watson,https://en.wikipedia.org/wiki/Justin_Watson_(wide_receiver) ,WR,Penn,Ivy,2018144,Other,NFC South
+5,145,Chicago Bears,Bilal Nichols,https://en.wikipedia.org/wiki/Bilal_Nichols ,DT,Delaware,CAA,2018145,Other,NFC North
+5,146,Seattle Seahawks,Tre Flowers,https://en.wikipedia.org/wiki/Tre_Flowers ,S,Oklahoma State,Big 12,2018146,Big 12,NFC West
+5,147,Los Angeles Rams,Micah Kiser,https://en.wikipedia.org/wiki/Micah_Kiser ,LB,Virginia,ACC,2018147,ACC,NFC West
+5,148,Pittsburgh Steelers,Marcus Allen,https://en.wikipedia.org/wiki/Marcus_Allen_(safety) ,S,Penn State,Big Ten,2018148,Big Ten,AFC North
+5,149,Seattle Seahawks,Michael Dickson,https://en.wikipedia.org/wiki/Michael_Dickson_(American_football) ,P,Texas,Big 12,2018149,Big 12,NFC West
+5,150,Cleveland Browns,Genard Avery,https://en.wikipedia.org/wiki/Genard_Avery ,LB,Memphis,The American,2018150,Other,AFC North
+5,151,Cincinnati Bengals,Davontae Harris,https://en.wikipedia.org/wiki/Davontae_Harris ,CB,Illinois State,MVFC,2018151,Other,AFC North
+5,152,Tennessee Titans,Dane Cruikshank,https://en.wikipedia.org/wiki/Dane_Cruikshank ,CB,Arizona,Pac12,2018152,Pac12,AFC South
+5,153,Detroit Lions,Tyrell Crosby,https://en.wikipedia.org/wiki/Tyrell_Crosby ,OT,Oregon,Pac12,2018153,Pac12,NFC North
+5,154,Buffalo Bills,Siran Neal,https://en.wikipedia.org/wiki/Siran_Neal ,CB,Jacksonville State,OVC,2018154,Other,AFC East
+5,155,Los Angeles Chargers,Scott Quessenberry,https://en.wikipedia.org/wiki/Scott_Quessenberry ,C,UCLA,Pac12,2018155,Pac12,AFC West
+5,156,Denver Broncos,Troy Fumagalli,https://en.wikipedia.org/wiki/Troy_Fumagalli ,TE,Wisconsin,Big Ten,2018156,Big Ten,AFC West
+5,157,Minnesota Vikings,Tyler Conklin,https://en.wikipedia.org/wiki/Tyler_Conklin ,TE,Central Michigan,MAC,2018157,Other,NFC North
+5,158,Cincinnati Bengals,Andrew Brown,https://en.wikipedia.org/wiki/Andrew_Brown_(American_football) ,DE,Virginia,ACC,2018158,ACC,AFC North
+5,159,Indianapolis Colts,Daurice Fountain,https://en.wikipedia.org/wiki/Daurice_Fountain ,WR,Northern Iowa,MVFC,2018159,Other,AFC South
+5,160,Los Angeles Rams,Ogbonnia Okoronkwo,https://en.wikipedia.org/wiki/Ogbonnia_Okoronkwo ,LB,Oklahoma,Big 12,2018160,Big 12,NFC West
+5,161,Carolina Panthers,Jermaine Carter,https://en.wikipedia.org/wiki/Jermaine_Carter ,LB,Maryland,Big Ten,2018161,Big Ten,NFC South
+5,162,Baltimore Ravens,Jordan Lasley,https://en.wikipedia.org/wiki/Jordan_Lasley ,WR,UCLA,Pac12,2018162,Pac12,AFC North
+5,163,Washington Commanders,Tim Settle,https://en.wikipedia.org/wiki/Tim_Settle ,DT,Virginia Tech,ACC,2018163,ACC,NFC East
+5,164,New Orleans Saints,Natrell Jamerson,https://en.wikipedia.org/wiki/Natrell_Jamerson ,S,Wisconsin,Big Ten,2018164,Big Ten,NFC South
+5,165,Pittsburgh Steelers,Jaylen Samuels,https://en.wikipedia.org/wiki/Jaylen_Samuels ,RB,NC State,ACC,2018165,ACC,AFC North
+5,166,Buffalo Bills,Wyatt Teller,https://en.wikipedia.org/wiki/Wyatt_Teller ,OG,Virginia Tech,ACC,2018166,ACC,AFC East
+5,167,Minnesota Vikings,Daniel Carlson,https://en.wikipedia.org/wiki/Daniel_Carlson ,K,Auburn,SEC,2018167,SEC,NFC North
+5,168,Seattle Seahawks,Jamarco Jones,https://en.wikipedia.org/wiki/Jamarco_Jones ,OT,Ohio State,Big Ten,2018168,Big Ten,NFC West
+5,169,Indianapolis Colts,Jordan Wilkins,https://en.wikipedia.org/wiki/Jordan_Wilkins ,RB,Ole Miss,SEC,2018169,SEC,AFC South
+5,170,Cincinnati Bengals,Darius Phillips,https://en.wikipedia.org/wiki/Darius_Phillips ,CB,Western Michigan,MAC,2018170,Other,AFC North
+5,171,Dallas Cowboys,Mike White,https://en.wikipedia.org/wiki/Mike_White_(quarterback) ,QB,Western Kentucky,CUSA,2018171,Other,NFC East
+5,172,Green Bay Packers,J K Scott,https://en.wikipedia.org/wiki/J._K._Scott ,P,Alabama,SEC,2018172,SEC,NFC North
+5,173,Las Vegas Raiders,Johnny Townsend,https://en.wikipedia.org/wiki/Johnny_Townsend_(American_football) ,P,Florida,SEC,2018173,SEC,AFC West
+5,174,Green Bay Packers,Marquez ValdesScantling,https://en.wikipedia.org/wiki/Marquez_Valdes-Scantling ,WR,South Florida,The American,2018174,Other,NFC North
+6,175,Cleveland Browns,Damion Ratley,https://en.wikipedia.org/wiki/Damion_Ratley ,WR,Texas AM,SEC,2018175,SEC,AFC North
+6,176,Los Angeles Rams,John Kelly,https://en.wikipedia.org/wiki/John_Kelly_(running_back) ,RB,Tennessee,SEC,2018176,SEC,NFC West
+6,177,Houston Texans,Duke Ejiofor,https://en.wikipedia.org/wiki/Duke_Ejiofor ,DE,Wake Forest,ACC,2018177,ACC,AFC South
+6,178,New England Patriots,Christian Sam,https://en.wikipedia.org/wiki/Christian_Sam ,LB,Arizona State,Pac12,2018178,Pac12,AFC East
+6,179,New York Jets,Parry Nickerson,https://en.wikipedia.org/wiki/Parry_Nickerson ,CB,Tulane,The American,2018179,Other,AFC East
+6,180,New York Jets,Folorunso Fatukasi,https://en.wikipedia.org/wiki/Folorunso_Fatukasi ,DT,UConn,The American,2018180,Other,AFC East
+6,181,Chicago Bears,Kylie Fitts,https://en.wikipedia.org/wiki/Kylie_Fitts ,DE,Utah,Pac12,2018181,Pac12,NFC North
+6,182,Arizona Cardinals,Chris Campbell,https://en.wikipedia.org/wiki/Christian_Campbell_(cornerback) ,CB,Penn State,Big Ten,2018182,Big Ten,NFC West
+6,183,Denver Broncos,Sam Jones,https://en.wikipedia.org/wiki/Sam_Jones_(American_football) ,OG,Arizona State,Pac12,2018183,Pac12,AFC West
+6,184,San Francisco 49ers,Marcell Harris,https://en.wikipedia.org/wiki/Marcell_Harris ,S,Florida,SEC,2018184,SEC,NFC West
+6,185,Indianapolis Colts,Deon Cain,https://en.wikipedia.org/wiki/Deon_Cain ,WR,Clemson,ACC,2018185,ACC,AFC South
+6,186,Seattle Seahawks,Jacob Martin,https://en.wikipedia.org/wiki/Jacob_Martin_(American_football) ,LB,Temple,The American,2018186,Other,NFC West
+6,187,Buffalo Bills,RayRay McCloud,https://en.wikipedia.org/wiki/Ray-Ray_McCloud ,WR,Clemson,ACC,2018187,ACC,AFC East
+6,188,Cleveland Browns,Simeon Thomas,https://en.wikipedia.org/wiki/Simeon_Thomas ,CB,Louisiana,Sun Belt,2018188,Other,AFC North
+6,189,New Orleans Saints,Kamrin Moore,https://en.wikipedia.org/wiki/Kamrin_Moore ,CB,Boston College,ACC,2018189,ACC,NFC South
+6,190,Baltimore Ravens,DeShon Elliott,https://en.wikipedia.org/wiki/DeShon_Elliott ,S,Texas,Big 12,2018190,Big 12,AFC North
+6,191,Los Angeles Chargers,Dylan Cantrell,https://en.wikipedia.org/wiki/Dylan_Cantrell ,WR,Texas Tech,Big 12,2018191,Big 12,AFC West
+6,192,Los Angeles Rams,Jamil Demby,https://en.wikipedia.org/wiki/Jamil_Demby ,OT,Maine,CAA,2018192,Other,NFC West
+6,193,Dallas Cowboys,Chris Covington,https://en.wikipedia.org/wiki/Chris_Covington ,LB,Indiana,Big Ten,2018193,Big Ten,NFC East
+6,194,Atlanta Falcons,Russell Gage,https://en.wikipedia.org/wiki/Russell_Gage ,WR,LSU,SEC,2018194,SEC,NFC South
+6,195,Los Angeles Rams,Sebastian JosephDay,https://en.wikipedia.org/wiki/Sebastian_Joseph-Day ,DT,Rutgers,Big Ten,2018195,Big Ten,NFC West
+6,196,Kansas City Chiefs,Tremon Smith,https://en.wikipedia.org/wiki/Tremon_Smith ,CB,Central Arkansas,Southland,2018196,Other,AFC West
+6,197,Washington Commanders,Shaun Dion Hamilton,https://en.wikipedia.org/wiki/Shaun_Dion_Hamilton ,LB,Alabama,SEC,2018197,SEC,NFC East
+6,198,Kansas City Chiefs,Kahlil McKenzie,https://en.wikipedia.org/wiki/Kahlil_McKenzie ,DT,Tennessee,SEC,2018198,SEC,AFC West
+6,199,Tennessee Titans,Luke Falk,https://en.wikipedia.org/wiki/Luke_Falk ,QB,Washington State,Pac12,2018199,Pac12,AFC South
+6,200,Atlanta Falcons,Foyesade Oluokun,https://en.wikipedia.org/wiki/Foyesade_Oluokun ,S,Yale,Ivy,2018200,Other,NFC South
+6,201,New Orleans Saints,Boston Scott,https://en.wikipedia.org/wiki/Boston_Scott ,RB,Louisiana Tech,CUSA,2018201,Other,NFC South
+6,202,Tampa Bay Buccaneers,Jack Cichy,https://en.wikipedia.org/wiki/Jack_Cichy ,LB,Wisconsin,Big Ten,2018202,Big Ten,NFC South
+6,203,Jacksonville Jaguars,Tanner Lee,https://en.wikipedia.org/wiki/Tanner_Lee ,QB,Nebraska,Big Ten,2018203,Big Ten,AFC South
+6,204,New York Jets,Trenton Cannon,https://en.wikipedia.org/wiki/Trenton_Cannon ,RB,Virginia State,CIAA,2018204,Other,AFC East
+6,205,Los Angeles Rams,Trevon Young,https://en.wikipedia.org/wiki/Trevon_Young ,DE,Louisville,ACC,2018205,ACC,NFC West
+6,206,Philadelphia Eagles,Matt Pryor,https://en.wikipedia.org/wiki/Matt_Pryor_(American_football) ,OT,TCU,Big 12,2018206,Big 12,NFC East
+6,207,Green Bay Packers,Equanimeous St Brown,https://en.wikipedia.org/wiki/Equanimeous_St._Brown ,WR,Notre Dame,Ind FBS,2018207,Other,NFC North
+6,208,Dallas Cowboys,Cedrick Wilson Jr,https://en.wikipedia.org/wiki/Cedrick_Wilson_Jr. ,WR,Boise State,MW,2018208,Other,NFC East
+6,209,Miami Dolphins,Cornell Armstrong,https://en.wikipedia.org/wiki/Cornell_Armstrong ,CB,Southern Miss,CUSA,2018209,Other,AFC East
+6,210,New England Patriots,Braxton Berrios,https://en.wikipedia.org/wiki/Braxton_Berrios ,WR,Miami FL,ACC,2018210,ACC,AFC East
+6,211,Houston Texans,Jordan Thomas,https://en.wikipedia.org/wiki/Jordan_Thomas_(American_football) ,TE,Mississippi State,SEC,2018211,SEC,AFC South
+6,212,Baltimore Ravens,Greg Senat,https://en.wikipedia.org/wiki/Greg_Senat ,OT,Wagner,NEC,2018212,Other,AFC North
+6,213,Minnesota Vikings,Colby Gossett,https://en.wikipedia.org/wiki/Colby_Gossett ,OG,Appalachian State,Sun Belt,2018213,Other,NFC North
+6,214,Houston Texans,Peter Kalambayi,https://en.wikipedia.org/wiki/Peter_Kalambayi ,LB,Stanford,Pac12,2018214,Pac12,AFC South
+6,215,Baltimore Ravens,Bradley Bozeman,https://en.wikipedia.org/wiki/Bradley_Bozeman ,C,Alabama,SEC,2018215,SEC,AFC North
+6,216,Las Vegas Raiders,Azeem Victor,https://en.wikipedia.org/wiki/Azeem_Victor ,LB,Washington,Pac12,2018216,Pac12,AFC West
+6,217,Denver Broncos,Keishawn Bierria,https://en.wikipedia.org/wiki/Keishawn_Bierria ,LB,Washington,Pac12,2018217,Pac12,AFC West
+6,218,Minnesota Vikings,Ade Aruna,https://en.wikipedia.org/wiki/Ade_Aruna ,DE,Tulane,The American,2018218,Other,NFC North
+7,219,New England Patriots,Danny Etling,https://en.wikipedia.org/wiki/Danny_Etling ,QB,LSU,SEC,2018219,SEC,AFC East
+7,220,Seattle Seahawks,Alex McGough,https://en.wikipedia.org/wiki/Alex_McGough ,QB,FIU,CUSA,2018220,Other,NFC West
+7,221,Indianapolis Colts,Matthew Adams,https://en.wikipedia.org/wiki/Matthew_Adams_(American_football) ,LB,Houston,The American,2018221,Other,AFC South
+7,222,Houston Texans,Jermaine Kelly,https://en.wikipedia.org/wiki/Jermaine_Kelly ,CB,San Jose State,MW,2018222,Other,AFC South
+7,223,San Francisco 49ers,Jullian Taylor,https://en.wikipedia.org/wiki/Jullian_Taylor ,DT,Temple,The American,2018223,Other,NFC West
+7,224,Chicago Bears,Javon Wims,https://en.wikipedia.org/wiki/Javon_Wims ,WR,Georgia,SEC,2018224,SEC,NFC North
+7,225,Minnesota Vikings,Devante Downs,https://en.wikipedia.org/wiki/Devante_Downs ,LB,California,Pac12,2018225,Pac12,NFC North
+7,226,Denver Broncos,David Williams,https://en.wikipedia.org/wiki/David_Williams_(running_back) ,RB,Arkansas,SEC,2018226,SEC,AFC West
+7,227,Miami Dolphins,Quentin Poling,https://en.wikipedia.org/wiki/Quentin_Poling ,LB,Ohio,MAC,2018227,Other,AFC East
+7,228,Las Vegas Raiders,Marcell Ateman,https://en.wikipedia.org/wiki/Marcell_Ateman ,WR,Oklahoma State,Big 12,2018228,Big 12,AFC West
+7,229,Miami Dolphins,Jason Sanders,https://en.wikipedia.org/wiki/Jason_Sanders ,K,New Mexico,MW,2018229,Other,AFC East
+7,230,Jacksonville Jaguars,Leon Jacobs,https://en.wikipedia.org/wiki/Leon_Jacobs ,LB,Wisconsin,Big Ten,2018230,Big Ten,AFC South
+7,231,Los Angeles Rams,Travin Howard,https://en.wikipedia.org/wiki/Travin_Howard ,LB,TCU,Big 12,2018231,Big 12,NFC West
+7,232,Green Bay Packers,James Looney,https://en.wikipedia.org/wiki/James_Looney ,DE,California,Pac12,2018232,Pac12,NFC North
+7,233,Philadelphia Eagles,Jordan Mailata,https://en.wikipedia.org/wiki/Jordan_Mailata ,OT,,,2018233,Other,NFC East
+7,234,Carolina Panthers,Andre Smith,https://en.wikipedia.org/wiki/Andre_Smith_(linebacker) ,LB,North Carolina,ACC,2018234,ACC,NFC South
+7,235,Indianapolis Colts,Zaire Franklin,https://en.wikipedia.org/wiki/Zaire_Franklin ,LB,Syracuse,ACC,2018235,ACC,AFC South
+7,236,Dallas Cowboys,Bo Scarbrough,https://en.wikipedia.org/wiki/Bo_Scarbrough ,RB,Alabama,SEC,2018236,SEC,NFC East
+7,237,Detroit Lions,Nick Bawden,https://en.wikipedia.org/wiki/Nick_Bawden ,FB,San Diego State,MW,2018237,Other,NFC North
+7,238,Baltimore Ravens,Zach Sieler,https://en.wikipedia.org/wiki/Zach_Sieler ,DE,Ferris State,GLIAC,2018238,Other,AFC North
+7,239,Green Bay Packers,Hunter Bradley,https://en.wikipedia.org/wiki/Hunter_Bradley_(American_football) ,LS,Mississippi State,SEC,2018239,SEC,NFC North
+7,240,San Francisco 49ers,Richie James,https://en.wikipedia.org/wiki/Richie_James ,WR,Middle Tennessee,CUSA,2018240,Other,NFC West
+7,241,Washington Commanders,Greg Stroman,https://en.wikipedia.org/wiki/Greg_Stroman ,CB,Virginia Tech,ACC,2018241,ACC,NFC East
+7,242,Carolina Panthers,Kendrick Norton,https://en.wikipedia.org/wiki/Kendrick_Norton ,DT,Miami FL,ACC,2018242,ACC,NFC South
+7,243,New England Patriots,Keion Crossen,https://en.wikipedia.org/wiki/Keion_Crossen ,CB,Western Carolina,SoCon,2018243,Other,AFC East
+7,244,Los Angeles Rams,Justin Lawler,https://en.wikipedia.org/wiki/Justin_Lawler ,DE,SMU,The American,2018244,Other,NFC West
+7,245,New Orleans Saints,Will Clapp,https://en.wikipedia.org/wiki/Will_Clapp ,C,LSU,SEC,2018245,SEC,NFC South
+7,246,Pittsburgh Steelers,Joshua Frazier,https://en.wikipedia.org/wiki/Joshua_Frazier ,DT,Alabama,SEC,2018246,SEC,AFC North
+7,247,Jacksonville Jaguars,Logan Cooke,https://en.wikipedia.org/wiki/Logan_Cooke ,P,Mississippi State,SEC,2018247,SEC,AFC South
+7,248,Green Bay Packers,Kendall Donnerson,https://en.wikipedia.org/wiki/Kendall_Donnerson ,LB,Southeast Missouri State,OVC,2018248,Other,NFC North
+7,249,Cincinnati Bengals,Logan Woodside,https://en.wikipedia.org/wiki/Logan_Woodside ,QB,Toledo,MAC,2018249,Other,AFC North
+7,250,New England Patriots,Ryan Izzo,https://en.wikipedia.org/wiki/Ryan_Izzo ,TE,Florida State,ACC,2018250,ACC,AFC East
+7,251,Los Angeles Chargers,Justin Jackson,https://en.wikipedia.org/wiki/Justin_Jackson_(American_football) ,RB,Northwestern,Big Ten,2018251,Big Ten,AFC West
+7,252,Cincinnati Bengals,Rod Taylor,https://en.wikipedia.org/wiki/Rod_Taylor_(American_football) ,OG,Ole Miss,SEC,2018252,SEC,AFC North
+7,253,Cincinnati Bengals,Auden Tate,https://en.wikipedia.org/wiki/Auden_Tate ,WR,Florida State,ACC,2018253,ACC,AFC North
+7,254,Arizona Cardinals,Korey Cunningham,https://en.wikipedia.org/wiki/Korey_Cunningham ,OT,Cincinnati,The American,2018254,Other,NFC West
+7,255,Buffalo Bills,Austin Proehl,https://en.wikipedia.org/wiki/Austin_Proehl ,WR,North Carolina,ACC,2018255,ACC,AFC East
+7,256,Washington Commanders,Trey Quinn,https://en.wikipedia.org/wiki/Trey_Quinn ,WR,SMU,The American,2018256,Other,NFC East

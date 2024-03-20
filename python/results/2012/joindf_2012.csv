@@ -1,0 +1,254 @@
+Round,Pick_No,Team,Player,Player_Link,Pos,College,Conf,ID,Conf_Clean,Div,MVP,SB_MVP,SB_WIN,OPOY,DPOY,OROY,DROY,First_AP,Second_AP,Pro_Bowl
+1,1,Indianapolis Colts,Andrew Luck,https://en.wikipedia.org/wiki/Andrew_Luck ,QB,Stanford,Pac12,2012001,Pac12,AFC South,0,0,0,0,0,0,0,0,0,4
+1,2,Washington Commanders,Robert Griffin III,https://en.wikipedia.org/wiki/Robert_Griffin_III ,QB,Baylor,Big 12,2012002,Big 12,NFC East,0,0,0,0,0,1,0,0,0,1
+1,3,Cleveland Browns,Trent Richardson,https://en.wikipedia.org/wiki/Trent_Richardson ,RB,Alabama,SEC,2012003,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+1,4,Minnesota Vikings,Matt Kalil,https://en.wikipedia.org/wiki/Matt_Kalil ,OT,USC,Pac12,2012004,Pac12,NFC North,0,0,0,0,0,0,0,0,0,1
+1,5,Jacksonville Jaguars,Justin Blackmon,https://en.wikipedia.org/wiki/Justin_Blackmon ,WR,Oklahoma State,Big 12,2012005,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+1,6,Dallas Cowboys,Morris Claiborne,https://en.wikipedia.org/wiki/Morris_Claiborne ,CB,LSU,SEC,2012006,SEC,NFC East,0,0,1,0,0,0,0,0,0,0
+1,7,Tampa Bay Buccaneers,Mark Barron,https://en.wikipedia.org/wiki/Mark_Barron ,S,Alabama,SEC,2012007,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+1,8,Miami Dolphins,Ryan Tannehill,https://en.wikipedia.org/wiki/Ryan_Tannehill ,QB,Texas AM,Big 12,2012008,Big 12,AFC East,0,0,0,0,0,0,0,0,0,1
+1,9,Carolina Panthers,Luke Kuechly,https://en.wikipedia.org/wiki/Luke_Kuechly ,LB,Boston College,ACC,2012009,ACC,NFC South,0,0,0,0,1,0,1,5,2,7
+1,10,Buffalo Bills,Stephon Gilmore,https://en.wikipedia.org/wiki/Stephon_Gilmore ,CB,South Carolina,SEC,2012010,SEC,AFC East,0,0,1,0,1,0,0,2,0,5
+1,11,Kansas City Chiefs,Dontari Poe,https://en.wikipedia.org/wiki/Dontari_Poe ,DT,Memphis,CUSA,2012011,Other,AFC West,0,0,0,0,0,0,0,0,1,2
+1,12,Philadelphia Eagles,Fletcher Cox,https://en.wikipedia.org/wiki/Fletcher_Cox ,DT,Mississippi State,SEC,2012012,SEC,NFC East,0,0,1,0,0,0,0,0,3,6
+1,13,Arizona Cardinals,Michael Floyd,https://en.wikipedia.org/wiki/Michael_Floyd ,WR,Notre Dame,Ind FBS,2012013,Other,NFC West,0,0,1,0,0,0,0,0,0,0
+1,14,Los Angeles Rams,Michael Brockers,https://en.wikipedia.org/wiki/Michael_Brockers ,DE,LSU,SEC,2012014,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+1,15,Seattle Seahawks,Bruce Irvin,https://en.wikipedia.org/wiki/Bruce_Irvin_(American_football) ,DE,West Virginia,Big East,2012015,Other,NFC West,0,0,1,0,0,0,0,0,0,0
+1,16,New York Jets,Quinton Coples,https://en.wikipedia.org/wiki/Quinton_Coples ,DE,North Carolina,ACC,2012016,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+1,17,Cincinnati Bengals,Dre Kirkpatrick,https://en.wikipedia.org/wiki/Dre_Kirkpatrick ,CB,Alabama,SEC,2012017,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+1,18,Los Angeles Chargers,Melvin Ingram,https://en.wikipedia.org/wiki/Melvin_Ingram ,LB,South Carolina,SEC,2012018,SEC,AFC West,0,0,0,0,0,0,0,0,0,3
+1,19,Chicago Bears,Shea McClellin,https://en.wikipedia.org/wiki/Shea_McClellin ,DE,Boise State,MW,2012019,Other,NFC North,0,0,1,0,0,0,0,0,0,0
+1,20,Tennessee Titans,Kendall Wright,https://en.wikipedia.org/wiki/Kendall_Wright ,WR,Baylor,Big 12,2012020,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+1,21,New England Patriots,Chandler Jones,https://en.wikipedia.org/wiki/Chandler_Jones ,DE,Syracuse,Big East,2012021,Other,AFC East,0,0,1,0,0,0,0,2,0,4
+1,22,Cleveland Browns,Brandon Weeden,https://en.wikipedia.org/wiki/Brandon_Weeden ,QB,Oklahoma State,Big 12,2012022,Big 12,AFC North,0,0,0,0,0,0,0,0,0,0
+1,23,Detroit Lions,Riley Reiff,https://en.wikipedia.org/wiki/Riley_Reiff ,OT,Iowa,Big Ten,2012023,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+1,24,Pittsburgh Steelers,David DeCastro,https://en.wikipedia.org/wiki/David_DeCastro ,OG,Stanford,Pac12,2012024,Pac12,AFC North,0,0,0,0,0,0,0,2,1,6
+1,25,New England Patriots,Donta Hightower,https://en.wikipedia.org/wiki/Dont%27a_Hightower ,LB,Alabama,SEC,2012025,SEC,AFC East,0,0,3,0,0,0,0,0,1,2
+1,26,Houston Texans,Whitney Mercilus,https://en.wikipedia.org/wiki/Whitney_Mercilus ,DE,Illinois,Big Ten,2012026,Big Ten,AFC South,0,0,0,0,0,0,0,0,1,0
+1,27,Cincinnati Bengals,Kevin Zeitler,https://en.wikipedia.org/wiki/Kevin_Zeitler ,OG,Wisconsin,Big Ten,2012027,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,1
+1,28,Green Bay Packers,Nick Perry,https://en.wikipedia.org/wiki/Nick_Perry_(linebacker) ,LB,USC,Pac12,2012028,Pac12,NFC North,0,0,0,0,0,0,0,0,0,0
+1,29,Minnesota Vikings,Harrison Smith,https://en.wikipedia.org/wiki/Harrison_Smith ,S,Notre Dame,Ind FBS,2012029,Other,NFC North,0,0,0,0,0,0,0,1,1,6
+1,30,San Francisco 49ers,A J Jenkins,https://en.wikipedia.org/wiki/A._J._Jenkins ,WR,Illinois,Big Ten,2012030,Big Ten,NFC West,0,0,0,0,0,0,0,0,0,0
+1,31,Tampa Bay Buccaneers,Doug Martin,https://en.wikipedia.org/wiki/Doug_Martin_(running_back) ,RB,Boise State,MW,2012031,Other,NFC South,0,0,0,0,0,0,0,1,0,2
+1,32,New York Giants,David Wilson,https://en.wikipedia.org/wiki/David_Wilson_(running_back) ,RB,Virginia Tech,ACC,2012032,ACC,NFC East,0,0,0,0,0,0,0,0,1,0
+2,33,Los Angeles Rams,Brian Quick,https://en.wikipedia.org/wiki/Brian_Quick ,WR,Appalachian State,SoCon,2012033,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+2,34,Indianapolis Colts,Coby Fleener,https://en.wikipedia.org/wiki/Coby_Fleener ,TE,Stanford,Pac12,2012034,Pac12,AFC South,0,0,0,0,0,0,0,0,0,0
+2,35,Baltimore Ravens,Courtney Upshaw,https://en.wikipedia.org/wiki/Courtney_Upshaw ,LB,Alabama,SEC,2012035,SEC,AFC North,0,0,1,0,0,0,0,0,0,0
+2,36,Denver Broncos,Derek Wolfe,https://en.wikipedia.org/wiki/Derek_Wolfe ,DT,Cincinnati,Big East,2012036,Other,AFC West,0,0,1,0,0,0,0,0,0,0
+2,37,Cleveland Browns,Mitchell Schwartz,https://en.wikipedia.org/wiki/Mitchell_Schwartz ,OT,California,Pac12,2012037,Pac12,AFC North,0,0,1,0,0,0,0,1,3,0
+2,38,Jacksonville Jaguars,Andre Branch,https://en.wikipedia.org/wiki/Andre_Branch ,DE,Clemson,ACC,2012038,ACC,AFC South,0,0,0,0,0,0,0,0,0,0
+2,39,Los Angeles Rams,Janoris Jenkins,https://en.wikipedia.org/wiki/Janoris_Jenkins ,CB,North Alabama,Gulf South,2012039,Other,NFC West,0,0,0,0,0,0,0,0,1,1
+2,40,Carolina Panthers,Amini Silatolu,https://en.wikipedia.org/wiki/Amini_Silatolu ,OG,Midwestern State,LSC,2012040,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+2,41,Buffalo Bills,Cordy Glenn,https://en.wikipedia.org/wiki/Cordy_Glenn ,OT,Georgia,SEC,2012041,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+2,42,Miami Dolphins,Jonathan Martin,https://en.wikipedia.org/wiki/Jonathan_Martin_(American_football) ,OT,Stanford,Pac12,2012042,Pac12,AFC East,0,0,0,0,0,0,0,0,0,0
+2,43,New York Jets,Stephen Hill,https://en.wikipedia.org/wiki/Stephen_Hill_(American_football) ,WR,Georgia Tech,ACC,2012043,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+2,44,Kansas City Chiefs,Jeff Allen,https://en.wikipedia.org/wiki/Jeff_Allen_(offensive_lineman) ,OG,Illinois,Big Ten,2012044,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+2,45,Chicago Bears,Alshon Jeffery,https://en.wikipedia.org/wiki/Alshon_Jeffery ,WR,South Carolina,SEC,2012045,SEC,NFC North,0,0,1,0,0,0,0,0,0,1
+2,46,Philadelphia Eagles,Mychal Kendricks,https://en.wikipedia.org/wiki/Mychal_Kendricks ,LB,California,Pac12,2012046,Pac12,NFC East,0,0,1,0,0,0,0,0,0,0
+2,47,Seattle Seahawks,Bobby Wagner,https://en.wikipedia.org/wiki/Bobby_Wagner ,LB,Utah State,WAC,2012047,Other,NFC West,0,0,1,0,0,0,0,6,4,9
+2,48,New England Patriots,Tavon Wilson,https://en.wikipedia.org/wiki/Tavon_Wilson ,S,Illinois,Big Ten,2012048,Big Ten,AFC East,0,0,1,0,0,0,0,0,0,0
+2,49,Los Angeles Chargers,Kendall Reyes,https://en.wikipedia.org/wiki/Kendall_Reyes ,DT,Connecticut,Big East,2012049,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+2,50,Los Angeles Rams,Isaiah Pead,https://en.wikipedia.org/wiki/Isaiah_Pead ,RB,Cincinnati,Big East,2012050,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+2,51,Green Bay Packers,Jerel Worthy,https://en.wikipedia.org/wiki/Jerel_Worthy ,DT,Michigan State,Big Ten,2012051,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,0
+2,52,Tennessee Titans,Zach Brown,https://en.wikipedia.org/wiki/Zach_Brown ,LB,North Carolina,ACC,2012052,ACC,AFC South,0,0,0,0,0,0,0,0,1,1
+2,53,Cincinnati Bengals,Devon Still,https://en.wikipedia.org/wiki/Devon_Still ,DT,Penn State,Big Ten,2012053,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+2,54,Detroit Lions,Ryan Broyles,https://en.wikipedia.org/wiki/Ryan_Broyles ,WR,Oklahoma,Big 12,2012054,Big 12,NFC North,0,0,0,0,0,0,0,0,0,0
+2,55,Atlanta Falcons,Peter Konz,https://en.wikipedia.org/wiki/Peter_Konz ,C,Wisconsin,Big Ten,2012055,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+2,56,Pittsburgh Steelers,Mike Adams,https://en.wikipedia.org/wiki/Mike_Adams_(offensive_tackle) ,OT,Ohio State,Big Ten,2012056,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+2,57,Denver Broncos,Brock Osweiler,https://en.wikipedia.org/wiki/Brock_Osweiler ,QB,Arizona State,Pac12,2012057,Pac12,AFC West,0,0,1,0,0,0,0,0,0,0
+2,58,Tampa Bay Buccaneers,Lavonte David,https://en.wikipedia.org/wiki/Lavonte_David ,LB,Nebraska,Big Ten,2012058,Big Ten,NFC South,0,0,1,0,0,0,0,1,2,1
+2,59,Philadelphia Eagles,Vinny Curry,https://en.wikipedia.org/wiki/Vinny_Curry ,DE,Marshall,CUSA,2012059,Other,NFC East,0,0,1,0,0,0,0,0,0,0
+2,60,Baltimore Ravens,Kelechi Osemele,https://en.wikipedia.org/wiki/Kelechi_Osemele ,OG,Iowa State,Big 12,2012060,Big 12,AFC North,0,0,1,0,0,0,0,1,0,2
+2,61,San Francisco 49ers,LaMichael James,https://en.wikipedia.org/wiki/LaMichael_James ,RB,Oregon,Pac12,2012061,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+2,62,Green Bay Packers,Casey Hayward,https://en.wikipedia.org/wiki/Casey_Hayward ,CB,Vanderbilt,SEC,2012062,SEC,NFC North,0,0,0,0,0,0,0,0,2,2
+2,63,New York Giants,Rueben Randle,https://en.wikipedia.org/wiki/Rueben_Randle ,WR,LSU,SEC,2012063,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+3,64,Indianapolis Colts,Dwayne Allen,https://en.wikipedia.org/wiki/Dwayne_Allen ,TE,Clemson,ACC,2012064,ACC,AFC South,0,0,1,0,0,0,0,0,0,0
+3,65,Los Angeles Rams,Trumaine Johnson,https://en.wikipedia.org/wiki/Trumaine_Johnson_(cornerback) ,CB,Montana,Big Sky,2012065,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+3,66,Minnesota Vikings,Josh Robinson,https://en.wikipedia.org/wiki/Josh_Robinson_(cornerback) ,CB,UCF,CUSA,2012066,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+3,67,Denver Broncos,Ronnie Hillman,https://en.wikipedia.org/wiki/Ronnie_Hillman ,RB,San Diego State,MW,2012067,Other,AFC West,0,0,1,0,0,0,0,0,0,0
+3,68,Houston Texans,DeVier Posey,https://en.wikipedia.org/wiki/DeVier_Posey ,WR,Ohio State,Big Ten,2012068,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+3,69,Buffalo Bills,T J Graham,https://en.wikipedia.org/wiki/T._J._Graham ,WR,NC State,ACC,2012069,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+3,70,Jacksonville Jaguars,Bryan Anger,https://en.wikipedia.org/wiki/Bryan_Anger ,P,California,Pac12,2012070,Pac12,AFC South,0,0,0,0,0,0,0,0,2,2
+3,71,Washington Commanders,Josh LeRibeus,https://en.wikipedia.org/wiki/Josh_LeRibeus ,OG,SMU,CUSA,2012071,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+3,72,Miami Dolphins,Olivier Vernon,https://en.wikipedia.org/wiki/Olivier_Vernon ,DE,Miami FL,ACC,2012072,ACC,AFC East,0,0,0,0,0,0,0,0,1,1
+3,73,Los Angeles Chargers,Brandon Taylor,https://en.wikipedia.org/wiki/Brandon_Taylor_(American_football) ,S,LSU,SEC,2012073,SEC,AFC West,0,0,0,0,0,0,0,0,0,0
+3,74,Kansas City Chiefs,Donald Stephenson,https://en.wikipedia.org/wiki/Donald_Stephenson ,OT,Oklahoma,Big 12,2012074,Big 12,AFC West,0,0,0,0,0,0,0,0,0,0
+3,75,Seattle Seahawks,Russell Wilson,https://en.wikipedia.org/wiki/Russell_Wilson ,QB,Wisconsin,Big Ten,2012075,Big Ten,NFC West,0,0,1,0,0,0,0,0,1,9
+3,76,Houston Texans,Brandon Brooks,https://en.wikipedia.org/wiki/Brandon_Brooks_(American_football) ,OG,Miami OH,MAC,2012076,Other,AFC South,0,0,1,0,0,0,0,0,0,3
+3,77,New York Jets,Demario Davis,https://en.wikipedia.org/wiki/Demario_Davis ,LB,Arkansas State,Sun Belt,2012077,Other,AFC East,0,0,0,0,0,0,0,1,4,2
+3,78,Miami Dolphins,Michael Egnew,https://en.wikipedia.org/wiki/Michael_Egnew ,TE,Missouri,Big 12,2012078,Big 12,AFC East,0,0,0,0,0,0,0,0,0,0
+3,79,Chicago Bears,Brandon Hardin,https://en.wikipedia.org/wiki/Brandon_Hardin ,S,Oregon State,Pac12,2012079,Pac12,NFC North,0,0,0,0,0,0,0,0,0,0
+3,80,Arizona Cardinals,Jamell Fleming,https://en.wikipedia.org/wiki/Jamell_Fleming ,CB,Oklahoma,Big 12,2012080,Big 12,NFC West,0,0,0,0,0,0,0,0,0,0
+3,81,Dallas Cowboys,Tyrone Crawford,https://en.wikipedia.org/wiki/Tyrone_Crawford ,DE,Boise State,MW,2012081,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+3,82,Tennessee Titans,Mike Martin,https://en.wikipedia.org/wiki/Mike_Martin_(defensive_lineman) ,DT,Michigan,Big Ten,2012082,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+3,83,Cincinnati Bengals,Mohamed Sanu,https://en.wikipedia.org/wiki/Mohamed_Sanu ,WR,Rutgers,Big East,2012083,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+3,84,Baltimore Ravens,Bernard Pierce,https://en.wikipedia.org/wiki/Bernard_Pierce ,RB,Temple,MAC,2012084,Other,AFC North,0,0,1,0,0,0,0,0,0,0
+3,85,Detroit Lions,Dwight Bentley,https://en.wikipedia.org/wiki/Dwight_Bentley ,CB,LouisianaLafayette,Sun Belt,2012085,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+3,86,Pittsburgh Steelers,Sean Spence,https://en.wikipedia.org/wiki/Sean_Spence ,LB,Miami FL,ACC,2012086,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+3,87,Cleveland Browns,John Hughes,https://en.wikipedia.org/wiki/John_Hughes_(American_football) ,DT,Cincinnati,Big East,2012087,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+3,88,Philadelphia Eagles,Nick Foles,https://en.wikipedia.org/wiki/Nick_Foles ,QB,Arizona,Pac12,2012088,Pac12,NFC East,0,1,1,0,0,0,0,0,0,1
+3,89,New Orleans Saints,Akiem Hicks,https://en.wikipedia.org/wiki/Akiem_Hicks ,DT,Regina,CWUAA,2012089,Other,NFC South,0,0,0,0,0,0,0,0,0,1
+3,90,New England Patriots,Jake Bequette,https://en.wikipedia.org/wiki/Jake_Bequette ,DE,Arkansas,SEC,2012090,SEC,AFC East,0,0,1,0,0,0,0,0,0,0
+3,91,Atlanta Falcons,Lamar Holmes,https://en.wikipedia.org/wiki/Lamar_Holmes ,OT,Southern Miss,CUSA,2012091,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+3,92,Indianapolis Colts,T Y Hilton,https://en.wikipedia.org/wiki/T._Y._Hilton ,WR,FIU,Sun Belt,2012092,Other,AFC South,0,0,0,0,0,0,0,0,0,4
+3,93,Cincinnati Bengals,Brandon Thompson,https://en.wikipedia.org/wiki/Brandon_Thompson_(American_football) ,DT,Clemson,ACC,2012093,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+3,94,New York Giants,Jayron Hosley,https://en.wikipedia.org/wiki/Jayron_Hosley ,CB,Virginia Tech,ACC,2012094,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+3,95,Las Vegas Raiders,Tony Bergstrom,https://en.wikipedia.org/wiki/Tony_Bergstrom ,OG,Utah,Pac12,2012095,Pac12,AFC West,0,0,0,0,0,0,0,0,0,0
+4,96,Los Angeles Rams,Chris Givens,https://en.wikipedia.org/wiki/Chris_Givens ,WR,Wake Forest,ACC,2012096,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+4,97,Miami Dolphins,Lamar Miller,https://en.wikipedia.org/wiki/Lamar_Miller ,RB,Miami FL,ACC,2012097,ACC,AFC East,0,0,0,0,0,0,0,0,0,1
+4,98,Baltimore Ravens,Gino Gradkowski,https://en.wikipedia.org/wiki/Gino_Gradkowski ,OG,Delaware,CAA,2012098,Other,AFC North,0,0,1,0,0,0,0,0,0,0
+4,99,Houston Texans,Ben Jones,https://en.wikipedia.org/wiki/Ben_Jones_(center) ,C,Georgia,SEC,2012099,SEC,AFC South,0,0,0,0,0,0,0,0,0,1
+4,100,Cleveland Browns,Travis Benjamin,https://en.wikipedia.org/wiki/Travis_Benjamin ,WR,Miami FL,ACC,2012100,ACC,AFC North,0,0,0,0,0,0,0,0,0,0
+4,101,Denver Broncos,Omar Bolden,https://en.wikipedia.org/wiki/Omar_Bolden ,CB,Arizona State,Pac12,2012101,Pac12,AFC West,0,0,1,0,0,0,0,0,0,0
+4,102,Washington Commanders,Kirk Cousins,https://en.wikipedia.org/wiki/Kirk_Cousins ,QB,Michigan State,Big Ten,2012102,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,4
+4,103,Carolina Panthers,Frank Alexander,https://en.wikipedia.org/wiki/Frank_Alexander_(American_football) ,DE,Oklahoma,Big 12,2012103,Big 12,NFC South,0,0,0,0,0,0,0,0,0,0
+4,104,Carolina Panthers,Joe Adams,https://en.wikipedia.org/wiki/Joe_Adams_(wide_receiver) ,WR,Arkansas,SEC,2012104,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+4,105,Buffalo Bills,Nigel Bradham,https://en.wikipedia.org/wiki/Nigel_Bradham ,LB,Florida State,ACC,2012105,ACC,AFC East,0,0,1,0,0,0,0,0,0,0
+4,106,Seattle Seahawks,Robert Turbin,https://en.wikipedia.org/wiki/Robert_Turbin ,RB,Utah State,WAC,2012106,Other,NFC West,0,0,1,0,0,0,0,0,0,0
+4,107,Kansas City Chiefs,Devon Wylie,https://en.wikipedia.org/wiki/Devon_Wylie ,WR,Fresno State,WAC,2012107,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+4,108,Denver Broncos,Philip Blake,https://en.wikipedia.org/wiki/Philip_Blake ,C,Baylor,Big 12,2012108,Big 12,AFC West,0,0,0,0,0,0,0,0,0,0
+4,109,Pittsburgh Steelers,Alameda Taamu,https://en.wikipedia.org/wiki/Alameda_Ta%27amu ,DT,Washington,Pac12,2012109,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+4,110,Los Angeles Chargers,Ladarius Green,https://en.wikipedia.org/wiki/Ladarius_Green ,TE,LouisianaLafayette,Sun Belt,2012110,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+4,111,Chicago Bears,Evan Rodriguez,https://en.wikipedia.org/wiki/Evan_Rodriguez ,TE,Temple,MAC,2012111,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+4,112,Arizona Cardinals,Bobby Massie,https://en.wikipedia.org/wiki/Bobby_Massie ,OT,Ole Miss,SEC,2012112,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+4,113,Dallas Cowboys,Kyle Wilber,https://en.wikipedia.org/wiki/Kyle_Wilber ,LB,Wake Forest,ACC,2012113,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+4,114,Seattle Seahawks,Jaye Howard,https://en.wikipedia.org/wiki/Jaye_Howard ,DT,Florida,SEC,2012114,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+4,115,Tennessee Titans,Coty Sensabaugh,https://en.wikipedia.org/wiki/Coty_Sensabaugh ,CB,Clemson,ACC,2012115,ACC,AFC South,0,0,0,0,0,0,0,0,0,0
+4,116,Cincinnati Bengals,Orson Charles,https://en.wikipedia.org/wiki/Orson_Charles ,TE,Georgia,SEC,2012116,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+4,117,San Francisco 49ers,Joe Looney,https://en.wikipedia.org/wiki/Joe_Looney_(offensive_lineman) ,OG,Wake Forest,ACC,2012117,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+4,118,Minnesota Vikings,Jarius Wright,https://en.wikipedia.org/wiki/Jarius_Wright ,WR,Arkansas,SEC,2012118,SEC,NFC North,0,0,0,0,0,0,0,0,0,0
+4,119,Washington Commanders,Keenan Robinson,https://en.wikipedia.org/wiki/Keenan_Robinson ,LB,Texas,Big 12,2012119,Big 12,NFC East,0,0,0,0,0,0,0,0,0,0
+4,120,Cleveland Browns,JamesMichael Johnson,https://en.wikipedia.org/wiki/James-Michael_Johnson ,LB,Nevada,WAC,2012120,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+4,121,Houston Texans,Keshawn Martin,https://en.wikipedia.org/wiki/Keshawn_Martin ,WR,Michigan State,Big Ten,2012121,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+4,122,New Orleans Saints,Nick Toon,https://en.wikipedia.org/wiki/Nick_Toon ,WR,Wisconsin,Big Ten,2012122,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+4,123,Philadelphia Eagles,Brandon Boykin,https://en.wikipedia.org/wiki/Brandon_Boykin ,CB,Georgia,SEC,2012123,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+4,124,Buffalo Bills,Ron Brooks,https://en.wikipedia.org/wiki/Ron_Brooks ,CB,LSU,SEC,2012124,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+4,125,Detroit Lions,Ronnell Lewis,https://en.wikipedia.org/wiki/Ronnell_Lewis ,LB,Oklahoma,Big 12,2012125,Big 12,NFC North,0,0,0,0,0,0,0,0,0,0
+4,126,Houston Texans,Jared Crick,https://en.wikipedia.org/wiki/Jared_Crick ,DE,Nebraska,Big Ten,2012126,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+4,127,New York Giants,Adrien Robinson,https://en.wikipedia.org/wiki/Adrien_Robinson ,TE,Cincinnati,Big East,2012127,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+4,128,Minnesota Vikings,Rhett Ellison,https://en.wikipedia.org/wiki/Rhett_Ellison ,FB,USC,Pac12,2012128,Pac12,NFC North,0,0,0,0,0,0,0,0,0,0
+4,129,Las Vegas Raiders,Miles Burris,https://en.wikipedia.org/wiki/Miles_Burris ,LB,San Diego State,MW,2012129,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+4,130,Baltimore Ravens,Christian Thompson,https://en.wikipedia.org/wiki/Christian_Thompson_(American_football) ,S,South Carolina State,MEAC,2012130,Other,AFC North,0,0,1,0,0,0,0,0,0,0
+4,131,New York Giants,Brandon Mosley,https://en.wikipedia.org/wiki/Brandon_Mosley ,OT,Auburn,SEC,2012131,SEC,NFC East,0,0,0,0,0,0,0,0,0,0
+4,132,Green Bay Packers,Mike Daniels,https://en.wikipedia.org/wiki/Mike_Daniels_(American_football) ,DT,Iowa,Big Ten,2012132,Big Ten,NFC North,0,0,0,0,0,0,0,0,0,1
+4,133,Green Bay Packers,Jerron McMillian,https://en.wikipedia.org/wiki/Jerron_McMillian ,S,Maine,CAA,2012133,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+4,134,Minnesota Vikings,Greg Childs,https://en.wikipedia.org/wiki/Greg_Childs_(American_football) ,WR,Arkansas,SEC,2012134,SEC,NFC North,0,0,0,0,0,0,0,0,0,0
+4,135,Dallas Cowboys,Matt Johnson,https://en.wikipedia.org/wiki/Matt_Johnson_(safety) ,S,Eastern Washington,Big Sky,2012135,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+5,136,Indianapolis Colts,Josh Chapman,https://en.wikipedia.org/wiki/Josh_Chapman ,DT,Alabama,SEC,2012136,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+5,137,Denver Broncos,Malik Jackson,https://en.wikipedia.org/wiki/Malik_Jackson_(defensive_end) ,DE,Tennessee,SEC,2012137,SEC,AFC West,0,0,1,0,0,0,0,0,0,1
+5,138,Detroit Lions,Tahir Whitehead,https://en.wikipedia.org/wiki/Tahir_Whitehead ,LB,Temple,MAC,2012138,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+5,139,Minnesota Vikings,Robert Blanton,https://en.wikipedia.org/wiki/Robert_Blanton ,S,Notre Dame,Ind FBS,2012139,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+5,140,Tampa Bay Buccaneers,Najee Goode,https://en.wikipedia.org/wiki/Najee_Goode ,LB,West Virginia,Big East,2012140,Other,NFC South,0,0,1,0,0,0,0,0,0,0
+5,141,Washington Commanders,Adam Gettis,https://en.wikipedia.org/wiki/Adam_Gettis ,OG,Iowa,Big Ten,2012141,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+5,142,Jacksonville Jaguars,Brandon Marshall,https://en.wikipedia.org/wiki/Brandon_Marshall_(linebacker) ,LB,Nevada,WAC,2012142,Other,AFC South,0,0,1,0,0,0,0,0,0,0
+5,143,Carolina Panthers,Josh Norman,https://en.wikipedia.org/wiki/Josh_Norman_(cornerback) ,CB,Coastal Carolina,Big South,2012143,Other,NFC South,0,0,0,0,0,0,0,1,0,1
+5,144,Buffalo Bills,Zebrie Sanders,https://en.wikipedia.org/wiki/Zebrie_Sanders ,OT,Florida State,ACC,2012144,ACC,AFC East,0,0,0,0,0,0,0,0,0,0
+5,145,Tennessee Titans,Taylor Thompson,https://en.wikipedia.org/wiki/Taylor_Thompson_(American_football) ,DE,SMU,CUSA,2012145,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+5,146,Kansas City Chiefs,DeQuan Menzie,https://en.wikipedia.org/wiki/DeQuan_Menzie ,CB,Alabama,SEC,2012146,SEC,AFC West,0,0,0,0,0,0,0,0,0,0
+5,147,Buffalo Bills,Tank Carder,https://en.wikipedia.org/wiki/Tank_Carder ,LB,TCU,MW,2012147,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+5,148,Detroit Lions,Chris Greenwood,https://en.wikipedia.org/wiki/Chris_Greenwood ,CB,Albion,MIAA,2012148,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+5,149,Los Angeles Chargers,Johnnie Troutman,https://en.wikipedia.org/wiki/Johnnie_Troutman ,OG,Penn State,Big Ten,2012149,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+5,150,Los Angeles Rams,Rokevious Watkins,https://en.wikipedia.org/wiki/Rokevious_Watkins ,OG,South Carolina,SEC,2012150,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+5,151,Arizona Cardinals,Senio Kelemete,https://en.wikipedia.org/wiki/Senio_Kelemete ,OG,Washington,Pac12,2012151,Pac12,NFC West,0,0,0,0,0,0,0,0,0,0
+5,152,Dallas Cowboys,Danny Coale,https://en.wikipedia.org/wiki/Danny_Coale ,WR,Virginia Tech,ACC,2012152,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+5,153,Philadelphia Eagles,Dennis Kelly,https://en.wikipedia.org/wiki/Dennis_Kelly_(American_football) ,OT,Purdue,Big Ten,2012153,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+5,154,Seattle Seahawks,Korey Toomer,https://en.wikipedia.org/wiki/Korey_Toomer ,LB,Idaho,WAC,2012154,Other,NFC West,0,0,1,0,0,0,0,0,0,0
+5,155,Miami Dolphins,Josh Kaddu,https://en.wikipedia.org/wiki/Josh_Kaddu ,LB,Oregon,Pac12,2012155,Pac12,AFC East,0,0,0,0,0,0,0,0,0,0
+5,156,Cincinnati Bengals,Shaun Prater,https://en.wikipedia.org/wiki/Shaun_Prater ,CB,Iowa,Big Ten,2012156,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+5,157,Atlanta Falcons,Bradie Ewing,https://en.wikipedia.org/wiki/Bradie_Ewing ,FB,Wisconsin,Big Ten,2012157,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+5,158,Las Vegas Raiders,Jack Crawford,https://en.wikipedia.org/wiki/Jack_Crawford_(American_football) ,DE,Penn State,Big Ten,2012158,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+5,159,Pittsburgh Steelers,Chris Rainey,https://en.wikipedia.org/wiki/Chris_Rainey ,RB,Florida,SEC,2012159,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+5,160,Cleveland Browns,Ryan Miller,https://en.wikipedia.org/wiki/Ryan_Miller_(American_football) ,OG,Colorado,Pac12,2012160,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+5,161,Houston Texans,Randy Bullock,https://en.wikipedia.org/wiki/Randy_Bullock ,K,Texas AM,Big 12,2012161,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+5,162,New Orleans Saints,Corey White,https://en.wikipedia.org/wiki/Corey_White_(defensive_back) ,S,Samford,SoCon,2012162,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+5,163,Green Bay Packers,Terrell Manning,https://en.wikipedia.org/wiki/Terrell_Manning ,LB,NC State,ACC,2012163,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+5,164,Atlanta Falcons,Jonathan Massaquoi,https://en.wikipedia.org/wiki/Jonathan_Massaquoi ,DE,Troy,Sun Belt,2012164,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+5,165,San Francisco 49ers,Darius Fleming,https://en.wikipedia.org/wiki/Darius_Fleming ,LB,Notre Dame,Ind FBS,2012165,Other,NFC West,0,0,1,0,0,0,0,0,0,0
+5,166,Cincinnati Bengals,Marvin Jones,https://en.wikipedia.org/wiki/Marvin_Jones_(wide_receiver) ,WR,California,Pac12,2012166,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+5,167,Cincinnati Bengals,George Iloka,https://en.wikipedia.org/wiki/George_Iloka ,S,Boise State,MW,2012167,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+5,168,Las Vegas Raiders,Juron Criner,https://en.wikipedia.org/wiki/Juron_Criner ,WR,Arizona,Pac12,2012168,Pac12,AFC West,0,0,0,0,0,0,0,0,0,0
+5,169,Baltimore Ravens,Asa Jackson,https://en.wikipedia.org/wiki/Asa_Jackson ,CB,Cal Poly,Great West,2012169,Other,AFC North,0,0,1,0,0,0,0,0,0,0
+5,170,Indianapolis Colts,Vick Ballard,https://en.wikipedia.org/wiki/Vick_Ballard ,RB,Mississippi State,SEC,2012170,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+6,171,Los Angeles Rams,Greg Zuerlein,https://en.wikipedia.org/wiki/Greg_Zuerlein_(American_football) ,K,Missouri Western,MIAA,2012171,Other,NFC West,0,0,0,0,0,0,0,1,0,1
+6,172,Seattle Seahawks,Jeremy Lane,https://en.wikipedia.org/wiki/Jeremy_Lane_(American_football) ,CB,Northwestern State,Southland,2012172,Other,NFC West,0,0,1,0,0,0,0,0,0,0
+6,173,Washington Commanders,Alfred Morris,https://en.wikipedia.org/wiki/Alfred_Morris_(American_football) ,RB,Florida Atlantic,Sun Belt,2012173,Other,NFC East,0,0,0,0,0,0,0,0,1,2
+6,174,Tampa Bay Buccaneers,Keith Tandy,https://en.wikipedia.org/wiki/Keith_Tandy ,CB,West Virginia,Big East,2012174,Other,NFC South,0,0,1,0,0,0,0,0,0,0
+6,175,Minnesota Vikings,Blair Walsh,https://en.wikipedia.org/wiki/Blair_Walsh ,K,Georgia,SEC,2012175,SEC,NFC North,0,0,0,0,0,0,0,1,0,1
+6,176,Jacksonville Jaguars,Mike Harris,https://en.wikipedia.org/wiki/Mike_Harris_(American_football) ,CB,Florida State,ACC,2012176,ACC,AFC South,0,0,0,0,0,0,0,0,0,0
+6,177,Arizona Cardinals,Justin Bethel,https://en.wikipedia.org/wiki/Justin_Bethel ,S,Presbyterian,Big South,2012177,Other,NFC West,0,0,0,0,0,0,0,2,0,3
+6,178,Buffalo Bills,Mark Asper,https://en.wikipedia.org/wiki/Mark_Asper ,OG,Oregon,Pac12,2012178,Pac12,AFC East,0,0,0,0,0,0,0,0,0,0
+6,179,New Orleans Saints,Andrew Tiller,https://en.wikipedia.org/wiki/Andrew_Tiller ,OG,Syracuse,Big East,2012179,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+6,180,San Francisco 49ers,Trenton Robinson,https://en.wikipedia.org/wiki/Trenton_Robinson ,S,Michigan State,Big Ten,2012180,Big Ten,NFC West,0,0,0,0,0,0,0,0,0,0
+6,181,Seattle Seahawks,Winston Guy,https://en.wikipedia.org/wiki/Winston_Guy ,S,Kentucky,SEC,2012181,SEC,NFC West,0,0,0,0,0,0,0,0,0,0
+6,182,Kansas City Chiefs,Cyrus Gray,https://en.wikipedia.org/wiki/Cyrus_Gray ,RB,Texas AM,Big 12,2012182,Big 12,AFC West,0,0,0,0,0,0,0,0,0,0
+6,183,Miami Dolphins,BJ Cunningham,https://en.wikipedia.org/wiki/B.J._Cunningham ,WR,Michigan State,Big Ten,2012183,Big Ten,AFC East,0,0,0,0,0,0,0,0,0,0
+6,184,Chicago Bears,Isaiah Frey,https://en.wikipedia.org/wiki/Isaiah_Frey ,CB,Nevada,WAC,2012184,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+6,185,Arizona Cardinals,Ryan Lindley,https://en.wikipedia.org/wiki/Ryan_Lindley ,QB,San Diego State,MW,2012185,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+6,186,Dallas Cowboys,James Hanna,https://en.wikipedia.org/wiki/James_Hanna_(American_football) ,TE,Oklahoma,Big 12,2012186,Big 12,NFC East,0,0,0,0,0,0,0,0,0,0
+6,187,New York Jets,Josh Bush,https://en.wikipedia.org/wiki/Josh_Bush ,S,Wake Forest,ACC,2012187,ACC,AFC East,0,0,1,0,0,0,0,0,0,0
+6,188,Denver Broncos,Danny Trevathan,https://en.wikipedia.org/wiki/Danny_Trevathan ,LB,Kentucky,SEC,2012188,SEC,AFC West,0,0,1,0,0,0,0,0,0,0
+6,189,Las Vegas Raiders,Christo Bilukidi,https://en.wikipedia.org/wiki/Christo_Bilukidi ,DT,Georgia State,Ind FCS,2012189,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+6,190,Tennessee Titans,Markelle Martin,https://en.wikipedia.org/wiki/Markelle_Martin ,S,Oklahoma State,Big 12,2012190,Big 12,AFC South,0,0,0,0,0,0,0,0,0,0
+6,191,Cincinnati Bengals,Dan Herron,https://en.wikipedia.org/wiki/Dan_Herron ,RB,Ohio State,Big Ten,2012191,Big Ten,AFC North,0,0,0,0,0,0,0,0,0,0
+6,192,Atlanta Falcons,Charles Mitchell,https://en.wikipedia.org/wiki/Charles_Mitchell_(American_football) ,S,Mississippi State,SEC,2012192,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+6,193,Washington Commanders,Tom Compton,https://en.wikipedia.org/wiki/Tom_Compton ,OT,South Dakota,Great West,2012193,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+6,194,Philadelphia Eagles,Marvin McNutt,https://en.wikipedia.org/wiki/Marvin_McNutt ,WR,Iowa,Big Ten,2012194,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+6,195,Houston Texans,Nick Mondek,https://en.wikipedia.org/wiki/Nick_Mondek ,OT,Purdue,Big Ten,2012195,Big Ten,AFC South,0,0,0,0,0,0,0,0,0,0
+6,196,Detroit Lions,Jonte Green,https://en.wikipedia.org/wiki/Jonte_Green ,CB,New Mexico State,WAC,2012196,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+6,197,New England Patriots,Nate Ebner,https://en.wikipedia.org/wiki/Nate_Ebner ,S,Ohio State,Big Ten,2012197,Big Ten,AFC East,0,0,3,0,0,0,0,0,0,0
+6,198,Baltimore Ravens,Tommy Streeter,https://en.wikipedia.org/wiki/Tommy_Streeter ,WR,Miami FL,ACC,2012198,ACC,AFC North,0,0,1,0,0,0,0,0,0,0
+6,199,San Francisco 49ers,Jason Slowey,https://en.wikipedia.org/wiki/Jason_Slowey ,OT,Western Oregon,GNAC,2012199,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+6,200,Philadelphia Eagles,Brandon Washington,https://en.wikipedia.org/wiki/Brandon_Washington ,OG,Miami FL,ACC,2012200,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+6,201,New York Giants,Matt McCants,https://en.wikipedia.org/wiki/Matt_McCants ,OT,UAB,CUSA,2012201,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+6,202,New York Jets,Terrance Ganaway,https://en.wikipedia.org/wiki/Terrance_Ganaway ,RB,Baylor,Big 12,2012202,Big 12,AFC East,0,0,0,0,0,0,0,0,0,0
+6,203,New York Jets,Robert Griffin,https://en.wikipedia.org/wiki/Robert_Griffin_(offensive_lineman) ,OG,Baylor,Big 12,2012203,Big 12,AFC East,0,0,0,0,0,0,0,0,0,0
+6,204,Cleveland Browns,Emmanuel Acho,https://en.wikipedia.org/wiki/Emmanuel_Acho ,LB,Texas,Big 12,2012204,Big 12,AFC North,0,0,0,0,0,0,0,0,0,0
+6,205,Cleveland Browns,Billy Winn,https://en.wikipedia.org/wiki/Billy_Winn_(American_football) ,DT,Boise State,MW,2012205,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+6,206,Indianapolis Colts,LaVon Brazill,https://en.wikipedia.org/wiki/LaVon_Brazill ,WR,Ohio,MAC,2012206,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+6,207,Carolina Panthers,Brad Nortman,https://en.wikipedia.org/wiki/Brad_Nortman ,P,Wisconsin,Big Ten,2012207,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+7,208,Indianapolis Colts,Justin Anderson,https://en.wikipedia.org/wiki/Justin_Anderson_(offensive_lineman) ,OG,Georgia,SEC,2012208,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+7,209,Los Angeles Rams,AaronBrown,,LB,Hawaii,WAC,2012209,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+7,210,Minnesota Vikings,Audie Cole,https://en.wikipedia.org/wiki/Audie_Cole ,LB,NC State,ACC,2012210,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+7,211,Tennessee Titans,Scott Solomon,https://en.wikipedia.org/wiki/Scott_Solomon ,DE,Rice,CUSA,2012211,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+7,212,Tampa Bay Buccaneers,Michael Smith,https://en.wikipedia.org/wiki/Michael_Smith_(running_back) ,RB,Utah State,WAC,2012212,Other,NFC South,0,0,0,0,0,0,0,0,0,0
+7,213,Washington Commanders,Richard Crawford,https://en.wikipedia.org/wiki/Richard_Crawford_(American_football) ,CB,SMU,CUSA,2012213,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+7,214,Indianapolis Colts,TimFugger,,LB,Vanderbilt,SEC,2012214,SEC,AFC South,0,0,0,0,0,0,0,0,0,0
+7,215,Miami Dolphins,Kheeston Randall,https://en.wikipedia.org/wiki/Kheeston_Randall ,DT,Texas,Big 12,2012215,Big 12,AFC East,0,0,0,0,0,0,0,0,0,0
+7,216,Carolina Panthers,D J Campbell,https://en.wikipedia.org/wiki/D._J._Campbell_(American_football) ,S,California,Pac12,2012216,Pac12,NFC South,0,0,0,0,0,0,0,0,0,0
+7,217,Washington Commanders,Jordan Bernstine,https://en.wikipedia.org/wiki/Jordan_Bernstine ,CB,Iowa,Big Ten,2012217,Big Ten,NFC East,0,0,0,0,0,0,0,0,0,0
+7,218,Kansas City Chiefs,Jerome Long,https://en.wikipedia.org/wiki/Jerome_Long ,DT,San Diego State,MW,2012218,Other,AFC West,0,0,0,0,0,0,0,0,0,0
+7,219,Minnesota Vikings,Trevor Guyton,https://en.wikipedia.org/wiki/Trevor_Guyton ,DE,California,Pac12,2012219,Pac12,NFC North,0,0,0,0,0,0,0,0,0,0
+7,220,Chicago Bears,Greg McCoy,https://en.wikipedia.org/wiki/Greg_McCoy ,CB,TCU,MW,2012220,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+7,221,Arizona Cardinals,Nate Potter,https://en.wikipedia.org/wiki/Nate_Potter ,OT,Boise State,MW,2012221,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+7,222,Dallas Cowboys,Caleb McSurdy,https://en.wikipedia.org/wiki/Caleb_McSurdy ,ILB,Montana,Big Sky,2012222,Other,NFC East,0,0,0,0,0,0,0,0,0,0
+7,223,Detroit Lions,Travis Lewis,https://en.wikipedia.org/wiki/Travis_Lewis ,OLB,Oklahoma,Big 12,2012223,Big 12,NFC North,0,0,0,0,0,0,0,0,0,0
+7,224,New England Patriots,Alfonzo Dennard,https://en.wikipedia.org/wiki/Alfonzo_Dennard ,CB,Nebraska,Big Ten,2012224,Big Ten,AFC East,0,0,1,0,0,0,0,0,0,0
+7,225,Seattle Seahawks,J R Sweezy,https://en.wikipedia.org/wiki/J._R._Sweezy ,OG,NC State,ACC,2012225,ACC,NFC West,0,0,1,0,0,0,0,0,0,0
+7,226,Los Angeles Chargers,David Molk,https://en.wikipedia.org/wiki/David_Molk ,C,Michigan,Big Ten,2012226,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+7,227,Miami Dolphins,Rishard Matthews,https://en.wikipedia.org/wiki/Rishard_Matthews ,WR,Nevada,WAC,2012227,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+7,228,Jacksonville Jaguars,Jeris Pendleton,https://en.wikipedia.org/wiki/Jeris_Pendleton ,DT,Ashland,GLIAC,2012228,Other,AFC South,0,0,0,0,0,0,0,0,0,0
+7,229,Philadelphia Eagles,Bryce Brown,https://en.wikipedia.org/wiki/Bryce_Brown ,RB,Kansas State,Big 12,2012229,Big 12,NFC East,0,0,0,0,0,0,0,0,0,0
+7,230,Las Vegas Raiders,Nathan Stupar,https://en.wikipedia.org/wiki/Nathan_Stupar ,OLB,Penn State,Big Ten,2012230,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+7,231,Pittsburgh Steelers,Toney Clemons,https://en.wikipedia.org/wiki/Toney_Clemons ,WR,Colorado,Pac12,2012231,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+7,232,Seattle Seahawks,Greg Scruggs,https://en.wikipedia.org/wiki/Greg_Scruggs ,DE,Louisville,Big East,2012232,Other,NFC West,0,0,2,0,0,0,0,0,0,0
+7,233,Tampa Bay Buccaneers,Drake Dunsmore,https://en.wikipedia.org/wiki/Drake_Dunsmore ,TE,Northwestern,Big Ten,2012233,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+7,234,New Orleans Saints,Marcel Jones,https://en.wikipedia.org/wiki/Marcel_Jones ,OT,Nebraska,Big Ten,2012234,Big Ten,NFC South,0,0,0,0,0,0,0,0,0,0
+7,235,New England Patriots,Jeremy Ebert,https://en.wikipedia.org/wiki/Jeremy_Ebert ,WR,Northwestern,Big Ten,2012235,Big Ten,AFC East,0,0,0,0,0,0,0,0,0,0
+7,236,Baltimore Ravens,DeAngelo Tyson,https://en.wikipedia.org/wiki/DeAngelo_Tyson ,DT,Georgia,SEC,2012236,SEC,AFC North,0,0,1,0,0,0,0,0,0,0
+7,237,San Francisco 49ers,Cam Johnson,https://en.wikipedia.org/wiki/Cam_Johnson ,DE,Virginia,ACC,2012237,ACC,NFC West,0,0,0,0,0,0,0,0,0,0
+7,238,Kansas City Chiefs,Junior Hemingway,https://en.wikipedia.org/wiki/Junior_Hemingway ,WR,Michigan,Big Ten,2012238,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+7,239,New York Giants,Markus Kuhn,https://en.wikipedia.org/wiki/Markus_Kuhn_(American_football) ,DT,NC State,ACC,2012239,ACC,NFC East,0,0,0,0,0,0,0,0,0,0
+7,240,Pittsburgh Steelers,David Paulson,https://en.wikipedia.org/wiki/David_Paulson ,TE,Oregon,Pac12,2012240,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+7,241,Green Bay Packers,Andrew Datko,https://en.wikipedia.org/wiki/Andrew_Datko ,OT,Florida State,ACC,2012241,ACC,NFC North,0,0,0,0,0,0,0,0,0,0
+7,242,New York Jets,Antonio Allen,https://en.wikipedia.org/wiki/Antonio_Allen ,S,South Carolina,SEC,2012242,SEC,AFC East,0,0,0,0,0,0,0,0,0,0
+7,243,Green Bay Packers,B J Coleman,https://en.wikipedia.org/wiki/B._J._Coleman ,QB,Chattanooga,SoCon,2012243,Other,NFC North,0,0,0,0,0,0,0,0,0,0
+7,244,New York Jets,Jordan White,https://en.wikipedia.org/wiki/Jordan_White_(American_football) ,WR,Western Michigan,MAC,2012244,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+7,245,Cleveland Browns,Trevin Wade,https://en.wikipedia.org/wiki/Trevin_Wade ,CB,Arizona,Pac12,2012245,Pac12,AFC North,0,0,0,0,0,0,0,0,0,0
+7,246,Pittsburgh Steelers,Terrence Frederick,https://en.wikipedia.org/wiki/Terrence_Frederick ,CB,Texas AM,Big 12,2012246,Big 12,AFC North,0,0,0,0,0,0,0,0,0,0
+7,247,Cleveland Browns,Brad Smelley,https://en.wikipedia.org/wiki/Brad_Smelley ,TE,Alabama,SEC,2012247,SEC,AFC North,0,0,0,0,0,0,0,0,0,0
+7,248,Pittsburgh Steelers,Kelvin Beachum,https://en.wikipedia.org/wiki/Kelvin_Beachum ,OG,SMU,CUSA,2012248,Other,AFC North,0,0,0,0,0,0,0,0,0,0
+7,249,Atlanta Falcons,Travian Robertson,https://en.wikipedia.org/wiki/Travian_Robertson ,DT,South Carolina,SEC,2012249,SEC,NFC South,0,0,0,0,0,0,0,0,0,0
+7,250,Los Angeles Chargers,Edwin Baker,https://en.wikipedia.org/wiki/Edwin_Baker_(American_football) ,RB,Michigan State,Big Ten,2012250,Big Ten,AFC West,0,0,0,0,0,0,0,0,0,0
+7,251,Buffalo Bills,John Potter,https://en.wikipedia.org/wiki/John_Potter_(American_football) ,K,Western Michigan,MAC,2012251,Other,AFC East,0,0,0,0,0,0,0,0,0,0
+7,252,Los Angeles Rams,Daryl Richardson,https://en.wikipedia.org/wiki/Daryl_Richardson ,RB,Abilene Christian,LSC,2012252,Other,NFC West,0,0,0,0,0,0,0,0,0,0
+7,253,Indianapolis Colts,Chandler Harnish,https://en.wikipedia.org/wiki/Chandler_Harnish ,QB,Northern Illinois,MAC,2012253,Other,AFC South,0,0,0,0,0,0,0,0,0,0

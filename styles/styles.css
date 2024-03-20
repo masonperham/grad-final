@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+
+
+body{
+	background-color: #FFFFFF;
+	color: #333;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1{
+	font-size: x-large;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+a:link, a:visited{
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover, a:active{
+	color: blue;
+	text-decoration:none;
+}
+
+main{
+	margin-top: 10px;
+	border-top: 1px solid #333;
+}
+
+footer{
+	clear: left;
+	padding-top: 15px;
+	margin-top: 50px;
+	border-top:1px solid #333;
+}
+footer p {
+	font-size: small;
+	margin: 0px;
+}
+
+nav {
+	position: relative;
+	display: inline-block;
+​    z-index: 2;
+	padding: 0 0 8px 0;
+    margin: 0;
+    outline: 0;
+    text-align: left;
+}
+nav:before {
+    content: "\2630 \a0 Menu"; 
+}
+nav:focus {
+	pointer-events: none;
+}
+nav:focus .menu_dropdown {
+	opacity: 1;
+	visibility: visible;
+}
+div.menu_dropdown {
+    width: auto;
+    margin: 3px 0 0 0;
+    padding-left: 4px;
+    border-radius: 3px;
+    border: 1px #333 solid;
+    pointer-events: auto;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 1s;
+    background: #FFF;
+}
+div.menu_dropdown a {
+    background: transparent;
+    border: none;
+    outline: 0;
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    padding: 5px;
+}
+nav p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+nav a {
+	text-decoration: none;
+	color: #333;
+}
+nav a:hover, nav a:active {
+	text-decoration: underline;
+}
+
+em{
+	font-size: x-large;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+.thislink{
+	font-weight:bold;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0 10 px;
+}
+
+.lone{
+	float: left;
+	margin: 5px 30px 20px 0px;
+}
+.loneright{
+	float: right;
+	margin: 5px 30px 20px 0px;
+}
+
+@media screen and (max-width: 600px){
+	h3 {text-align: center;}
+	
+	main {text-align: center;}
+	main img {float: none; margin: 0; width: 240px; height: 300px; }
+	main p {text-align: justify;}
+	main li {text-align: left;}
+
+.image-container img{
+	float: left;
+	margin: 0px 20px 20px 0px;
+	width: 45%;
+}
+
+	.lone{float: none; margin: 0; width: 240px; height: 300px; }
+	.loneright{float: none; margin: 0; width: 240px; height: 300px; }
+	
+	
+	footer {clear: none;}
+	.big {clear: none;}
+}
+
+@media screen and (min-width: 601px){
+	main img {width: 300px; heigth: 375px;}
+}
+
+main section.content{
+	padding-top: 10px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.big{margin-top: 200px}
+

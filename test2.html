@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>SANKEY Experiment</title>
+<head>
+	<link href="styles/styles.css" rel="stylesheet" type="text/css">
+ </head>
+<body>
+<style>
+
+body{
+	background-color: #FAF9F6;
+	color: #333;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+</style>
+
+<header>
+  <h1>NFL Draft Visual</h1>
+</header>
+
+<nav tabindex="0">
+  <div class="menu_dropdown">
+    <p><a href="index.html">Home</p>
+    <p class = "thislink">Final Visualization</a></p>
+    <p><a href="ProcessBook.html">Process Book</a></p>
+    <p><a href="Presentation.html">Presentation</a></p>
+  </div>
+  </nav>
+<main>
+  <h3>
+  <label>Select a Year</label>
+  <select id="select_year" onchange="updateSankey()">
+    <option value="total">All</option>
+    <option value="2010">2010</option>
+    <option value="2011">2011</option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+  </select></h3>
+  
+  <div id="Column_div">
+    <label>Round of Draft</label>
+  </div>
+  <div id="sankey_div"></div>
+
+  <label>Select a Division</label>
+  <select id="select_div" onchange="updateStacks()">
+    <option value="AFCNorth">AFC North</option>
+    <option value="AFCEast">AFC East</option>
+    <option value="AFCSouth">AFC South</option>
+    <option value="AFCWest">AFC West</option>
+    <option value="NFCNorth">NFC North</option>
+    <option value="NFCEast">NFC East</option>
+    <option value="NFCSouth">NFC South</option>
+    <option value="NFCWest">NFC West</option>
+  </select>
+
+  <div id="confstack_div"></div>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="sankey.js"></script>
+  <script>
+    
+    window.onload = start()
+
+    function start() {
+      makeSankey();
+      makeConfStack();
+    }
+
+    function makeSankey(){
+      var units = "Players";
+
+      // set the dimensions and margins of the graph
+      var margin = {top: 10, right: 10, bottom: 10, left: 10},
+          width = 1500 - margin.left - margin.right,
+          height = 800 - margin.top - margin.bottom;
+
+      // format variables
+      var formatNumber = d3.format(",.0f"),    // zero decimal places
+          format = function(d) { return formatNumber(d) + " " + units; },
+          color = d3.scaleOrdinal(d3.schemeCategory10);
+
+      // append the svg object to the body of the page
+      var svg = d3.select("#sankey_div").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform", 
+                "translate(" + margin.left + "," + margin.top + ")");
+
+      // Set the sankey diagram properties
+      var sankey = d3.sankey()
+          .nodeWidth(36)
+          .nodePadding(40)
+          .size([width, height]);
+
+      var path = sankey.link();
+
+      // load the data
+      // var sankeyDataFile = "python/results/total/stv_total.csv"
+      var sankeyDataFile = "python/results/" + document.getElementById("select_year").value + "/stv_" + document.getElementById("select_year").value + ".csv"
+      d3.csv(sankeyDataFile, function(error, data) {
+      
+        //set up graph in same style as original example but empty
+        graph = {"nodes" : [], "links" : []};
+
+        data.forEach(function (d) {
+          graph.nodes.push({ "name": d.source });
+          graph.nodes.push({ "name": d.target });
+          graph.links.push({ "source": d.source,
+                            "target": d.target,
+                            "value": +d.value });
+        });
+
+        // return only the distinct / unique nodes
+        graph.nodes = d3.keys(d3.nest()
+          .key(function (d) { return d.name; })
+          .object(graph.nodes));
+
+        // loop through each link replacing the text with its index from node
+        graph.links.forEach(function (d, i) {
+          graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
+          graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
+        });
+
+        // now loop through each nodes to make nodes an array of objects
+        // rather than an array of strings
+        graph.nodes.forEach(function (d, i) {
+          graph.nodes[i] = { "name": d };
+        });
+
+        sankey
+            .nodes(graph.nodes)
+            .links(graph.links)
+            .layout(32);
+
+        // add in the links
+        var link = svg.append("g").selectAll(".link")
+            .data(graph.links)
+          .enter().append("path")
+            .attr("class", "link")
+            .attr("d", path)
+            .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+            .style('stroke', function(d) {
+                  var color;
+                  if (d.target.name == 'SEC') {
+                      color = '#ffd046';
+                  } else if (d.target.name == 'ACC') {
+                      color = '#013ca6';
+                  } else if (d.target.name == 'Pac12') {
+                      color = '#04223f';
+                  } else if (d.target.name == 'Big 12') {
+                      color = '#ef483e';
+                  } else if (d.target.name == 'Big Ten') {
+                      color = '#0088CE';
+                  } else if (d.target.name == 'Other') {
+                      color = '#808080';
+                  } else if (d.target.name.startsWith('A')) {
+                      color = '#D50A0A';
+                  } else if (d.target.name.startsWith('N')) {
+                      color = '#013369';
+                  }
+                  return color;
+              })
+            .sort(function(a, b) { return b.dy - a.dy; });
+
+        // add the link titles
+        link.append("title")
+              .text(function(d) {
+              return d.source.name + " → " + 
+                      d.target.name + "\n" + format(d.value); });
+
+        // add in the nodes
+        var node = svg.append("g").selectAll(".node")
+            .data(graph.nodes)
+          .enter().append("g")
+            .attr("class", "node")
+            .attr("transform", function(d) { 
+            return "translate(" + d.x + "," + d.y + ")"; })
+            .call(d3.drag()
+              .subject(function(d) {
+                return d;
+              })
+              .on("start", function() {
+                this.parentNode.appendChild(this);
+              })
+              .on("drag", dragmove))
+
+        // add the rectangles for the nodes
+        node.append("rect")
+            .attr("height", function(d) { return d.dy; })
+            .attr("width", sankey.nodeWidth())
+            .style("fill", function(d){
+              if(d.name == 'SEC'){
+                return '#ffd046'
+              }
+              else if (d.name == 'ACC'){
+                return '#013ca6'
+              }
+              else if (d.name == 'Pac12'){
+                return '#04223f'
+              }
+              else if (d.name == 'Big 12'){
+                return '#ef483e'
+              }
+              else if (d.name == 'Big Ten'){
+                return '#0088CE'
+              }
+              else if (d.name == 'Other'){
+                return '#808080'
+              }
+              else if (d.name.startsWith('A')){
+                return '#D50A0A'
+              }
+              else if (d.name.startsWith('N')){
+                return '#013369'
+              }
+            })
+            .style("stroke", function(d) { 
+            return d3.rgb(d.color).darker(2); })
+          .append("title")
+            .text(function(d) { 
+            return d.name + "\n" + format(d.value); });
+
+        // add in the title for the nodes
+        node.append("text")
+            .attr("x", -6)
+            .attr("y", function(d) { return d.dy / 2; })
+            .attr("dy", ".35em")
+            .attr("text-anchor", "end")
+            .attr("transform", null)
+            .text(function(d) { return d.name; })
+          .filter(function(d) { return d.x < width / 2; })
+            .attr("x", 6 + sankey.nodeWidth())
+            .attr("text-anchor", "start");
+
+        // the function for moving the nodes
+        function dragmove(d) {
+          d3.select(this)
+            .attr("transform", 
+                  "translate(" 
+                    + d.x + "," 
+                    + (d.y = Math.max(
+                        0, Math.min(height - d.dy, d3.event.y))
+                      ) + ")");
+          sankey.relayout();
+          link.attr("d", path);
+        }
+      });
+    }
+
+    function updateSankey() {
+      d3.select("#sankey_div").selectAll("*").remove();
+      makeSankey();
+      updateStacks();
+    }
+
+    function updateStacks() {
+      d3.select('#confstack_div').selectAll('*').remove();
+      makeConfStack();
+    }
+
+    function makeConfStack() {
+      var stackDataFile = "python/results/" + document.getElementById("select_year").value + "/conf_stack/conf_stack_" 
+        + document.getElementById("select_year").value + document.getElementById("select_div").value + ".csv";
+
+      // set the dimensions and margins of the graph
+      var margin = {top: 10, right: 30, bottom: 20, left: 50},
+          width = 600 - margin.left - margin.right,
+          height = 400 - margin.top - margin.bottom;
+
+      // append the svg object to the body of the page
+      var svg = d3.select("#confstack_div")
+        .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+      // Parse the Data
+      d3.csv(stackDataFile, function(data) {
+
+        var legendw=100
+
+        // List of subgroups = header of the csv files = soil condition here
+        var subgroups = Object.keys(data[0]).slice(1)
+
+        // List of groups = species here = value of the first column called group -> I show them on the X axis
+        var groups = d3.map(data, function(d){return(d.Team)}).keys()
+
+        //stack the data? --> stack per subgroup
+        var stackedData = d3.stack()
+          .keys(subgroups)
+          (data)
+
+        // Add X axis
+        var x = d3.scaleBand()
+            .domain(groups)
+            .range([0, width - legendw])
+            .padding([0.2])
+        svg.append("g")
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(x).tickSizeOuter(0));
+
+        // Add Y axis
+        var y = d3.scaleLinear()
+          .domain([0, d3.max(stackedData, stackMax)])
+          .range([ height, 0 ]);
+        svg.append("g")
+          .call(d3.axisLeft(y));
+
+        // color palette = one color per subgroup
+        var color = d3.scaleOrdinal()
+          .domain(subgroups)
+          .range(['#013ca6','#ef483e','#0088CE', '#ffd046','#04223f', '#808080'])
+
+        // Show the bars
+        svg.append("g")
+          .selectAll("g")
+          // Enter in the stack data = loop key per key = group per group
+          .data(stackedData)
+          .enter().append("g")
+            .attr("fill", function(d) { return color(d.key); })
+            .selectAll("rect")
+            // enter a second time = loop subgroup per subgroup to add all rectangles
+            .data(function(d) { return d; })
+            .enter().append("rect")
+              .attr("x", function(d) { return x(d.data.Team); })
+              .attr("y", function(d) { return y(d[1]); })
+              .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+              .attr("width",x.bandwidth())
+
+        // legend
+        var legendh=100, padding=10
+        var legend = svg.append('g')
+          .attr('class', 'legend')
+          .attr('transform', 'translate(' + (width - legendw + padding) + ','+ (height - legendh)  + ')');
+
+        legend.selectAll('rect')
+            .data(stackedData)
+            .enter()
+            .append('rect')
+            .attr('x', 0)
+            .attr('y', function(d,i){
+                return i * 18;
+            })
+            .attr('width', 12)
+            .attr('height', 12)
+            .attr('fill', function(d,i){
+                console.log(color(i));
+                return color(i);
+            });
+
+        legend.selectAll('text')
+            .data(stackedData)
+            .enter()
+            .append('text')
+            .text(function(d){
+                return d.key;
+            })
+            .attr('x', 15)
+            .attr('y', function(d, i){
+                return i * 18;
+            })
+            .attr('text-anchor', 'start')
+            .attr('alignment-baseline', 'hanging');
+      })
+
+      function stackMin(serie) {
+        return d3.min(serie, function(d) { return d[0]; });
+      }
+
+      function stackMax(serie) {
+          return d3.max(serie, function(d) { return d[1]; });
+      }
+    }
+
+
+  </script>
+
+</main>
+  <footer>
+    <p><a href="index.html">Home</a></p>
+  </footer>
+</body>

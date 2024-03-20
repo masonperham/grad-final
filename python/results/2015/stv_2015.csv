@@ -1,0 +1,90 @@
+source,target,value
+1,ACC,9
+1,Big 12,2
+1,Big Ten,3
+1,Other,2
+1,Pac12,9
+1,SEC,7
+2,ACC,4
+2,Big 12,1
+2,Big Ten,8
+2,Other,4
+2,Pac12,6
+2,SEC,9
+3,ACC,7
+3,Big 12,4
+3,Big Ten,4
+3,Other,4
+3,Pac12,10
+3,SEC,6
+4,ACC,7
+4,Big 12,4
+4,Big Ten,6
+4,Other,5
+4,Pac12,5
+4,SEC,10
+5,ACC,4
+5,Big 12,3
+5,Big Ten,10
+5,Other,14
+5,Pac12,3
+5,SEC,6
+6,ACC,11
+6,Big 12,6
+6,Big Ten,3
+6,Other,10
+6,Pac12,3
+6,SEC,8
+7,ACC,5
+7,Big 12,5
+7,Big Ten,1
+7,Other,17
+7,Pac12,3
+7,SEC,8
+ACC,AFC East,9
+ACC,AFC North,6
+ACC,AFC South,6
+ACC,AFC West,5
+ACC,NFC East,6
+ACC,NFC North,4
+ACC,NFC South,5
+ACC,NFC West,6
+Big 12,AFC East,4
+Big 12,AFC North,2
+Big 12,AFC West,3
+Big 12,NFC East,5
+Big 12,NFC North,5
+Big 12,NFC South,1
+Big 12,NFC West,5
+Big Ten,AFC East,3
+Big Ten,AFC North,6
+Big Ten,AFC South,3
+Big Ten,AFC West,4
+Big Ten,NFC East,5
+Big Ten,NFC North,7
+Big Ten,NFC South,4
+Big Ten,NFC West,3
+Other,AFC East,6
+Other,AFC North,6
+Other,AFC South,8
+Other,AFC West,9
+Other,NFC East,4
+Other,NFC North,5
+Other,NFC South,9
+Other,NFC West,9
+Pac12,AFC East,3
+Pac12,AFC North,11
+Pac12,AFC South,5
+Pac12,AFC West,3
+Pac12,NFC East,3
+Pac12,NFC North,6
+Pac12,NFC South,4
+Pac12,NFC West,4
+SEC,AFC East,5
+SEC,AFC North,7
+SEC,AFC South,10
+SEC,AFC West,9
+SEC,NFC East,7
+SEC,NFC North,4
+SEC,NFC South,5
+SEC,NFC West,7
