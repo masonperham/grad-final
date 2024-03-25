@@ -3,34 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Scatter Plot</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <title>Document</title>
+    <style>
+        /* Add your CSS styles here */
+        .scatter {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div id="chart-container">
-    </div>
-    <script>
-        d3.csv("joindf_total.csv").then(function(data) {
-            data.forEach(function(d) {
-                // Parse strings to numbers, etc.
-                d.value = +d.value;
-            });
+    <div id="scatter-plots"></div>
 
-            // Create SVG container
-            var svg = d3.select("#chart-container")
+    <script>
+        // Load the data
+        d3.csv("updated_data.csv").then(function(data) {
+            // Group data by round
+            var rounds = d3.group(data, d => d.Round);
+
+            // Create scatter plots for each round
+            rounds.forEach(function(players, round) {
+                createScatterPlot(players, round);
+            });
+        }).catch(function(error) {
+            console.log("Error loading the data: " + error);
+        });
+
+        function createScatterPlot(data, round) {
+            // Set up dimensions and margins
+            var margin = { top: 20, right: 20, bottom: 40, left: 40 };
+            var width = 400 - margin.left - margin.right;
+            var height = 300 - margin.top - margin.bottom;
+
+            var svg = d3.select("#scatter-plots")
+                        .append("div")
+                        .attr("class", "scatter")
                         .append("svg")
-                        .attr("width", 800)
-                        .attr("height", 400);
-            
-            var xScale = d3.scaleBand()
-                           .domain(data.map(function(d) { return d.category; }))
-                           .range([0, 800])
-                           .padding(0.1);
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var xScale = d3.scaleLinear()
+                           .domain([0, d3.max(data, d => +d.Pick_No)])
+                           .range([0, width]);
 
             var yScale = d3.scaleLinear()
-                           .domain([0, d3.max(data, function(d) { return d.value; })])
-                           .range([400, 0]);
-        });
+                           .domain([0, d3.max(data, d => +d.Total_Score)])
+                           .range([height, 0]);
+
+   
+            svg.append("g")
+               .attr("transform", "translate(0," + height + ")")
+               .call(d3.axisBottom(xScale));
+
+    
+            svg.append("g")
+               .call(d3.axisLeft(yScale));
+
+            svg.selectAll("circle")
+               .data(data)
+               .enter()
+               .append("circle")
+               .attr("cx", d => xScale(+d.Pick_No))
+               .attr("cy", d => yScale(+d.Total_Score))
+               .attr("r", 4)
+               .attr("fill", "steelblue");
+
+            svg.append("text")
+               .attr("x", (width / 2))
+               .attr("y", 0 - (margin.top / 2))
+               .attr("text-anchor", "middle")
+               .style("font-size", "16px")
+               .text("Round " + round);
+        }
     </script>
 </body>
 </html>
