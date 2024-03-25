@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="chart-container">
+    </div>
+    <script>
+        d3.csv("joindf_total.csv").then(function(data) {
+            data.forEach(function(d) {
+                // Parse strings to numbers, etc.
+                d.value = +d.value;
+            });
+
+            // Create SVG container
+            var svg = d3.select("#chart-container")
+                        .append("svg")
+                        .attr("width", 800)
+                        .attr("height", 400);
+            
+            var xScale = d3.scaleBand()
+                           .domain(data.map(function(d) { return d.category; }))
+                           .range([0, 800])
+                           .padding(0.1);
+
+            var yScale = d3.scaleLinear()
+                           .domain([0, d3.max(data, function(d) { return d.value; })])
+                           .range([400, 0]);
+        });
+    </script>
+</body>
+</html>
