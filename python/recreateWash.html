@@ -6,7 +6,6 @@
     <title>D3.js Scatter Plot</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        /* Add your CSS styles here */
         .scatter {
             margin-bottom: 20px;
         }
@@ -17,7 +16,7 @@
 
     <script>
         // Load the data
-        d3.csv("updated_data.csv").then(function(data) {
+        d3.csv("/python/results/total/washPostdata.csv").then(function(data) {
             // Group data by round
             var rounds = d3.group(data, d => d.Round);
 
