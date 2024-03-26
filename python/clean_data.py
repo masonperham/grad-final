@@ -120,5 +120,33 @@ def stack_round():
             cur_df = conf_df[conf_df['Div'] == div][['Team', 'Round 1', 'Round 2', 'Round 3', 'Round 4', 'Round 5', 'Round 6', 'Round 7']]
             cur_df.to_csv("results/" + year + "/round_stack/round_stack_" + year + div.replace(' ', '') + ".csv", index=False)
 
+def hive_data():
+    years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
+    for year in years:
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        node_df = pd.DataFrame(columns=['axis', 'value', 'conf', 'team', 'score'])
+        link_df = pd.DataFrame(columns=['from', 'to'])
+        for index, row in cur_df.iterrows():
+
+            cur_score = calcScore(row)
+            start_ix = len(node_df)
+
+            node_df.loc[len(node_df)] = [0, row['Conf_Clean'], row['Conf_Clean'], row['Team'], cur_score]
+            node_df.loc[len(node_df)] = [1, row['Team'], row['Conf_Clean'], row['Team'], cur_score]
+            node_df.loc[len(node_df)] = [2, cur_score, row['Conf_Clean'], row['Team'], cur_score]
+
+            link_df.loc[len(link_df)] = [start_ix, start_ix + 1]
+            link_df.loc[len(link_df)] = [start_ix + 1, start_ix + 2]
+            link_df.loc[len(link_df)] = [start_ix + 2, start_ix]
+
+        node_df.to_csv("results/" + year + "/hivenodes_" + year + ".csv", index=False)
+        link_df.to_csv("results/" + year + "/hivelinks_" + year + ".csv", index=False)
+
+
+def calcScore(row):
+    score = (1 * row['MVP']) + (1 * row['SB_MVP']) + (1 * row['SB_WIN']) + (1 * row['OPOY']) + (1 * row['DPOY']) + (1 * row['OROY']) + (1 * row['DROY']) + (1 * row['First_AP']) + (1 * row['Second_AP']) + (1 * row['Pro_Bowl'])
+    return score
+
 # stack_conf()
 # stack_round()
+hive_data()

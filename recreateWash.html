@@ -12,11 +12,22 @@
     </style>
 </head>
 <body>
+
+    <nav tabindex="0">
+        <div class="menu_dropdown">
+          <p><a href="index.html">Home</p>
+          <p class = "thislink">Final Visualization</a></p>
+          <p><a href="ProcessBook.html">Process Book</a></p>
+          <p><a href="Presentation.html">Presentation</a></p>
+          <p><a href="recreateWash.html">Washington Post</a></p>
+        </div>
+    </nav>
+
     <div id="scatter-plots"></div>
 
     <script>
         // Load the data
-        d3.csv("/python/results/total/washPostdata.csv").then(function(data) {
+        d3.csv("python/results/total/washPostdata.csv").then(function(data) {
             // Group data by round
             var rounds = d3.group(data, d => d.Round);
 
