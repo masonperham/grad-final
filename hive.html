@@ -43,6 +43,24 @@
 
     h3 {
         font-family: 'Helvetica';
+        margin-left: 20px;
+    }
+
+    #player-context {
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    #context {
+        display: flex; 
+        justify-content: space-evenly;
+        align-content: flex-start;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
     }
     </style>
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
@@ -90,11 +108,19 @@
         </div>
 
         <div id="context">
-            <h3 id="node-info">Node Info: </h3>
+            <div id="node-context">
+                <h3 id="node-info">Context: </h3>
+            </div>
+
+            <div id="player-context">
+                <h3 id="player-name"> </h3>
+                <h3 id="player-pos"> </h3>
+                <h3 id="player-team"> </h3>
+                <h3 id="player-college"> </h3>
+            </div>
         </div>
 
         <div id="svg-container"></div>
-
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3.hive.v0.min.js"></script>
@@ -105,8 +131,8 @@
         function makeHive() {
 
             d3.select("#svg-container").selectAll("*").remove();
-            var width = 1600,
-            height = 1000,
+            var width = 1300,
+            height = 800,
             innerRadius = 50,
             outerRadius = [400, 800, 500];
 
@@ -203,7 +229,7 @@
                 .attr("width", width)
                 .attr("height", height)
                 .append("g")
-                .attr("transform", "translate(" + width / 3 + "," + height / 2.5 + ")");
+                .attr("transform", "translate(" + width / 3 + "," + height / 2 + ")");
 
                 svg
                 .selectAll(".axis")
@@ -289,7 +315,7 @@
                     .append('circle')
                     .attr("class", 'legend-circle')
                     .attr('r', 10)
-                    .attr('cx', width * 0.5)
+                    .attr('cx', width * .6)
                     .attr('cy', function (d) {
                         return 100 + (30 * d.numb);
                     })
@@ -302,7 +328,7 @@
                     .enter()
                     .append("text")
                     .attr('class', 'legend-text')
-                    .attr("x", width * 0.5 + 20)
+                    .attr("x", width * .6 + 20)
                     .attr("y", function (d) {
                         return 100 + (30 * d.numb);
                     })
@@ -346,6 +372,10 @@
                         text.innerHTML = text.innerHTML + "Team - " + d.value;
                     } else if(d.x == 2) {
                         text.innerHTML = text.innerHTML + "Accolades Score - " + d.value;
+                        document.getElementById("player-name").innerHTML = d.Player;
+                        document.getElementById("player-pos").innerHTML = d.Pos;
+                        document.getElementById("player-team").innerHTML = d.Team;
+                        document.getElementById("player-college").innerHTML = d.College;
                     }
                 }
 
@@ -353,7 +383,11 @@
                 function mouseout() {
                     svg.selectAll(".turnedOn").classed("turnedOn", false);
                     svg.selectAll(".turnedOff").classed("turnedOff", false);
-                    document.getElementById("node-info").innerHTML = 'Node Info: ';
+                    document.getElementById("node-info").innerHTML = 'Context: ';
+                    document.getElementById("player-name").innerHTML = '';
+                    document.getElementById("player-pos").innerHTML = '';
+                    document.getElementById("player-team").innerHTML = '';
+                    document.getElementById("player-college").innerHTML = '';
                 }
 
                 function degrees(radians) {

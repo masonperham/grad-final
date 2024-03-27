@@ -125,16 +125,16 @@ def hive_data():
 
     for year in years:
         cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
-        node_df = pd.DataFrame(columns=['axis', 'value', 'conf', 'team', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl'])
+        node_df = pd.DataFrame(columns=['axis', 'value', 'conf', 'team', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl', 'Player', 'Team', 'College', 'Pos'])
         link_df = pd.DataFrame(columns=['from', 'to'])
         for index, row in cur_df.iterrows():
 
             cur_score = 0
             start_ix = len(node_df)
 
-            node_df.loc[len(node_df)] = [0, row['Conf_Clean'], row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl']]
-            node_df.loc[len(node_df)] = [1, row['Team'], row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl']]
-            node_df.loc[len(node_df)] = [2, cur_score, row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl']]
+            node_df.loc[len(node_df)] = [0, row['Conf_Clean'], row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl'], row['Player'], row['Team'], row['College'], row['Pos']]
+            node_df.loc[len(node_df)] = [1, row['Team'], row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl'], row['Player'], row['Team'], row['College'], row['Pos']]
+            node_df.loc[len(node_df)] = [2, cur_score, row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl'], row['Player'], row['Team'], row['College'], row['Pos']]
 
             link_df.loc[len(link_df)] = [start_ix, start_ix + 1]
             link_df.loc[len(link_df)] = [start_ix + 1, start_ix + 2]
