@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!-- original code from Jane Wong on bl.ocks -->
+
+<html lang="en">
+    <meta charset="utf-8" />
+
+    <head>
+        <meta charset="utf-8">
+        <title>Hive Plot Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <style>
+    .axis {
+        stroke: #000;
+        stroke-width: 1.5px;
+    }
+
+    .node {
+        stroke: #000;
+    }
+
+    .link {
+        fill: none;
+        stroke-width: 1.5px;
+        stroke-opacity: 0.25;
+    }
+
+    .link.turnedOn {
+        stroke-width: 2px;
+        stroke-opacity : 0.8;
+    }
+
+    .link.turnedOff {
+        stroke-opacity: 0.05;
+        stroke-width: 1px;
+    }
+
+    .node.turnedOn {
+        stroke: red;
+        stroke-width: 3px;
+    }
+
+    h3 {
+        font-family: 'Helvetica';
+    }
+    </style>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <body>
+
+        <nav tabindex="0">
+            <div class="menu_dropdown">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="test2.html">Final Visualization</a></p>
+            <p><a href="ProcessBook.html">Process Book</a></p>
+            <p><a href="Presentation.html">Presentation</a></p>
+            <p><a href="recreateWash.html">Washington Post</a></p>
+            <p class="thislink">Hive</p>
+            </div>
+        </nav>
+
+        <label>Select a Year</label>
+        <select id="select_year" onchange="makeHive()">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+        </select>
+
+        <div id="context">
+            <h3 id="node-info">Node Info: </h3>
+        </div>
+
+        <div id="svg-container"></div>
+
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.hive.v0.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+        function makeHive() {
+
+            d3.select("#svg-container").selectAll("*").remove();
+            var width = 1600,
+            height = 1000,
+            innerRadius = 50,
+            outerRadius = [400, 800, 500];
+
+            let collegeConfs = ['SEC', 'ACC', 'Pac12', 'Big 12', 'Big Ten', 'Other'];
+            let collegeColors = ['#ffd046', '#013ca6', '#04223f', '#ef483e', '#0088CE', '#808080'];
+            let collegeData = [];
+            for(let i = 0; i < 6; i++) {
+                collegeData.push({'conf': collegeConfs[i], 'color': collegeColors[i], 'numb': i});
+            }
+
+            // var angle = d3.scalePoint()
+            //     .domain(d3.range(4))
+            //     .range([0, 2 * Math.PI]),
+            var angle = [-Math.PI * .25, Math.PI * .5, Math.PI * 1.25];
+            let radius = [];
+            outerRadius.forEach(rad => {
+                radius.push(d3.scaleLinear().range([innerRadius, rad]))
+            });
+            // color = d3.scaleOrdinal().range(d3.schemeSet1).domain(d3.range(6));
+            let pathcolor = d3.scaleOrdinal()
+                .range(collegeColors)
+                .domain(collegeConfs);
+
+            let year = document.getElementById('select_year').value;
+            let nodefile = "python/results/" + year + "/hivenodes_" + year + ".csv";
+            let linkfile = "python/results/" + year + "/hivelinks_" + year + ".csv";
+
+            d3.queue()
+                .defer(d3.csv, nodefile)
+                .defer(d3.csv, linkfile)
+                .await(function(error, nodes, links) {
+
+                let collegeConfs = Array.from(new Set(
+                    nodes.filter((d) => {
+                        return d.axis == 0;
+                    }).map((d) => d.value)));
+
+                const collegeConfScale = d3.scaleOrdinal()
+                    .range(d3.range(0,6))
+                    .domain(collegeConfs);
+
+                const collegeNumScale = d3.scaleLinear().range([0,1]).domain([0, 6]);
+
+                let teams = Array.from(new Set(
+                    nodes.filter((d) => {
+                        return d.axis == 1;
+                    }).map((d) => d.value)));
+
+                const teamScale = d3.scaleOrdinal()
+                    .range(d3.range(0,32))
+                    .domain(teams);
+
+                const teamNumScale = d3.scaleLinear().range([0,1]).domain([0, 32]);
+
+                var success = nodes.filter((d) => {
+                    return d.axis == 2;
+                    }).map((d) => parseInt(d.value));
+
+                const successScale = d3.scaleLinear().range([0,1]).domain(
+                    [d3.min(success), d3.max(success)]);
+
+                nodes.forEach(function(d) {
+                    d.x = parseInt(d.axis);
+                    if(d.axis == 0) {
+                        d.y = collegeNumScale(collegeConfScale(d.value));
+                    } else if (d.axis == 1) {
+                        d.y = teamNumScale(teamScale(d.value));
+                    } else {
+                        d.y = successScale(d.value);
+                    }
+                });
+
+                links.forEach(function(d) {
+                    d.source = nodes[d.from];
+                    d.target = nodes[d.to];
+                })
+
+                var svg = d3
+                .select("#svg-container")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", "translate(" + width / 3 + "," + height / 2.5 + ")");
+
+                svg
+                .selectAll(".axis")
+                .data(d3.range(3))
+                .enter()
+                .append("line")
+                .attr("class", "axis")
+                .attr("transform", function (d) {
+                    return "rotate(" + degrees(angle[d]) + ")";
+                })
+                .attr("x1", function (d) {
+                    return radius[d].range()[0];
+                })
+                .attr("x2", function (d) {
+                    return radius[d].range()[1];
+                });
+
+                // draw links
+                svg
+                .selectAll(".link")
+                .data(links)
+                .enter()
+                .append("path")
+                .attr("class", "link")
+                .attr(
+                    "d",
+                    d3.hive
+                    .link()
+                    .angle(function (d) {
+                        return angle[d.x];
+                    })
+                    .radius(function (d) {
+                        return radius[d.x](d.y);
+                    })
+                )
+                .style("stroke", function (d) {
+                    return pathcolor(d.source.conf);
+                })
+                .on("mouseover", linkMouseover)
+                .on("mouseout", mouseout);
+
+                // draw nodes
+                svg
+                .selectAll(".node")
+                .data(nodes)
+                .enter()
+                .append("circle")
+                .attr("class", "node")
+                .attr("transform", function (d) {
+                    return "rotate(" + degrees(angle[d.x]) + ")";
+                })
+                .attr("cx", function (d) {
+                    return radius[d.x](d.y);
+                })
+                .attr("r", 5)
+                .style("fill", function (d) {
+                    if(d.x == 0) {
+                        return pathcolor(d.conf);
+                    }
+                    else {
+                        return 'black';
+                    }
+                })
+                .on("mouseover", nodeMouseover)
+                .on("mouseout", mouseout);
+
+                // make legend 
+                svg.selectAll('.legend-circle')
+                    .data(collegeData)
+                    .enter()
+                    .append('circle')
+                    .attr("class", 'legend-circle')
+                    .attr('r', 10)
+                    .attr('cx', width * 0.5)
+                    .attr('cy', function (d) {
+                        return 100 + (30 * d.numb);
+                    })
+                    .style('fill', function (d) {
+                        return d.color;
+                    });
+
+                svg.selectAll('.legend-text')
+                    .data(collegeData)
+                    .enter()
+                    .append("text")
+                    .attr('class', 'legend-text')
+                    .attr("x", width * 0.5 + 20)
+                    .attr("y", function (d) {
+                        return 100 + (30 * d.numb);
+                    })
+                    .text(function (d) {
+                        return d.conf;
+                    })
+                    .style("font-size", "15px")
+                    .style("font-family", "Helvetica")
+                    .attr("alignment-baseline","middle");
+
+                // highlight link and connected nodes on mouseover
+                function linkMouseover(d) {
+                    svg
+                        .selectAll(".link")
+                        .classed("turnedOn", function (dl) {
+                        return dl === d;
+                        })
+                        .classed("turnedOff", function (dl) {
+                        return !(dl === d);
+                        });
+                    svg.selectAll(".node").classed("turnedOn", function (dl) {
+                        return dl === d.source || dl === d.target;
+                    });
+                }
+
+                // highlight node and connected links on mouseover
+                function nodeMouseover(d) {
+                    svg
+                        .selectAll(".link")
+                        .classed("turnedOn", function (dl) {
+                        return dl.source.value === d.value || dl.target.value === d.value;
+                        })
+                        .classed("turnedOff", function (dl) {
+                        return !(dl.source.value === d.value || dl.target.value === d.value);
+                        });
+                    d3.select(this).classed("turnedOn", true);
+                    text = document.getElementById("node-info");
+                    if(d.x == 0) {
+                        text.innerHTML = text.innerHTML + "College Conf - " + d.value;
+                    } else if(d.x == 1) {
+                        text.innerHTML = text.innerHTML + "Team - " + d.value;
+                    } else if(d.x == 2) {
+                        text.innerHTML = text.innerHTML + "Accolades Score - " + d.value;
+                    }
+                }
+
+                // clear highlighted nodes or links
+                function mouseout() {
+                    svg.selectAll(".turnedOn").classed("turnedOn", false);
+                    svg.selectAll(".turnedOff").classed("turnedOff", false);
+                    document.getElementById("node-info").innerHTML = 'Node Info: ';
+                }
+
+                function degrees(radians) {
+                return (radians / Math.PI) * 180 - 90;
+                }
+
+            });
+
+        }
+
+        window.onload = makeHive();
+    </script>
+    </body>
+
+</html>
