@@ -121,7 +121,8 @@ def stack_round():
             cur_df.to_csv("results/" + year + "/round_stack/round_stack_" + year + div.replace(' ', '') + ".csv", index=False)
 
 def hive_data():
-    years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
+    # years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
+    years = ['total']
     for year in years:
         cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
         node_df = pd.DataFrame(columns=['axis', 'value', 'conf', 'team', 'score'])

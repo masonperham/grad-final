@@ -72,6 +72,7 @@
             <option value="2018">2018</option>
             <option value="2019">2019</option>
             <option value="2020">2020</option>
+            <option value="total">Total</option>
         </select>
 
         <div id="context">
@@ -214,8 +215,20 @@
                 .style("stroke", function (d) {
                     return pathcolor(d.source.conf);
                 })
-                .on("mouseover", linkMouseover)
-                .on("mouseout", mouseout);
+                .on("mouseover", function(d) {
+                    if(year == "total") {
+                        return false;
+                    } else {
+                        return linkMouseover;
+                    }
+                })
+                .on("mouseout", function(d) {
+                    if(year == "total") {
+                        return false;
+                    } else {
+                        return mouseout;
+                    }
+                });
 
                 // draw nodes
                 svg
