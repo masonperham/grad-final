@@ -75,6 +75,20 @@
             <option value="total">Total</option>
         </select>
 
+        <div class="sliders">
+            <input type="range" id="MVP" min="0" max="4" value="1"><label for="MVP">MVP</label>
+            <input type="range" id="SB_MVP" min="0" max="4" value="1"><label for="SB_MVP">SB MVP</label>
+            <input type="range" id="SB_WIN" min="0" max="4" value="1"><label for="SB_WIN">SB Win</label>
+            <input type="range" id="OPOY" min="0" max="4" value="1"><label for="OPOY">OPOY</label>
+            <input type="range" id="DPOY" min="0" max="4" value="1"><label for="DPOY">DPOY</label>
+            <input type="range" id="OROY" min="0" max="4" value="1"><label for="OROY">OROY</label>
+            <input type="range" id="DROY" min="0" max="4" value="1"><label for="DROY">DROY</label>
+            <input type="range" id="First_AP" min="0" max="4" value="1"><label for="First_AP">1st Team AP</label>
+            <input type="range" id="Second_AP" min="0" max="4" value="1"><label for="Second_AP">2nd Team AP</label>
+            <input type="range" id="Pro_Bowl" min="0" max="4" value="1"><label for="Pro_Bowl">Pro Bowl</label>
+            <button class="update" type="button" onclick="makeHive()">Update Hive</button>
+        </div>
+
         <div id="context">
             <h3 id="node-info">Node Info: </h3>
         </div>
@@ -103,15 +117,11 @@
                 collegeData.push({'conf': collegeConfs[i], 'color': collegeColors[i], 'numb': i});
             }
 
-            // var angle = d3.scalePoint()
-            //     .domain(d3.range(4))
-            //     .range([0, 2 * Math.PI]),
             var angle = [-Math.PI * .25, Math.PI * .5, Math.PI * 1.25];
             let radius = [];
             outerRadius.forEach(rad => {
                 radius.push(d3.scaleLinear().range([innerRadius, rad]))
             });
-            // color = d3.scaleOrdinal().range(d3.schemeSet1).domain(d3.range(6));
             let pathcolor = d3.scaleOrdinal()
                 .range(collegeColors)
                 .domain(collegeConfs);
@@ -124,6 +134,23 @@
                 .defer(d3.csv, nodefile)
                 .defer(d3.csv, linkfile)
                 .await(function(error, nodes, links) {
+
+                let MVP = document.getElementById("MVP").value;
+                let SB_MVP = document.getElementById("SB_MVP").value;
+                let SB_WIN = document.getElementById("SB_WIN").value;
+                let OPOY = document.getElementById("OPOY").value;
+                let DPOY = document.getElementById("DPOY").value;
+                let OROY = document.getElementById("OROY").value;
+                let DROY = document.getElementById("DROY").value;
+                let First_AP = document.getElementById("First_AP").value;
+                let Second_AP = document.getElementById("Second_AP").value;
+                let Pro_Bowl = document.getElementById("Pro_Bowl").value;
+
+                nodes.forEach(d => {
+                    if(d.axis == 2) {
+                        d.value = (d.MVP * MVP) + (d.SB_MVP * SB_MVP) + (d.SB_WIN * SB_WIN) + (d.OPOY * OPOY) + (d.DPOY * DPOY) + (d.OROY * OROY) + (d.DROY * DROY) + (d.First_AP * First_AP) + (d.Second_AP * Second_AP) + (d.Pro_Bowl * Pro_Bowl);
+                    }
+                });
 
                 let collegeConfs = Array.from(new Set(
                     nodes.filter((d) => {
@@ -219,14 +246,14 @@
                     if(year == "total") {
                         return false;
                     } else {
-                        return linkMouseover;
+                        return linkMouseover(d);
                     }
                 })
                 .on("mouseout", function(d) {
                     if(year == "total") {
                         return false;
                     } else {
-                        return mouseout;
+                        return mouseout();
                     }
                 });
 
