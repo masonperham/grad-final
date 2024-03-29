@@ -30,8 +30,27 @@ for index, row in df.iterrows():
 # Add the total scores as a new column to the DataFrame
 df['Total_Score'] = total_scores
 
-# Save the updated DataFrame to a new CSV file
-df.to_csv("washPostdata.csv", index=False)
+df.sort_values(by=['ID'], inplace=True)
+current_round = 1
+current_pick_in_round = 1
 
-# Display the DataFrame with the new column
-print(df)
+# List to store the new round pick numbers
+new_round_pick_numbers = []
+
+for index, row in df.iterrows():
+    if row['Round'] == current_round:
+        new_round_pick_numbers.append(current_pick_in_round)
+        current_pick_in_round += 1
+        if current_pick_in_round > 32:
+            current_pick_in_round = 1
+            current_round += 1
+    else:
+        current_round = row['Round']
+        current_pick_in_round = 1
+        new_round_pick_numbers.append(current_pick_in_round)
+
+df['Round_Pick_No'] = new_round_pick_numbers
+# df.to_csv("washPostdataNew.csv", index=False)
+
+# # Display the DataFrame with the new column
+# print(df)

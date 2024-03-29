@@ -40,8 +40,7 @@
         });
 
         function createScatterPlot(data, round) {
-            // Set up dimensions and margins
-            var margin = { top: 20, right: 20, bottom: 40, left: 40 };
+            var margin = { top: 20, right: 20, bottom: 40, left: 300 };
             var width = 400 - margin.left - margin.right;
             var height = 300 - margin.top - margin.bottom;
 
@@ -52,7 +51,7 @@
                         .attr("width", width + margin.left + margin.right)
                         .attr("height", height + margin.top + margin.bottom)
                         .append("g")
-                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                        .attr("transform", "translate(" + margin.left + "," + margin.top + ") rotate(90)");
 
             var xScale = d3.scaleLinear()
                            .domain([0, d3.max(data, d => +d.Pick_No)])
@@ -67,7 +66,6 @@
                .attr("transform", "translate(0," + height + ")")
                .call(d3.axisBottom(xScale));
 
-    
             svg.append("g")
                .call(d3.axisLeft(yScale));
 
