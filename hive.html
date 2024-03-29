@@ -48,20 +48,48 @@
 
     #player-context {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-content: flex-start;
     }
 
     #context {
         display: flex; 
-        justify-content: space-evenly;
-        align-content: flex-start;
+        flex-direction: column;
     }
 
     body {
         display: flex;
         flex-direction: column;
     }
+
+    .main {
+        display: flex;
+    }
+
+    .sliders {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sliders label {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .sliders input {
+        margin-top: 20px;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h4 {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
     </style>
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
     <body>
@@ -93,34 +121,33 @@
             <option value="total">Total</option>
         </select>
 
-        <div class="sliders">
-            <input type="range" id="MVP" min="0" max="4" value="1"><label for="MVP">MVP</label>
-            <input type="range" id="SB_MVP" min="0" max="4" value="1"><label for="SB_MVP">SB MVP</label>
-            <input type="range" id="SB_WIN" min="0" max="4" value="1"><label for="SB_WIN">SB Win</label>
-            <input type="range" id="OPOY" min="0" max="4" value="1"><label for="OPOY">OPOY</label>
-            <input type="range" id="DPOY" min="0" max="4" value="1"><label for="DPOY">DPOY</label>
-            <input type="range" id="OROY" min="0" max="4" value="1"><label for="OROY">OROY</label>
-            <input type="range" id="DROY" min="0" max="4" value="1"><label for="DROY">DROY</label>
-            <input type="range" id="First_AP" min="0" max="4" value="1"><label for="First_AP">1st Team AP</label>
-            <input type="range" id="Second_AP" min="0" max="4" value="1"><label for="Second_AP">2nd Team AP</label>
-            <input type="range" id="Pro_Bowl" min="0" max="4" value="1"><label for="Pro_Bowl">Pro Bowl</label>
-            <button class="update" type="button" onclick="makeHive()">Update Hive</button>
-        </div>
-
-        <div id="context">
-            <div id="node-context">
-                <h3 id="node-info">Context: </h3>
+        <div class="main">
+            <div class="sliders">
+                <input type="range" id="MVP" min="0" max="4" value="1"><label for="MVP">MVP</label>
+                <input type="range" id="SB_MVP" min="0" max="4" value="1"><label for="SB_MVP">SB MVP</label>
+                <input type="range" id="SB_WIN" min="0" max="4" value="1"><label for="SB_WIN">SB Win</label>
+                <input type="range" id="OPOY" min="0" max="4" value="1"><label for="OPOY">OPOY</label>
+                <input type="range" id="DPOY" min="0" max="4" value="1"><label for="DPOY">DPOY</label>
+                <input type="range" id="OROY" min="0" max="4" value="1"><label for="OROY">OROY</label>
+                <input type="range" id="DROY" min="0" max="4" value="1"><label for="DROY">DROY</label>
+                <input type="range" id="First_AP" min="0" max="4" value="1"><label for="First_AP">1st Team AP</label>
+                <input type="range" id="Second_AP" min="0" max="4" value="1"><label for="Second_AP">2nd Team AP</label>
+                <input type="range" id="Pro_Bowl" min="0" max="4" value="1"><label for="Pro_Bowl">Pro Bowl</label>
+                <button class="update" type="button" onclick="makeHive()">Update Hive</button>
             </div>
 
-            <div id="player-context">
-                <h3 id="player-name"> </h3>
-                <h3 id="player-pos"> </h3>
-                <h3 id="player-team"> </h3>
-                <h3 id="player-college"> </h3>
+            <div id="svg-container"></div>
+
+            <div id="context">
+                <div id="node-context">
+                    <h3 id="node-info">Context: </h3>
+                </div>
+
+                <div id="player-context">
+                    <ul id="player-list"></ul>
+                </div>
             </div>
         </div>
-
-        <div id="svg-container"></div>
 
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3.hive.v0.min.js"></script>
@@ -131,10 +158,10 @@
         function makeHive() {
 
             d3.select("#svg-container").selectAll("*").remove();
-            var width = 1300,
-            height = 800,
-            innerRadius = 50,
-            outerRadius = [400, 800, 500];
+            var width = 1000,
+            height = 750,
+            innerRadius = 45,
+            outerRadius = [300, 600, 375];
 
             let collegeConfs = ['SEC', 'ACC', 'Pac12', 'Big 12', 'Big Ten', 'Other'];
             let collegeColors = ['#ffd046', '#013ca6', '#04223f', '#ef483e', '#0088CE', '#808080'];
@@ -372,10 +399,30 @@
                         text.innerHTML = text.innerHTML + "Team - " + d.value;
                     } else if(d.x == 2) {
                         text.innerHTML = text.innerHTML + "Accolades Score - " + d.value;
-                        document.getElementById("player-name").innerHTML = d.Player;
-                        document.getElementById("player-pos").innerHTML = d.Pos;
-                        document.getElementById("player-team").innerHTML = d.Team;
-                        document.getElementById("player-college").innerHTML = d.College;
+                        let players = [];
+                        svg.selectAll(".node").filter((dn) => {
+                            return dn.value == d.value;
+                        }).each((dn) => {
+                            players.push({Player: dn.Player, Pos: dn.Pos, Team: dn.Team, College: dn.College});
+                        });
+                        list = document.getElementById("player-list");
+                        for(let i = 0; i < players.length && i < 5; i++) {
+                            let cur = players[i];
+                            let entry = document.createElement('li');
+                            let player = document.createElement('h4'), 
+                                pos = document.createElement('h4'), 
+                                team = document.createElement('h4'),
+                                college = document.createElement('h4');
+                            player.innerHTML = cur.Player;
+                            pos.innerHTML = cur.Pos;
+                            team.innerHTML = cur.Team;
+                            college.innerHTML = cur.College;
+                            entry.appendChild(player);
+                            entry.appendChild(pos);
+                            entry.appendChild(team);
+                            entry.appendChild(college);
+                            list.appendChild(entry);
+                        }
                     }
                 }
 
@@ -384,10 +431,7 @@
                     svg.selectAll(".turnedOn").classed("turnedOn", false);
                     svg.selectAll(".turnedOff").classed("turnedOff", false);
                     document.getElementById("node-info").innerHTML = 'Context: ';
-                    document.getElementById("player-name").innerHTML = '';
-                    document.getElementById("player-pos").innerHTML = '';
-                    document.getElementById("player-team").innerHTML = '';
-                    document.getElementById("player-college").innerHTML = '';
+                    document.getElementById("player-list").innerHTML = '';
                 }
 
                 function degrees(radians) {
