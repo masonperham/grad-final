@@ -1,9 +1,8 @@
 import pandas as pd
 
-# Read the CSV file
 df = pd.read_csv("/Users/danteamicarella/Documents/GitHub/grad-final/python/results/total/joindf_total.csv")
 
-# Define the scoring dictionary
+# Scoring dictionary
 scoring = {
     'MVP': 20,
     'SB_MVP': 30,
@@ -12,9 +11,9 @@ scoring = {
     'DPOY': 15,
     'OROY': 10,
     'DROY': 10,
-    'First_AP': 5,
-    'Second_AP': 3,
-    'Pro_Bowl': 7
+    'First_AP': 7,
+    'Second_AP': 5,
+    'Pro_Bowl': 3
 }
 
 # Iterate over each row and calculate the total score
