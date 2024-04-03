@@ -33,6 +33,7 @@
           <p><a href="ProcessBook.html">Process Book</a></p>
           <p><a href="Presentation.html">Presentation</a></p>
           <p><a href="recreateWash.html">Washington Post</a></p>
+          <p><a href="spiderChart.html">Spider Chart</a></p>
         </div>
     </nav>
 
@@ -41,15 +42,24 @@
     <script>
         d3.csv("python/results/total/washPostdataNew.csv").then(function(data) {
             var rounds = d3.group(data, d => d.Round);
-
+            var margin = { top: 30, right: 50, bottom: 100, left: 50 }; // Adjusted margin
+            var fullWidth = window.innerWidth - 300; // Half of the screen width
+            var width = fullWidth;
+            var height = 200 - margin.top - margin.bottom;
+            var xScale = d3.scaleLinear()
+                        .domain([0, d3.max(data, d => +d.Total_Score)])
+                        .range([0, fullWidth]);
+            console.log(xScale.domain())
+            
             rounds.forEach(function(players, round) {
-                createScatterPlot(players, round);
+                createScatterPlot(players, round, xScale);
             });
         }).catch(function(error) {
             console.log("Error loading the data: " + error);
         });
 
-        function createScatterPlot(data, round) {
+
+        function createScatterPlot(data, round, xScale) {
             var margin = { top: 30, right: 50, bottom: 100, left: 50 }; // Adjusted margin
             var fullWidth = window.innerWidth - 300; // Half of the screen width
             var width = fullWidth;
@@ -64,14 +74,9 @@
                         .append("g")
                         .attr("transform", "translate(" + (margin.left + width / 2) + "," + margin.top + ") translate(" + (-width / 2) + ", 0)");
 
-            var xScale = d3.scaleLinear()
-                        .domain([0, d3.max(data, d => +d.Total_Score)])
-                        .range([0, width]);
-
             var yScale = d3.scaleLinear()
                         .domain([d3.max(data, d => +d.Round_Pick_No), 0])
                         .range([height, 0]);
-
 
             svg.append("g")
                 .attr("class", "axis-x")
@@ -85,7 +90,7 @@
             .data(data)
             .enter()
             .append("circle")
-            .attr("cx", d => xScale(+d.Total_Score))
+            .attr("cx", d => xScale(d.Total_Score))
             .attr("cy", d => yScale(+d.Round_Pick_No))
             .attr("r", 4)
             .attr("fill", "lightgrey")
