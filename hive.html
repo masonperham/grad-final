@@ -264,6 +264,7 @@
                 .enter()
                 .append("line")
                 .attr("class", "axis")
+                //.transition().duration(2000)
                 .attr("transform", function (d) {
                     return "rotate(" + degrees(angle[d]) + ")";
                 })

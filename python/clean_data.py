@@ -143,6 +143,24 @@ def hive_data():
         node_df.to_csv("results/" + year + "/hivenodes_" + year + ".csv", index=False)
         link_df.to_csv("results/" + year + "/hivelinks_" + year + ".csv", index=False)
 
+def college_conf_bars():
+    years = ['total']
+    
+    for year in years:
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        cur_df = cur_df[['Conf_Clean', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl']].groupby(['Conf_Clean']).sum().transpose().reset_index()
+        cur_df.rename(columns={'index':'accolades'}, inplace=True)
+        cur_df.to_csv("results/" + year + "/college_conf_bars_" + year + ".csv", index=False)
+
+
+def college_small_multiples():
+    years = ['total']
+    
+    for year in years:
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        cur_df = cur_df[['Conf_Clean', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl']].groupby(['Conf_Clean']).sum().reset_index()
+        cur_df.rename(columns={'index':'accolades'}, inplace=True)
+        cur_df.to_csv("results/" + year + "/college_small_multiples_" + year + ".csv", index=False)
 
 def calcScore(row):
     score = (1 * row['MVP']) + (1 * row['SB_MVP']) + (1 * row['SB_WIN']) + (1 * row['OPOY']) + (1 * row['DPOY']) + (1 * row['OROY']) + (1 * row['DROY']) + (1 * row['First_AP']) + (1 * row['Second_AP']) + (1 * row['Pro_Bowl'])
@@ -150,4 +168,4 @@ def calcScore(row):
 
 # stack_conf()
 # stack_round()
-hive_data()
+college_small_multiples()
