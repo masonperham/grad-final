@@ -39,13 +39,16 @@
             });
             console.log(chartData)
 
+            // Calculate the maximum value of all conference counts
+            var maxConferenceCount = d3.max(chartData, d => d3.max(Object.values(d.ConferenceCounts)));
+
             // Dimensions for each plot
             let width = 600;
             let height = 600;
 
             // Iterate over each team's data and create a separate plot
             chartData.forEach(function(team, index) {
-                let svg = d3.select("body").append("svg")
+                let svg = d3.select("#spider-charts").append("svg")
                     .attr("width", width)
                     .attr("height", height);
 
@@ -58,13 +61,31 @@
 
                 // Data for the radar chart
                 let conferenceCounts = team.ConferenceCounts;
-                let conferences = Object.keys(conferenceCounts);
-                let maxValue = Math.max(...Object.values(conferenceCounts));
+                let conferences = Object.keys(conferenceCounts).sort(); // Sort conferences alphabetically
 
-                // Scale for the radar chart
+                // Scale for the radar chart using the maximum value
                 let radialScale = d3.scaleLinear()
-                    .domain([0, maxValue])
+                    .domain([0, maxConferenceCount])
                     .range([0, height / 2 - 100]);
+
+                // Fixed radius for radial ticks
+                let tickRadius = 200;
+
+                // Draw radial ticks
+                let ticks = [5, 10, 15, 20, 25, 30, 35, 40];
+                let tickLength = 0;
+                svg.selectAll("circle.big-circle")
+                    .data(ticks)
+                    .enter().append("circle")
+                    .attr("class", "big-circle")
+                    .attr("cx", width / 2)
+                    .attr("cy", height / 2)
+                    .attr("fill", "none")
+                    .attr("stroke", "gray")
+                    .attr("r", d => radialScale(d));
+
+                // Draw axes
+                let maxTick = Math.max(...ticks);
 
                 // Draw axes
                 svg.selectAll("line")
@@ -72,20 +93,78 @@
                     .enter().append("line")
                     .attr("x1", width / 2)
                     .attr("y1", height / 2)
-                    .attr("x2", function(d, i) { return width / 2 + radialScale(conferenceCounts[d]) * Math.cos(Math.PI / 2 - 2 * Math.PI * i / conferences.length); })
-                    .attr("y2", function(d, i) { return height / 2 - radialScale(conferenceCounts[d]) * Math.sin(Math.PI / 2 - 2 * Math.PI * i / conferences.length); })
+                    .attr("x2", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        return width / 2 + radialScale(maxTick) * Math.cos(angle);
+                    })
+                    .attr("y2", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        return height / 2 - radialScale(maxTick) * Math.sin(angle);
+                    })
                     .attr("stroke", "black");
 
-                // labels
+                // Draw labels
                 svg.selectAll("text.label")
                     .data(conferences)
                     .enter().append("text")
                     .attr("class", "label")
-                    .attr("x", function(d, i) { return width / 2 + radialScale(conferenceCounts[d]) * Math.cos(Math.PI / 2 - 2 * Math.PI * i / conferences.length); })
-                    .attr("y", function(d, i) { return height / 2 - radialScale(conferenceCounts[d]) * Math.sin(Math.PI / 2 - 2 * Math.PI * i / conferences.length); })
+                    .attr("x", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        let labelRadius = radialScale(maxTick) + 20; // Place the labels 20 units outside the biggest circle
+                        return width / 2 + labelRadius * Math.cos(angle);
+                    })
+                    .attr("y", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        let labelRadius = radialScale(maxTick) + 20; // Place the labels 20 units outside the biggest circle
+                        return height / 2 - labelRadius * Math.sin(angle);
+                    })
                     .attr("dy", "0.35em")
                     .text(function(d) { return d; });
+                
+                svg.selectAll("circle.tick")
+                    .data(ticks)
+                    .enter().append("circle")
+                    .attr("class", "tick")
+                    .attr("cx", width / 2)
+                    .attr("cy", height / 2)
+                    .attr("fill", "none")
+                    .attr("stroke", "gray")
+                    .attr("r", d => radialScale(d));
 
+                svg.selectAll("line.tick-mark")
+                    .data(ticks)
+                    .enter().append("line")
+                    .attr("class", "tick-mark")
+                    .attr("x1", width / 2)
+                    .attr("y1", height / 2)
+                    .attr("x2", function(d) {
+                        let angle = Math.PI / 2;
+                        return width / 2 + (radialScale(d) + tickLength) * Math.cos(angle);
+                    })
+                    .attr("y2", function(d) {
+                        let angle = Math.PI / 2;
+                        return height / 2 - (radialScale(d) + tickLength) * Math.sin(angle);
+                    })
+                    .attr("stroke", "gray");
+
+                // Display tick labels
+                svg.selectAll("text.tick-label")
+                    .data(ticks)
+                    .enter().append("text")
+                    .attr("class", "tick-label")
+                    .attr("x", function(d) {
+                        let angle = Math.PI / 2;
+                        return width / 2 + (radialScale(d) + tickLength + 5) * Math.cos(angle); // Adjust the offset as needed
+                    })
+                    .attr("y", function(d) {
+                        let angle = Math.PI / 2;
+                        return height / 2 - (radialScale(d) + tickLength + 5) * Math.sin(angle); // Adjust the offset as needed
+                    })
+                    .attr("dy", "0.35em")
+                    .text(function(d) { return d; });
+                
+                
+                // Draw data path
                 let line = d3.line()
                     .x(function(d, i) { return width / 2 + radialScale(conferenceCounts[conferences[i]]) * Math.cos(Math.PI / 2 - 2 * Math.PI * i / conferences.length); })
                     .y(function(d, i) { return height / 2 - radialScale(conferenceCounts[conferences[i]]) * Math.sin(Math.PI / 2 - 2 * Math.PI * i / conferences.length); });
@@ -97,13 +176,34 @@
                     .attr("stroke-width", 2)
                     .attr("fill", "red")
                     .attr("fill-opacity", 0.5);
-            });
+
+                var accIndex = conferences.indexOf("ACC");
+                var secIndex = conferences.indexOf("SEC");
+
+                // Calculate the coordinates for ACC and SEC
+                var accX = width / 2 + radialScale(conferenceCounts["ACC"]) * Math.cos(Math.PI / 2 - 2 * Math.PI * accIndex / conferences.length);
+                var accY = height / 2 - radialScale(conferenceCounts["ACC"]) * Math.sin(Math.PI / 2 - 2 * Math.PI * accIndex / conferences.length);
+                var secX = width / 2 + radialScale(conferenceCounts["SEC"]) * Math.cos(Math.PI / 2 - 2 * Math.PI * secIndex / conferences.length);
+                var secY = height / 2 - radialScale(conferenceCounts["SEC"]) * Math.sin(Math.PI / 2 - 2 * Math.PI * secIndex / conferences.length);
+
+                // Draw a line between ACC and SEC
+                svg.append("line")
+                    .attr("x1", accX)
+                    .attr("y1", accY)
+                    .attr("x2", secX)
+                    .attr("y2", secY)
+                    .attr("stroke-width", 2)
+                    .attr("stroke", "red");
+                });
         });
 
     </script>
 
 </body>
 </html>
+
+
+
 
 
 <!-- function createSpiderChart(data, team, conferences) {
