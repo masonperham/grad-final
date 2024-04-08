@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider Chart</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <nav tabindex="0">
+        <div class="menu_dropdown">
+            <p><a href="index.html">Home</p>
+            <p class="thislink">Final Visualization</a></p>
+            <p><a href="ProcessBook.html">Process Book</a></p>
+            <p><a href="Presentation.html">Presentation</a></p>
+            <p><a href="recreateWash.html">Washington Post</a></p>
+            <p><a href="spiderChart.html">Spider Chart</a></p>
+        </div>
+    </nav>
+    <div id="spider-charts"></div>
+
+    <script>
+        d3.csv("python/results/total/washPostdataNew.csv").then(function(data) {
+            // Group data by Team
+            var nestedData = d3.group(data, d => d.Team);
+
+            // Define colors for each team
+            var teamColors = d3.scaleOrdinal(d3.schemeCategory10);
+
+            // Iterate over teams and calculate player counts for each conference
+            var chartData = Array.from(nestedData, ([teamName, players]) => {
+                var conferenceCounts = {};
+                players.forEach(player => {
+                    var conference = player.Conf_Clean;
+                    if (conferenceCounts[conference]) {
+                        conferenceCounts[conference]++;
+                    } else {
+                        conferenceCounts[conference] = 1;
+                    }
+                });
+                return { Team: teamName, ConferenceCounts: conferenceCounts };
+            });
+            console.log(chartData)
+
+            // Calculate the maximum value of all conference counts
+            var maxConferenceCount = d3.max(chartData, d => d3.max(Object.values(d.ConferenceCounts)));
+
+            // Dimensions for each plot
+            let width = 600;
+            let height = 600;
+
+            // Iterate over each team's data and create a separate plot
+            chartData.forEach(function(team, index) {
+                let svg = d3.select("#spider-charts").append("svg")
+                    .attr("width", width)
+                    .attr("height", height);
+
+                // Title for the plot
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", 30)
+                    .attr("text-anchor", "middle")
+                    .text(team.Team);
+
+                // Data for the radar chart
+                let conferenceCounts = team.ConferenceCounts;
+                let conferences = Object.keys(conferenceCounts).sort(); // Sort conferences alphabetically
+
+                // Scale for the radar chart using the maximum value
+                let radialScale = d3.scaleLinear()
+                    .domain([0, maxConferenceCount])
+                    .range([0, height / 2 - 100]);
+
+                // Fixed radius for radial ticks
+                let tickRadius = 200;
+
+                // Draw radial ticks
+                let ticks = [5, 10, 15, 20, 25, 30, 35, 40];
+                let tickLength = 0;
+                svg.selectAll("circle.big-circle")
+                    .data(ticks)
+                    .enter().append("circle")
+                    .attr("class", "big-circle")
+                    .attr("cx", width / 2)
+                    .attr("cy", height / 2)
+                    .attr("fill", "none")
+                    .attr("stroke", "gray")
+                    .attr("r", d => radialScale(d));
+
+                // Draw axes
+                let maxTick = Math.max(...ticks);
+
+                // Draw axes
+                svg.selectAll("line")
+                    .data(conferences)
+                    .enter().append("line")
+                    .attr("x1", width / 2)
+                    .attr("y1", height / 2)
+                    .attr("x2", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        return width / 2 + radialScale(maxTick) * Math.cos(angle);
+                    })
+                    .attr("y2", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        return height / 2 - radialScale(maxTick) * Math.sin(angle);
+                    })
+                    .attr("stroke", "black");
+
+                // Draw labels
+                svg.selectAll("text.label")
+                    .data(conferences)
+                    .enter().append("text")
+                    .attr("class", "label")
+                    .attr("x", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        let labelRadius = radialScale(maxTick) + 20; // Place the labels 20 units outside the biggest circle
+                        return width / 2 + labelRadius * Math.cos(angle);
+                    })
+                    .attr("y", function(d, i) {
+                        let angle = Math.PI / 2 - 2 * Math.PI * i / conferences.length;
+                        let labelRadius = radialScale(maxTick) + 20; // Place the labels 20 units outside the biggest circle
+                        return height / 2 - labelRadius * Math.sin(angle);
+                    })
+                    .attr("dy", "0.35em")
+                    .text(function(d) { return d; });
+                
+                svg.selectAll("circle.tick")
+                    .data(ticks)
+                    .enter().append("circle")
+                    .attr("class", "tick")
+                    .attr("cx", width / 2)
+                    .attr("cy", height / 2)
+                    .attr("fill", "none")
+                    .attr("stroke", "gray")
+                    .attr("r", d => radialScale(d));
+
+                svg.selectAll("line.tick-mark")
+                    .data(ticks)
+                    .enter().append("line")
+                    .attr("class", "tick-mark")
+                    .attr("x1", width / 2)
+                    .attr("y1", height / 2)
+                    .attr("x2", function(d) {
+                        let angle = Math.PI / 2;
+                        return width / 2 + (radialScale(d) + tickLength) * Math.cos(angle);
+                    })
+                    .attr("y2", function(d) {
+                        let angle = Math.PI / 2;
+                        return height / 2 - (radialScale(d) + tickLength) * Math.sin(angle);
+                    })
+                    .attr("stroke", "gray");
+
+                // Display tick labels
+                svg.selectAll("text.tick-label")
+                    .data(ticks)
+                    .enter().append("text")
+                    .attr("class", "tick-label")
+                    .attr("x", function(d) {
+                        let angle = Math.PI / 2;
+                        return width / 2 + (radialScale(d) + tickLength + 5) * Math.cos(angle); // Adjust the offset as needed
+                    })
+                    .attr("y", function(d) {
+                        let angle = Math.PI / 2;
+                        return height / 2 - (radialScale(d) + tickLength + 5) * Math.sin(angle); // Adjust the offset as needed
+                    })
+                    .attr("dy", "0.35em")
+                    .text(function(d) { return d; });
+                
+                
+                // Draw data path
+                let line = d3.line()
+                    .x(function(d, i) { return width / 2 + radialScale(conferenceCounts[conferences[i]]) * Math.cos(Math.PI / 2 - 2 * Math.PI * i / conferences.length); })
+                    .y(function(d, i) { return height / 2 - radialScale(conferenceCounts[conferences[i]]) * Math.sin(Math.PI / 2 - 2 * Math.PI * i / conferences.length); });
+
+                svg.append("path")
+                    .datum(conferences)
+                    .attr("d", line)
+                    .attr("stroke", teamColors(team.Team)) // Assigning color based on team
+                    .attr("stroke-width", 2)
+                    .attr("fill", teamColors(team.Team)) // Assigning color based on team
+                    .attr("fill-opacity", 0.5);
+
+                var accIndex = conferences.indexOf("ACC");
+                var secIndex = conferences.indexOf("SEC");
+
+                // Calculate the coordinates for ACC and SEC
+                var accX = width / 2 + radialScale(conferenceCounts["ACC"]) * Math.cos(Math.PI / 2 - 2 * Math.PI * accIndex / conferences.length);
+                var accY = height / 2 - radialScale(conferenceCounts["ACC"]) * Math.sin(Math.PI / 2 - 2 * Math.PI * accIndex / conferences.length);
+                var secX = width / 2 + radialScale(conferenceCounts["SEC"]) * Math.cos(Math.PI / 2 - 2 * Math.PI * secIndex / conferences.length);
+                var secY = height / 2 - radialScale(conferenceCounts["SEC"]) * Math.sin(Math.PI / 2 - 2 * Math.PI * secIndex / conferences.length);
+
+                // Draw a line between ACC and SEC
+                svg.append("line")
+                    .attr("x1", accX)
+                    .attr("y1", accY)
+                    .attr("x2", secX)
+                    .attr("y2", secY)
+                    .attr("stroke-width", 2)
+                    .attr("stroke", teamColors(team.Team)); // Assigning color based on team
+                });
+        });
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- function createSpiderChart(data, team, conferences) {
+    var conferenceCounts = conferences.map(conf => ({
+        conference: conf,
+        count: data.filter(d => d.Conf_Clean === conf).length
+    }));
+
+    var margin = { top: 50, right: 50, bottom: 50, left: 50 };
+    var width = 600 - margin.left - margin.right;
+    var height = 600 - margin.top - margin.bottom;
+
+    var svg = d3.select("#spider-charts")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var radialScale = d3.scaleLinear()
+        .domain([0, 30])
+        .range([0, 250]);
+
+    var ticks = [5, 10, 15, 20, 25];
+
+    svg.selectAll("circle")
+        .data(ticks)
+        .join(
+            enter => enter.append("circle")
+                .attr("cx", width / 2)
+                .attr("cy", height / 2)
+                .attr("fill", "none")
+                .attr("stroke", "gray")
+                .attr("r", d => radialScale(d))
+        );
+
+    svg.selectAll(".ticklabel")
+        .data(ticks)
+        .join(
+            enter => enter.append("text")
+                .attr("class", "ticklabel")
+                .attr("x", width / 2 + 5)
+                .attr("y", d => height / 2 - radialScale(d))
+                .text(d => d.toString())
+        );
+
+    var conferenceData = conferences.map((conf, i) => {
+        let angle = (Math.PI / 2) + (2 * Math.PI * i / conferences.length);
+        return {
+            "name": conf,
+            "angle": angle,
+            "line_coord": angleToCoordinate(angle, 10),
+            "label_coord": angleToCoordinate(angle, 10.5)
+        };
+    });
+    console.log(conferenceData)
+    function angleToCoordinate(angle, value){
+        let x = Math.cos(angle) * radialScale(value);
+        let y = Math.sin(angle) * radialScale(value);
+        return {"x": width / 2 + x, "y": height / 2 - y};
+    }
+    // Draw axis lines
+    svg.selectAll("line")
+        .data(conferenceData)
+        .join(
+            enter => enter.append("line")
+                .attr("x1", width / 2)
+                .attr("y1", height / 2)
+                .attr("x2", d => d.line_coord.x)
+                .attr("y2", d => d.line_coord.y)
+                .attr("stroke", "black")
+        );
+
+    // Draw axis labels
+    // svg.selectAll(".axislabel")
+    //     .data(featureData)
+    //     .join(
+    //         enter => enter.append("text")
+    //             .attr("class", "axislabel")
+    //             .attr("x", d => d.label_coord.x)
+    //             .attr("y", d => d.label_coord.y)
+    //             .text(d => d.name)
+    //     );
+
+} -->
+
+<!-- Example
+
+        let data = [];
+        let features = ["A", "B", "C", "D", "E", "F"];
+        //generate the data
+        for (var i = 0; i < 1; i++){
+            var point = {}
+            //each feature will be a random number from 1-9
+            features.forEach(f => point[f] = 1 + Math.random() * 8);
+            data.push(point);
+        }
+        console.log(data);
+
+        let width = 600;
+        let height = 600;
+        let svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        let radialScale = d3.scaleLinear()
+            .domain([0, 10])
+            .range([0, 250]);
+        let ticks = [2, 4, 6, 8, 10];
+
+        svg.selectAll("circle")
+            .data(ticks)
+            .join(
+                enter => enter.append("circle")
+                    .attr("cx", width / 2)
+                    .attr("cy", height / 2)
+                    .attr("fill", "none")
+                    .attr("stroke", "gray")
+                    .attr("r", d => radialScale(d))
+            );
+        
+        svg.selectAll(".ticklabel")
+            .data(ticks)
+            .join(
+                enter => enter.append("text")
+                    .attr("class", "ticklabel")
+                    .attr("x", width / 2 + 5)
+                    .attr("y", d => height / 2 - radialScale(d))
+                    .text(d => d.toString())
+            );
+        
+        function angleToCoordinate(angle, value){
+            let x = Math.cos(angle) * radialScale(value);
+            let y = Math.sin(angle) * radialScale(value);
+            return {"x": width / 2 + x, "y": height / 2 - y};
+        }
+
+        let featureData = features.map((f, i) => {
+            let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
+            return {
+                "name": f,
+                "angle": angle,
+                "line_coord": angleToCoordinate(angle, 10),
+                "label_coord": angleToCoordinate(angle, 10.5)
+            };
+        });
+
+        // draw axis line
+        svg.selectAll("line")
+            .data(featureData)
+            .join(
+                enter => enter.append("line")
+                    .attr("x1", width / 2)
+                    .attr("y1", height / 2)
+                    .attr("x2", d => d.line_coord.x)
+                    .attr("y2", d => d.line_coord.y)
+                    .attr("stroke","black")
+            );
+
+        // draw axis label
+        svg.selectAll(".axislabel")
+            .data(featureData)
+            .join(
+                enter => enter.append("text")
+                    .attr("x", d => d.label_coord.x)
+                    .attr("y", d => d.label_coord.y)
+                    .text(d => d.name)
+            );
+
+        let line = d3.line()
+            .x(d => d.x)
+            .y(d => d.y);
+        let colors = ["darkorange", "gray", "navy"];
+
+        function getPathCoordinates(data_point){
+            let coordinates = [];
+            for (var i = 0; i < features.length; i++){
+                let ft_name = features[i];
+                let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
+                coordinates.push(angleToCoordinate(angle, data_point[ft_name]));
+            }
+            return coordinates;
+        }
+
+        svg.selectAll("path")
+            .data(data)
+            .join(
+                enter => enter.append("path")
+                    .datum(d => getPathCoordinates(d))
+                    .attr("d", line)
+                    .attr("stroke-width", 3)
+                    .attr("stroke", (_, i) => colors[i])
+                    .attr("fill", (_, i) => colors[i])
+                    .attr("stroke-opacity", 1)
+                    .attr("opacity", 0.5)
+            ); -->

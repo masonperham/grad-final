@@ -8,8 +8,21 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
     <style>
         .scatter {
-            margin-bottom: 20px;
+            margin-bottom: -100px;
         }
+        .tooltip {
+            position: absolute;
+            padding: 8px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 4px;
+            pointer-events: none;
+            visibility: hidden;
+        }
+        .axis-x path {
+            display: none;
+        }
+
     </style>
 </head>
 <body>
@@ -22,30 +35,37 @@
           <p><a href="Presentation.html">Presentation</a></p>
           <p class="thislink">Washington Post</p>
           <p><a href="hive.html">Hive</a></p>
+          <p><a href="spiderChart.html">Spider Chart</a></p>
         </div>
     </nav>
 
     <div id="scatter-plots"></div>
 
     <script>
-        // Load the data
-        d3.csv("python/results/total/washPostdata.csv").then(function(data) {
-            // Group data by round
+        d3.csv("python/results/total/washPostdataNew.csv").then(function(data) {
             var rounds = d3.group(data, d => d.Round);
-
-            // Create scatter plots for each round
+            var margin = { top: 30, right: 50, bottom: 100, left: 50 }; // Adjusted margin
+            var fullWidth = window.innerWidth - 300; // Half of the screen width
+            var width = fullWidth;
+            var height = 200 - margin.top - margin.bottom;
+            var xScale = d3.scaleLinear()
+                        .domain([0, d3.max(data, d => +d.Total_Score)])
+                        .range([0, fullWidth]);
+            console.log(xScale.domain())
+            
             rounds.forEach(function(players, round) {
-                createScatterPlot(players, round);
+                createScatterPlot(players, round, xScale);
             });
         }).catch(function(error) {
             console.log("Error loading the data: " + error);
         });
 
-        function createScatterPlot(data, round) {
-            // Set up dimensions and margins
-            var margin = { top: 20, right: 20, bottom: 40, left: 40 };
-            var width = 400 - margin.left - margin.right;
-            var height = 300 - margin.top - margin.bottom;
+
+        function createScatterPlot(data, round, xScale) {
+            var margin = { top: 30, right: 50, bottom: 100, left: 50 }; // Adjusted margin
+            var fullWidth = window.innerWidth - 300; // Half of the screen width
+            var width = fullWidth;
+            var height = 200 - margin.top - margin.bottom;
 
             var svg = d3.select("#scatter-plots")
                         .append("div")
@@ -54,41 +74,57 @@
                         .attr("width", width + margin.left + margin.right)
                         .attr("height", height + margin.top + margin.bottom)
                         .append("g")
-                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-            var xScale = d3.scaleLinear()
-                           .domain([0, d3.max(data, d => +d.Pick_No)])
-                           .range([0, width]);
+                        .attr("transform", "translate(" + (margin.left + width / 2) + "," + margin.top + ") translate(" + (-width / 2) + ", 0)");
 
             var yScale = d3.scaleLinear()
-                           .domain([0, d3.max(data, d => +d.Total_Score)])
-                           .range([height, 0]);
+                        .domain([d3.max(data, d => +d.Round_Pick_No), 0])
+                        .range([height, 0]);
 
-   
             svg.append("g")
-               .attr("transform", "translate(0," + height + ")")
-               .call(d3.axisBottom(xScale));
+                .attr("class", "axis-x")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(xScale).tickSize(0).tickFormat(''));
 
-    
             svg.append("g")
-               .call(d3.axisLeft(yScale));
+                .call(d3.axisLeft(yScale).tickSize(0).tickFormat(''));
 
             svg.selectAll("circle")
-               .data(data)
-               .enter()
-               .append("circle")
-               .attr("cx", d => xScale(+d.Pick_No))
-               .attr("cy", d => yScale(+d.Total_Score))
-               .attr("r", 4)
-               .attr("fill", "steelblue");
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("cx", d => xScale(d.Total_Score))
+            .attr("cy", d => yScale(+d.Round_Pick_No))
+            .attr("r", 4)
+            .attr("fill", "lightgrey")
+            .on("mouseover", function(event, d) {
+                    d3.select(this).attr("stroke-width", 2).attr("stroke", "black");
+                    tooltip.style("visibility", "visible")
+                        .html(`<strong>Name:</strong> ${d.Player}<br><strong>ID:</strong> ${d.ID}<br><strong>Pick:</strong> ${d.Pick_No}<br><strong>Position:</strong> ${d.Pos}`);
+            })
+            .on("mousemove", function(event) {
+                    tooltip.style("top", (event.pageY - 10) + "px")
+                        .style("left", (event.pageX + 10) + "px");
+            })
+            .on("mouseout", function() {
+                    // Change fill color back to light grey on mouseout
+                    d3.select(this).attr("stroke-width", null).attr("stroke", null);
+                    // Hide tooltip on mouseout
+                    tooltip.style("visibility", "hidden");
+            });
 
             svg.append("text")
-               .attr("x", (width / 2))
-               .attr("y", 0 - (margin.top / 2))
-               .attr("text-anchor", "middle")
-               .style("font-size", "16px")
-               .text("Round " + round);
+                .attr("x", -height / 2) // Adjusted x-coordinate
+                .attr("y", -margin.left + 20) // Adjusted y-coordinate
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .attr("transform", "rotate(-90)")
+                .text("Round " + round);
+
+            var tooltip = d3.select("#scatter-plots")
+                            .append("div")
+                            .attr("class", "tooltip");
         }
     </script>
 </body>
 </html>
+<!-- Working vertical graphs -->
