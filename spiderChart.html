@@ -21,8 +21,11 @@
 
     <script>
         d3.csv("python/results/total/washPostdataNew.csv").then(function(data) {
-            // Group data by Conf_Clean and Team
+            // Group data by Team
             var nestedData = d3.group(data, d => d.Team);
+
+            // Define colors for each team
+            var teamColors = d3.scaleOrdinal(d3.schemeCategory10);
 
             // Iterate over teams and calculate player counts for each conference
             var chartData = Array.from(nestedData, ([teamName, players]) => {
@@ -172,9 +175,9 @@
                 svg.append("path")
                     .datum(conferences)
                     .attr("d", line)
-                    .attr("stroke", "red")
+                    .attr("stroke", teamColors(team.Team)) // Assigning color based on team
                     .attr("stroke-width", 2)
-                    .attr("fill", "red")
+                    .attr("fill", teamColors(team.Team)) // Assigning color based on team
                     .attr("fill-opacity", 0.5);
 
                 var accIndex = conferences.indexOf("ACC");
@@ -193,7 +196,7 @@
                     .attr("x2", secX)
                     .attr("y2", secY)
                     .attr("stroke-width", 2)
-                    .attr("stroke", "red");
+                    .attr("stroke", teamColors(team.Team)); // Assigning color based on team
                 });
         });
 
@@ -201,6 +204,7 @@
 
 </body>
 </html>
+
 
 
 
