@@ -147,9 +147,7 @@ def calcScore(row):
     score = (1 * row['MVP']) + (1 * row['SB_MVP']) + (1 * row['SB_WIN']) + (1 * row['OPOY']) + (1 * row['DPOY']) + (1 * row['OROY']) + (1 * row['DROY']) + (1 * row['First_AP']) + (1 * row['Second_AP']) + (1 * row['Pro_Bowl'])
     return score
 
-def appendConf():
-    # append each conf_stack csv  
-    return 
+
 # stack_conf()
 # stack_round()
 # hive_data()
