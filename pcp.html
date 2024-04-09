@@ -13,12 +13,34 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
 
     <style>
+
         .axis {
           opacity: 0.4;
         }
+        
         .axis:hover {
           opacity: 1;
         }
+
+        #weighted-lines {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .sliders {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sliders label {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .sliders input {
+            margin-top: 20px;
+        }
+
     </style>
 
     <body>
@@ -39,6 +61,16 @@
         <div id="svg-container2"></div>
         <div id="svg-container3"></div>
         <div id="svg-container4"></div>
+        <div id="svg-container5"></div>
+        <div id="weighted-lines">
+            <div class="sliders">
+                <input type="range" id="First_AP" min="0" max="4" value="3"><label for="First_AP">1st Team AP</label>
+                <input type="range" id="Second_AP" min="0" max="4" value="2"><label for="Second_AP">2nd Team AP</label>
+                <input type="range" id="Pro_Bowl" min="0" max="4" value="1"><label for="Pro_Bowl">Pro Bowl</label>
+                <button class="update" type="button" onclick="makeWeightedLines()">Update Chart</button>
+            </div>
+            <div id="svg-container6"></div>
+        </div>
 
     </body>
     <script src="https://d3js.org/d3-array.v2.min.js"></script>
@@ -565,11 +597,200 @@
             });
         }
 
+        function makeLines() {
+
+            // Set the dimensions and margins of the graph
+            const margin = { top: 40, right: 20, bottom: 20, left: 40 },
+                width = 400 - margin.left - margin.right,
+                height = 200 - margin.top - margin.bottom;
+
+            let accolades = ['First_AP', 'Second_AP', 'Pro_Bowl'];
+
+            d3.csv("python/results/total/college_year_lines.csv", function(data) {
+
+                data.forEach((d) =>{
+                    if(d.Conf_Clean == 'ACC') {
+                        d.color = '#013ca6';
+                    } else if (d.Conf_Clean == 'Big 12') {
+                        d.color = '#ef483e'
+                    } else if (d.Conf_Clean == 'Big Ten') {
+                        d.color = '#0088CE';
+                    } else if (d.Conf_Clean == 'Other') {
+                        d.color = '#808080';
+                    } else if (d.Conf_Clean == 'Pac12') {
+                        d.color = '#04223f';
+                    } else if (d.Conf_Clean == 'SEC') {
+                        d.color = '#ffd046';
+                    }
+                });
+
+                // Add X axis
+                var x = d3.scaleLinear()
+                    .domain([2010, 2020])
+                    .range([0, width]);
+
+                var y = d3.scaleLinear()
+                    .range([height, 0]);
+
+
+                // create a separate SVG object for each group
+                // class each SVG with parameter from metrics
+                var svg = d3.select('#svg-container5').selectAll('svg')
+                    .data(accolades)
+                    .enter()
+                        .append('svg')
+                            .attr("class", function(d) {return d + "_lines";})
+                            .attr("width", width + margin.left + margin.right)
+                            .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                            .attr("transform",
+                                "translate(" + margin.left + "," + margin.top + ")");;
+
+                var groups = d3.nest()
+                    .key(function(d) {return d.Conf_Clean;})
+                    .entries(data);
+
+                accolades.forEach((a) => {
+
+                    y.domain([0, d3.max(data.map((d) => {
+                        return parseInt(d[a]);
+                    }))]);
+
+                    d3.select("svg." + a + "_lines").selectAll(".line")
+                        .data(groups)
+                        .enter()
+                            .append("path")
+                            .attr("fill", "none")
+                            .attr("stroke", function(d){ return d.values[0].color })
+                            .attr("stroke-width", 1.5)
+                            .attr("d", function(d){
+                                return d3.line()
+                                    .x(function(d) { 
+                                        return x(d.Year); })
+                                    .y(function(d) { return y(+d[a]); })
+                                    (d.values)
+                            });
+
+                    d3.select("svg." + a + "_lines")
+                        .append("g")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(d3.axisBottom(x).ticks(5));
+
+                    d3.select("svg." + a + "_lines")
+                        .append("g")
+                        .call(d3.axisLeft(y).ticks(5));
+
+                    d3.select("svg." + a + "_lines")
+                        .append("text")
+                        .attr("x", width/2)
+                        .attr("y", 0 + (margin.top / 2))
+                        .attr("text-anchor", "middle")
+                        .style("font-family", "helvetica")
+                        .style("font-size", "12px")
+                        .text(a);
+
+                })
+            });
+
+
+        }
+
+        function makeWeightedLines() {
+
+            d3.select("#svg-container6").selectAll("*").remove();
+            // Set the dimensions and margins of the graph
+            const margin = { top: 40, right: 40, bottom: 40, left: 40 },
+                width = 600 - margin.left - margin.right,
+                height = 250 - margin.top - margin.bottom;
+
+            d3.csv("python/results/total/college_year_lines.csv", function(data) {
+
+                data.forEach((d) =>{
+                    if(d.Conf_Clean == 'ACC') {
+                        d.color = '#013ca6';
+                    } else if (d.Conf_Clean == 'Big 12') {
+                        d.color = '#ef483e'
+                    } else if (d.Conf_Clean == 'Big Ten') {
+                        d.color = '#0088CE';
+                    } else if (d.Conf_Clean == 'Other') {
+                        d.color = '#808080';
+                    } else if (d.Conf_Clean == 'Pac12') {
+                        d.color = '#04223f';
+                    } else if (d.Conf_Clean == 'SEC') {
+                        d.color = '#ffd046';
+                    }
+                });
+
+                let First_AP = document.getElementById("First_AP").value;
+                let Second_AP = document.getElementById("Second_AP").value;
+                let Pro_Bowl = document.getElementById("Pro_Bowl").value;
+
+                data.forEach((d) => {
+                    d.score = (First_AP * d.First_AP) + (Second_AP * d.Second_AP) + (Pro_Bowl * d.Pro_Bowl);
+                })
+
+
+                var groups = d3.nest()
+                    .key(function(d) {return d.Conf_Clean;})
+                    .entries(data);
+
+                var svg = d3.select("#svg-container6")
+                    .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                        .attr("transform",
+                            "translate(" + margin.left + "," + margin.top + ")");
+
+                // Add X axis --> it is a date format
+                var x = d3.scaleLinear()
+                    .domain([2010, 2020])
+                    .range([ 0, width ]);
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x).ticks(5));
+
+                // Add Y axis
+                var y = d3.scaleLinear()
+                    .domain([0, d3.max(data, function(d) { return +d.score; })])
+                    .range([ height, 0 ]);
+                svg.append("g")
+                    .call(d3.axisLeft(y).ticks(5));
+
+                // Draw the line
+                svg.selectAll(".line")
+                    .data(groups)
+                    .enter()
+                    .append("path")
+                        .attr("fill", "none")
+                        .attr("stroke", function(d){ return d.values[0].color })
+                        .attr("stroke-width", 1.5)
+                        .attr("d", function(d){
+                        return d3.line()
+                            .x(function(d) { return x(d.Year); })
+                            .y(function(d) { return y(+d.score); })
+                            (d.values)
+                        });
+
+                svg.append("text")
+                    .attr("x", width/2)
+                    .attr("y", 0 + (margin.top / 2))
+                    .attr("text-anchor", "middle")
+                    .style("font-family", "helvetica")
+                    .style("font-size", "12px")
+                    .text("Weighted Scores");
+
+            });
+
+        }
+
 
         makePosPCP();
         makeConfPCP();
         makeConfBars();
         makeSmallMultiples();
+        makeLines();
+        makeWeightedLines();
 
     </script>
 

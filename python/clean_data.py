@@ -166,6 +166,17 @@ def calcScore(row):
     score = (1 * row['MVP']) + (1 * row['SB_MVP']) + (1 * row['SB_WIN']) + (1 * row['OPOY']) + (1 * row['DPOY']) + (1 * row['OROY']) + (1 * row['DROY']) + (1 * row['First_AP']) + (1 * row['Second_AP']) + (1 * row['Pro_Bowl'])
     return score
 
-# stack_conf()
-# stack_round()
-college_small_multiples()
+def college_year_lines():
+    total_df = pd.DataFrame(columns=['Conf_Clean', 'Year', 'First_AP', 'Second_AP', 'Pro_Bowl'])
+    years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
+    for year in years: 
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        cur_df = cur_df[['Conf_Clean', 'First_AP', 'Second_AP', 'Pro_Bowl']]
+        cur_df['Year'] = year
+        total_df = pd.concat([total_df, cur_df])
+
+    total_df = total_df.groupby(['Conf_Clean', 'Year']).sum().reset_index()
+    total_df.to_csv("results/total/college_year_lines.csv", index=False)
+
+
+college_year_lines()
