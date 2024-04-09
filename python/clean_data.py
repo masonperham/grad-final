@@ -121,20 +121,20 @@ def stack_round():
             cur_df.to_csv("results/" + year + "/round_stack/round_stack_" + year + div.replace(' ', '') + ".csv", index=False)
 
 def hive_data():
-    # years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-    years = ['total']
+    years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', 'total']
+
     for year in years:
         cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
-        node_df = pd.DataFrame(columns=['axis', 'value', 'conf', 'team', 'score'])
+        node_df = pd.DataFrame(columns=['axis', 'value', 'conf', 'team', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl', 'Player', 'Team', 'College', 'Pos'])
         link_df = pd.DataFrame(columns=['from', 'to'])
         for index, row in cur_df.iterrows():
 
-            cur_score = calcScore(row)
+            cur_score = 0
             start_ix = len(node_df)
 
-            node_df.loc[len(node_df)] = [0, row['Conf_Clean'], row['Conf_Clean'], row['Team'], cur_score]
-            node_df.loc[len(node_df)] = [1, row['Team'], row['Conf_Clean'], row['Team'], cur_score]
-            node_df.loc[len(node_df)] = [2, cur_score, row['Conf_Clean'], row['Team'], cur_score]
+            node_df.loc[len(node_df)] = [0, row['Conf_Clean'], row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl'], row['Player'], row['Team'], row['College'], row['Pos']]
+            node_df.loc[len(node_df)] = [1, row['Team'], row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl'], row['Player'], row['Team'], row['College'], row['Pos']]
+            node_df.loc[len(node_df)] = [2, cur_score, row['Conf_Clean'], row['Team'], row['MVP'], row['SB_MVP'], row['SB_WIN'], row['OPOY'], row['DPOY'], row['OROY'], row['DROY'], row['First_AP'], row['Second_AP'], row['Pro_Bowl'], row['Player'], row['Team'], row['College'], row['Pos']]
 
             link_df.loc[len(link_df)] = [start_ix, start_ix + 1]
             link_df.loc[len(link_df)] = [start_ix + 1, start_ix + 2]
@@ -143,12 +143,40 @@ def hive_data():
         node_df.to_csv("results/" + year + "/hivenodes_" + year + ".csv", index=False)
         link_df.to_csv("results/" + year + "/hivelinks_" + year + ".csv", index=False)
 
+def college_conf_bars():
+    years = ['total']
+    
+    for year in years:
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        cur_df = cur_df[['Conf_Clean', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl']].groupby(['Conf_Clean']).sum().transpose().reset_index()
+        cur_df.rename(columns={'index':'accolades'}, inplace=True)
+        cur_df.to_csv("results/" + year + "/college_conf_bars_" + year + ".csv", index=False)
+
+
+def college_small_multiples():
+    years = ['total']
+    
+    for year in years:
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        cur_df = cur_df[['Conf_Clean', 'MVP', 'SB_MVP', 'SB_WIN', 'OPOY', 'DPOY', 'OROY', 'DROY', 'First_AP', 'Second_AP', 'Pro_Bowl']].groupby(['Conf_Clean']).sum().reset_index()
+        cur_df.rename(columns={'index':'accolades'}, inplace=True)
+        cur_df.to_csv("results/" + year + "/college_small_multiples_" + year + ".csv", index=False)
 
 def calcScore(row):
     score = (1 * row['MVP']) + (1 * row['SB_MVP']) + (1 * row['SB_WIN']) + (1 * row['OPOY']) + (1 * row['DPOY']) + (1 * row['OROY']) + (1 * row['DROY']) + (1 * row['First_AP']) + (1 * row['Second_AP']) + (1 * row['Pro_Bowl'])
     return score
 
+def college_year_lines():
+    total_df = pd.DataFrame(columns=['Conf_Clean', 'Year', 'First_AP', 'Second_AP', 'Pro_Bowl'])
+    years = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
+    for year in years: 
+        cur_df = pd.read_csv("results/" + year + "/joindf_" + year + ".csv")
+        cur_df = cur_df[['Conf_Clean', 'First_AP', 'Second_AP', 'Pro_Bowl']]
+        cur_df['Year'] = year
+        total_df = pd.concat([total_df, cur_df])
 
-# stack_conf()
-# stack_round()
-# hive_data()
+    total_df = total_df.groupby(['Conf_Clean', 'Year']).sum().reset_index()
+    total_df.to_csv("results/total/college_year_lines.csv", index=False)
+
+
+college_year_lines()

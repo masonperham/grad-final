@@ -1,769 +1,769 @@
-axis,value,conf,team,score
-0,SEC,SEC,Houston Texans,4
-1,Houston Texans,SEC,Houston Texans,4
-2,4,SEC,Houston Texans,4
-0,SEC,SEC,Los Angeles Rams,0
-1,Los Angeles Rams,SEC,Los Angeles Rams,0
-2,0,SEC,Los Angeles Rams,0
-0,Other,Other,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,Other,Jacksonville Jaguars,0
-2,0,Other,Jacksonville Jaguars,0
-0,ACC,ACC,Buffalo Bills,1
-1,Buffalo Bills,ACC,Buffalo Bills,1
-2,1,ACC,Buffalo Bills,1
-0,Other,Other,Las Vegas Raiders,14
-1,Las Vegas Raiders,Other,Las Vegas Raiders,14
-2,14,Other,Las Vegas Raiders,14
-0,SEC,SEC,Atlanta Falcons,1
-1,Atlanta Falcons,SEC,Atlanta Falcons,1
-2,1,SEC,Atlanta Falcons,1
-0,SEC,SEC,Tampa Bay Buccaneers,8
-1,Tampa Bay Buccaneers,SEC,Tampa Bay Buccaneers,8
-2,8,SEC,Tampa Bay Buccaneers,8
-0,Big 12,Big 12,Cleveland Browns,0
-1,Cleveland Browns,Big 12,Cleveland Browns,0
-2,0,Big 12,Cleveland Browns,0
-0,Pac12,Pac12,Minnesota Vikings,4
-1,Minnesota Vikings,Pac12,Minnesota Vikings,4
-2,4,Pac12,Minnesota Vikings,4
-0,ACC,ACC,Detroit Lions,1
-1,Detroit Lions,ACC,Detroit Lions,1
-2,1,ACC,Detroit Lions,1
-0,Big Ten,Big Ten,Tennessee Titans,3
-1,Tennessee Titans,Big Ten,Tennessee Titans,3
-2,3,Big Ten,Tennessee Titans,3
-0,SEC,SEC,New York Giants,7
-1,New York Giants,SEC,New York Giants,7
-2,7,SEC,New York Giants,7
-0,ACC,ACC,Los Angeles Rams,23
-1,Los Angeles Rams,ACC,Los Angeles Rams,23
-2,23,ACC,Los Angeles Rams,23
-0,ACC,ACC,Chicago Bears,3
-1,Chicago Bears,ACC,Chicago Bears,3
-2,3,ACC,Chicago Bears,3
-0,Big Ten,Big Ten,Pittsburgh Steelers,2
-1,Pittsburgh Steelers,Big Ten,Pittsburgh Steelers,2
-2,2,Big Ten,Pittsburgh Steelers,2
-0,Other,Other,Dallas Cowboys,18
-1,Dallas Cowboys,Other,Dallas Cowboys,18
-2,18,Other,Dallas Cowboys,18
-0,SEC,SEC,Baltimore Ravens,10
-1,Baltimore Ravens,SEC,Baltimore Ravens,10
-2,10,SEC,Baltimore Ravens,10
-0,Other,Other,New York Jets,0
-1,New York Jets,Other,New York Jets,0
-2,0,Other,New York Jets,0
-0,SEC,SEC,Miami Dolphins,0
-1,Miami Dolphins,SEC,Miami Dolphins,0
-2,0,SEC,Miami Dolphins,0
-0,Pac12,Pac12,New Orleans Saints,0
-1,New Orleans Saints,Pac12,New Orleans Saints,0
-2,0,Pac12,New Orleans Saints,0
-0,SEC,SEC,Green Bay Packers,2
-1,Green Bay Packers,SEC,Green Bay Packers,2
-2,2,SEC,Green Bay Packers,2
-0,SEC,SEC,Cleveland Browns,0
-1,Cleveland Browns,SEC,Cleveland Browns,0
-2,0,SEC,Cleveland Browns,0
-0,SEC,SEC,Kansas City Chiefs,1
-1,Kansas City Chiefs,SEC,Kansas City Chiefs,1
-2,1,SEC,Kansas City Chiefs,1
-0,Big Ten,Big Ten,Cincinnati Bengals,0
-1,Cincinnati Bengals,Big Ten,Cincinnati Bengals,0
-2,0,Big Ten,Cincinnati Bengals,0
-0,Big 12,Big 12,Los Angeles Chargers,1
-1,Los Angeles Chargers,Big 12,Los Angeles Chargers,1
-2,1,Big 12,Los Angeles Chargers,1
-0,Other,Other,Philadelphia Eagles,0
-1,Philadelphia Eagles,Other,Philadelphia Eagles,0
-2,0,Other,Philadelphia Eagles,0
-0,Pac12,Pac12,Arizona Cardinals,1
-1,Arizona Cardinals,Pac12,Arizona Cardinals,1
-2,1,Pac12,Arizona Cardinals,1
-0,ACC,ACC,Carolina Panthers,0
-1,Carolina Panthers,ACC,Carolina Panthers,0
-2,0,ACC,Carolina Panthers,0
-0,SEC,SEC,New England Patriots,1
-1,New England Patriots,SEC,New England Patriots,1
-2,1,SEC,New England Patriots,1
-0,Other,Other,San Francisco 49ers,0
-1,San Francisco 49ers,Other,San Francisco 49ers,0
-2,0,Other,San Francisco 49ers,0
-0,Big Ten,Big Ten,Denver Broncos,1
-1,Denver Broncos,Big Ten,Denver Broncos,1
-2,1,Big Ten,Denver Broncos,1
-0,Other,Other,Minnesota Vikings,1
-1,Minnesota Vikings,Other,Minnesota Vikings,1
-2,1,Other,Minnesota Vikings,1
-0,Pac12,Pac12,Houston Texans,0
-1,Houston Texans,Pac12,Houston Texans,0
-2,0,Pac12,Houston Texans,0
-0,Other,Other,Dallas Cowboys,5
-1,Dallas Cowboys,Other,Dallas Cowboys,5
-2,5,Other,Dallas Cowboys,5
-0,Other,Other,Cleveland Browns,11
-1,Cleveland Browns,Other,Cleveland Browns,11
-2,11,Other,Cleveland Browns,11
-0,Other,Other,Las Vegas Raiders,4
-1,Las Vegas Raiders,Other,Las Vegas Raiders,4
-2,4,Other,Las Vegas Raiders,4
-0,Big Ten,Big Ten,Atlanta Falcons,0
-1,Atlanta Falcons,Big Ten,Atlanta Falcons,0
-2,0,Big Ten,Atlanta Falcons,0
-0,Pac12,Pac12,Tampa Bay Buccaneers,0
-1,Tampa Bay Buccaneers,Pac12,Tampa Bay Buccaneers,0
-2,0,Pac12,Tampa Bay Buccaneers,0
-0,Pac12,Pac12,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,Pac12,Jacksonville Jaguars,0
-2,0,Pac12,Jacksonville Jaguars,0
-0,Other,Other,Detroit Lions,2
-1,Detroit Lions,Other,Detroit Lions,2
-2,2,Other,Detroit Lions,2
-0,ACC,ACC,Los Angeles Rams,0
-1,Los Angeles Rams,ACC,Los Angeles Rams,0
-2,0,ACC,Los Angeles Rams,0
-0,SEC,SEC,Philadelphia Eagles,0
-1,Philadelphia Eagles,SEC,Philadelphia Eagles,0
-2,0,SEC,Philadelphia Eagles,0
-0,Other,Other,New York Giants,0
-1,New York Giants,Other,New York Giants,0
-2,0,Other,New York Giants,0
-0,SEC,SEC,Buffalo Bills,0
-1,Buffalo Bills,SEC,Buffalo Bills,0
-2,0,SEC,Buffalo Bills,0
-0,Pac12,Pac12,Seattle Seahawks,0
-1,Seattle Seahawks,Pac12,Seattle Seahawks,0
-2,0,Pac12,Seattle Seahawks,0
-0,Other,Other,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,Other,Pittsburgh Steelers,0
-2,0,Other,Pittsburgh Steelers,0
-0,Pac12,Pac12,Washington Commanders,0
-1,Washington Commanders,Pac12,Washington Commanders,0
-2,0,Pac12,Washington Commanders,0
-0,ACC,ACC,Baltimore Ravens,1
-1,Baltimore Ravens,ACC,Baltimore Ravens,1
-2,1,ACC,Baltimore Ravens,1
-0,Big 12,Big 12,New York Jets,0
-1,New York Jets,Big 12,New York Jets,0
-2,0,Big 12,New York Jets,0
-0,ACC,ACC,Los Angeles Chargers,0
-1,Los Angeles Chargers,ACC,Los Angeles Chargers,0
-2,0,ACC,Los Angeles Chargers,0
-0,SEC,SEC,Chicago Bears,0
-1,Chicago Bears,SEC,Chicago Bears,0
-2,0,SEC,Chicago Bears,0
-0,Other,Other,Arizona Cardinals,0
-1,Arizona Cardinals,Other,Arizona Cardinals,0
-2,0,Other,Arizona Cardinals,0
-0,Other,Other,Green Bay Packers,9
-1,Green Bay Packers,Other,Green Bay Packers,9
-2,9,Other,Green Bay Packers,9
-0,Pac12,Pac12,Tennessee Titans,0
-1,Tennessee Titans,Pac12,Tennessee Titans,0
-2,0,Pac12,Tennessee Titans,0
-0,SEC,SEC,Cincinnati Bengals,1
-1,Cincinnati Bengals,SEC,Cincinnati Bengals,1
-2,1,SEC,Cincinnati Bengals,1
-0,Big Ten,Big Ten,Denver Broncos,1
-1,Denver Broncos,Big Ten,Denver Broncos,1
-2,1,Big Ten,Denver Broncos,1
-0,Big Ten,Big Ten,San Francisco 49ers,0
-1,San Francisco 49ers,Big Ten,San Francisco 49ers,0
-2,0,Big Ten,San Francisco 49ers,0
-0,Big Ten,Big Ten,New Orleans Saints,0
-1,New Orleans Saints,Big Ten,New Orleans Saints,0
-2,0,Big Ten,New Orleans Saints,0
-0,Big Ten,Big Ten,Indianapolis Colts,0
-1,Indianapolis Colts,Big Ten,Indianapolis Colts,0
-2,0,Big Ten,Indianapolis Colts,0
-0,SEC,SEC,Carolina Panthers,0
-1,Carolina Panthers,SEC,Carolina Panthers,0
-2,0,SEC,Carolina Panthers,0
-0,Big Ten,Big Ten,Jacksonville Jaguars,1
-1,Jacksonville Jaguars,Big Ten,Jacksonville Jaguars,1
-2,1,Big Ten,Jacksonville Jaguars,1
-0,Other,Other,New England Patriots,2
-1,New England Patriots,Other,New England Patriots,2
-2,2,Other,New England Patriots,2
-0,SEC,SEC,Miami Dolphins,5
-1,Miami Dolphins,SEC,Miami Dolphins,5
-2,5,SEC,Miami Dolphins,5
-0,SEC,SEC,Seattle Seahawks,0
-1,Seattle Seahawks,SEC,Seattle Seahawks,0
-2,0,SEC,Seattle Seahawks,0
-0,Big Ten,Big Ten,Houston Texans,0
-1,Houston Texans,Big Ten,Houston Texans,0
-2,0,Big Ten,Houston Texans,0
-0,ACC,ACC,Washington Commanders,0
-1,Washington Commanders,ACC,Washington Commanders,0
-2,0,ACC,Washington Commanders,0
-0,Other,Other,Miami Dolphins,0
-1,Miami Dolphins,Other,Miami Dolphins,0
-2,0,Other,Miami Dolphins,0
-0,Big Ten,Big Ten,Atlanta Falcons,0
-1,Atlanta Falcons,Big Ten,Atlanta Falcons,0
-2,0,Big Ten,Atlanta Falcons,0
-0,Big 12,Big 12,Tampa Bay Buccaneers,0
-1,Tampa Bay Buccaneers,Big 12,Tampa Bay Buccaneers,0
-2,0,Big 12,Tampa Bay Buccaneers,0
-0,Pac12,Pac12,San Francisco 49ers,0
-1,San Francisco 49ers,Pac12,San Francisco 49ers,0
-2,0,Pac12,San Francisco 49ers,0
-0,Big Ten,Big Ten,Cleveland Browns,0
-1,Cleveland Browns,Big Ten,Cleveland Browns,0
-2,0,Big Ten,Cleveland Browns,0
-0,Pac12,Pac12,Minnesota Vikings,0
-1,Minnesota Vikings,Pac12,Minnesota Vikings,0
-2,0,Pac12,Minnesota Vikings,0
-0,Other,Other,Buffalo Bills,0
-1,Buffalo Bills,Other,Buffalo Bills,0
-2,0,Other,Buffalo Bills,0
-0,ACC,ACC,New York Giants,0
-1,New York Giants,ACC,New York Giants,0
-2,0,ACC,New York Giants,0
-0,SEC,SEC,Los Angeles Rams,0
-1,Los Angeles Rams,SEC,Los Angeles Rams,0
-2,0,SEC,Los Angeles Rams,0
-0,SEC,SEC,Detroit Lions,0
-1,Detroit Lions,SEC,Detroit Lions,0
-2,0,SEC,Detroit Lions,0
-0,Big Ten,Big Ten,San Francisco 49ers,0
-1,San Francisco 49ers,Big Ten,San Francisco 49ers,0
-2,0,Big Ten,San Francisco 49ers,0
-0,Big Ten,Big Ten,Washington Commanders,0
-1,Washington Commanders,Big Ten,Washington Commanders,0
-2,0,Big Ten,Washington Commanders,0
-0,ACC,ACC,Baltimore Ravens,0
-1,Baltimore Ravens,ACC,Baltimore Ravens,0
-2,0,ACC,Baltimore Ravens,0
-0,ACC,ACC,New York Jets,0
-1,New York Jets,ACC,New York Jets,0
-2,0,ACC,New York Jets,0
-0,SEC,SEC,Las Vegas Raiders,0
-1,Las Vegas Raiders,SEC,Las Vegas Raiders,0
-2,0,SEC,Las Vegas Raiders,0
-0,Pac12,Pac12,Chicago Bears,0
-1,Chicago Bears,Pac12,Chicago Bears,0
-2,0,Pac12,Chicago Bears,0
-0,Other,Other,Houston Texans,0
-1,Houston Texans,Other,Houston Texans,0
-2,0,Other,Houston Texans,0
-0,ACC,ACC,Arizona Cardinals,0
-1,Arizona Cardinals,ACC,Arizona Cardinals,0
-2,0,ACC,Arizona Cardinals,0
-0,Other,Other,Green Bay Packers,0
-1,Green Bay Packers,Other,Green Bay Packers,0
-2,0,Other,Green Bay Packers,0
-0,Pac12,Pac12,Philadelphia Eagles,0
-1,Philadelphia Eagles,Pac12,Philadelphia Eagles,0
-2,0,Pac12,Philadelphia Eagles,0
-0,Other,Other,Kansas City Chiefs,0
-1,Kansas City Chiefs,Other,Kansas City Chiefs,0
-2,0,Other,Kansas City Chiefs,0
-0,Big 12,Big 12,Cincinnati Bengals,0
-1,Cincinnati Bengals,Big 12,Cincinnati Bengals,0
-2,0,Big 12,Cincinnati Bengals,0
-0,Other,Other,Los Angeles Chargers,0
-1,Los Angeles Chargers,Other,Los Angeles Chargers,0
-2,0,Other,Los Angeles Chargers,0
-0,SEC,SEC,Indianapolis Colts,0
-1,Indianapolis Colts,SEC,Indianapolis Colts,0
-2,0,SEC,Indianapolis Colts,0
-0,Other,Other,Arizona Cardinals,0
-1,Arizona Cardinals,Other,Arizona Cardinals,0
-2,0,Other,Arizona Cardinals,0
-0,SEC,SEC,Carolina Panthers,5
-1,Carolina Panthers,SEC,Carolina Panthers,5
-2,5,SEC,Carolina Panthers,5
-0,ACC,ACC,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,ACC,Jacksonville Jaguars,0
-2,0,ACC,Jacksonville Jaguars,0
-0,Other,Other,Cleveland Browns,0
-1,Cleveland Browns,Other,Cleveland Browns,0
-2,0,Other,Cleveland Browns,0
-0,Big Ten,Big Ten,Denver Broncos,1
-1,Denver Broncos,Big Ten,Denver Broncos,1
-2,1,Big Ten,Denver Broncos,1
-0,Other,Other,Minnesota Vikings,2
-1,Minnesota Vikings,Other,Minnesota Vikings,2
-2,2,Other,Minnesota Vikings,2
-0,Other,Other,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,Other,Pittsburgh Steelers,0
-2,0,Other,Pittsburgh Steelers,0
-0,Pac12,Pac12,Green Bay Packers,0
-1,Green Bay Packers,Pac12,Green Bay Packers,0
-2,0,Pac12,Green Bay Packers,0
-0,Other,Other,Baltimore Ravens,0
-1,Baltimore Ravens,Other,Baltimore Ravens,0
-2,0,Other,Baltimore Ravens,0
-0,ACC,ACC,San Francisco 49ers,0
-1,San Francisco 49ers,ACC,San Francisco 49ers,0
-2,0,ACC,San Francisco 49ers,0
-0,SEC,SEC,Philadelphia Eagles,1
-1,Philadelphia Eagles,SEC,Philadelphia Eagles,1
-2,1,SEC,Philadelphia Eagles,1
-0,ACC,ACC,Washington Commanders,1
-1,Washington Commanders,ACC,Washington Commanders,1
-2,1,ACC,Washington Commanders,1
-0,ACC,ACC,Atlanta Falcons,3
-1,Atlanta Falcons,ACC,Atlanta Falcons,3
-2,3,ACC,Atlanta Falcons,3
-0,Big 12,Big 12,New York Jets,0
-1,New York Jets,Big 12,New York Jets,0
-2,0,Big 12,New York Jets,0
-0,ACC,ACC,New England Patriots,1
-1,New England Patriots,ACC,New England Patriots,1
-2,1,ACC,New England Patriots,1
-0,SEC,SEC,San Francisco 49ers,0
-1,San Francisco 49ers,SEC,San Francisco 49ers,0
-2,0,SEC,San Francisco 49ers,0
-0,Other,Other,Las Vegas Raiders,0
-1,Las Vegas Raiders,Other,Las Vegas Raiders,0
-2,0,Other,Las Vegas Raiders,0
-0,Pac12,Pac12,Seattle Seahawks,0
-1,Seattle Seahawks,Pac12,Seattle Seahawks,0
-2,0,Pac12,Seattle Seahawks,0
-0,ACC,ACC,Buffalo Bills,1
-1,Buffalo Bills,ACC,Buffalo Bills,1
-2,1,ACC,Buffalo Bills,1
-0,Other,Other,Los Angeles Rams,0
-1,Los Angeles Rams,Other,Los Angeles Rams,0
-2,0,Other,Los Angeles Rams,0
-0,ACC,ACC,Cincinnati Bengals,0
-1,Cincinnati Bengals,ACC,Cincinnati Bengals,0
-2,0,ACC,Cincinnati Bengals,0
-0,Big Ten,Big Ten,Tennessee Titans,0
-1,Tennessee Titans,Big Ten,Tennessee Titans,0
-2,0,Big Ten,Tennessee Titans,0
-0,ACC,ACC,New York Giants,0
-1,New York Giants,ACC,New York Giants,0
-2,0,ACC,New York Giants,0
-0,Big 12,Big 12,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,Big 12,Jacksonville Jaguars,0
-2,0,Big 12,Jacksonville Jaguars,0
-0,Pac12,Pac12,New York Jets,0
-1,New York Jets,Pac12,New York Jets,0
-2,0,Pac12,New York Jets,0
-0,Pac12,Pac12,Las Vegas Raiders,0
-1,Las Vegas Raiders,Pac12,Las Vegas Raiders,0
-2,0,Pac12,Las Vegas Raiders,0
-0,Pac12,Pac12,Chicago Bears,0
-1,Chicago Bears,Pac12,Chicago Bears,0
-2,0,Pac12,Chicago Bears,0
-0,ACC,ACC,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,ACC,Pittsburgh Steelers,0
-2,0,ACC,Pittsburgh Steelers,0
-0,Big Ten,Big Ten,Dallas Cowboys,1
-1,Dallas Cowboys,Big Ten,Dallas Cowboys,1
-2,1,Big Ten,Dallas Cowboys,1
-0,ACC,ACC,Arizona Cardinals,0
-1,Arizona Cardinals,ACC,Arizona Cardinals,0
-2,0,ACC,Arizona Cardinals,0
-0,Pac12,Pac12,Green Bay Packers,0
-1,Green Bay Packers,Pac12,Green Bay Packers,0
-2,0,Pac12,Green Bay Packers,0
-0,Other,Other,Tennessee Titans,0
-1,Tennessee Titans,Other,Tennessee Titans,0
-2,0,Other,Tennessee Titans,0
-0,SEC,SEC,Seattle Seahawks,0
-1,Seattle Seahawks,SEC,Seattle Seahawks,0
-2,0,SEC,Seattle Seahawks,0
-0,Pac12,Pac12,Kansas City Chiefs,0
-1,Kansas City Chiefs,Pac12,Kansas City Chiefs,0
-2,0,Pac12,Kansas City Chiefs,0
-0,Other,Other,Miami Dolphins,0
-1,Miami Dolphins,Other,Miami Dolphins,0
-2,0,Other,Miami Dolphins,0
-0,Pac12,Pac12,New Orleans Saints,0
-1,New Orleans Saints,Pac12,New Orleans Saints,0
-2,0,Pac12,New Orleans Saints,0
-0,Other,Other,Cleveland Browns,0
-1,Cleveland Browns,Other,Cleveland Browns,0
-2,0,Other,Cleveland Browns,0
-0,ACC,ACC,Carolina Panthers,0
-1,Carolina Panthers,ACC,Carolina Panthers,0
-2,0,ACC,Carolina Panthers,0
-0,ACC,ACC,San Francisco 49ers,0
-1,San Francisco 49ers,ACC,San Francisco 49ers,0
-2,0,ACC,San Francisco 49ers,0
-0,Big Ten,Big Ten,New England Patriots,3
-1,New England Patriots,Big Ten,New England Patriots,3
-2,3,Big Ten,New England Patriots,3
-0,Big Ten,Big Ten,Chicago Bears,0
-1,Chicago Bears,Big Ten,Chicago Bears,0
-2,0,Big Ten,Chicago Bears,0
-0,ACC,ACC,Seattle Seahawks,0
-1,Seattle Seahawks,ACC,Seattle Seahawks,0
-2,0,ACC,Seattle Seahawks,0
-0,Other,Other,Detroit Lions,0
-1,Detroit Lions,Other,Detroit Lions,0
-2,0,Other,Detroit Lions,0
-0,ACC,ACC,Baltimore Ravens,0
-1,Baltimore Ravens,ACC,Baltimore Ravens,0
-2,0,ACC,Baltimore Ravens,0
-0,ACC,ACC,Houston Texans,0
-1,Houston Texans,ACC,Houston Texans,0
-2,0,ACC,Houston Texans,0
-0,Other,Other,Detroit Lions,0
-1,Detroit Lions,Other,Detroit Lions,0
-2,0,Other,Detroit Lions,0
-0,Other,Other,New York Jets,0
-1,New York Jets,Other,New York Jets,0
-2,0,Other,New York Jets,0
-0,Other,Other,Baltimore Ravens,0
-1,Baltimore Ravens,Other,Baltimore Ravens,0
-2,0,Other,Baltimore Ravens,0
-0,Other,Other,Atlanta Falcons,0
-1,Atlanta Falcons,Other,Atlanta Falcons,0
-2,0,Other,Atlanta Falcons,0
-0,Pac12,Pac12,New England Patriots,2
-1,New England Patriots,Pac12,New England Patriots,2
-2,2,Pac12,New England Patriots,2
-0,Pac12,Pac12,Philadelphia Eagles,0
-1,Philadelphia Eagles,Pac12,Philadelphia Eagles,0
-2,0,Pac12,Philadelphia Eagles,0
-0,Other,Other,Washington Commanders,0
-1,Washington Commanders,Other,Washington Commanders,0
-2,0,Other,Washington Commanders,0
-0,Other,Other,Tampa Bay Buccaneers,0
-1,Tampa Bay Buccaneers,Other,Tampa Bay Buccaneers,0
-2,0,Other,Tampa Bay Buccaneers,0
-0,ACC,ACC,Jacksonville Jaguars,2
-1,Jacksonville Jaguars,ACC,Jacksonville Jaguars,2
-2,2,ACC,Jacksonville Jaguars,2
-0,Pac12,Pac12,Minnesota Vikings,0
-1,Minnesota Vikings,Pac12,Minnesota Vikings,0
-2,0,Pac12,Minnesota Vikings,0
-0,ACC,ACC,Dallas Cowboys,0
-1,Dallas Cowboys,ACC,Dallas Cowboys,0
-2,0,ACC,Dallas Cowboys,0
-0,Big Ten,Big Ten,Atlanta Falcons,0
-1,Atlanta Falcons,Big Ten,Atlanta Falcons,0
-2,0,Big Ten,Atlanta Falcons,0
-0,Other,Other,Carolina Panthers,0
-1,Carolina Panthers,Other,Carolina Panthers,0
-2,0,Other,Carolina Panthers,0
-0,Big Ten,Big Ten,Tampa Bay Buccaneers,0
-1,Tampa Bay Buccaneers,Big Ten,Tampa Bay Buccaneers,0
-2,0,Big Ten,Tampa Bay Buccaneers,0
-0,Other,Other,San Francisco 49ers,0
-1,San Francisco 49ers,Other,San Francisco 49ers,0
-2,0,Other,San Francisco 49ers,0
-0,SEC,SEC,Tennessee Titans,0
-1,Tennessee Titans,SEC,Tennessee Titans,0
-2,0,SEC,Tennessee Titans,0
-0,Other,Other,New York Giants,0
-1,New York Giants,Other,New York Giants,0
-2,0,Other,New York Giants,0
-0,Big 12,Big 12,Buffalo Bills,0
-1,Buffalo Bills,Big 12,Buffalo Bills,0
-2,0,Big 12,Buffalo Bills,0
-0,Big 12,Big 12,New York Jets,0
-1,New York Jets,Big 12,New York Jets,0
-2,0,Big 12,New York Jets,0
-0,SEC,SEC,Miami Dolphins,0
-1,Miami Dolphins,SEC,Miami Dolphins,0
-2,0,SEC,Miami Dolphins,0
-0,SEC,SEC,Denver Broncos,0
-1,Denver Broncos,SEC,Denver Broncos,0
-2,0,SEC,Denver Broncos,0
-0,Pac12,Pac12,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,Pac12,Pittsburgh Steelers,0
-2,0,Pac12,Pittsburgh Steelers,0
-0,Other,Other,Detroit Lions,0
-1,Detroit Lions,Other,Detroit Lions,0
-2,0,Other,Detroit Lions,0
-0,SEC,SEC,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,SEC,Jacksonville Jaguars,0
-2,0,SEC,Jacksonville Jaguars,0
-0,SEC,SEC,Arizona Cardinals,0
-1,Arizona Cardinals,SEC,Arizona Cardinals,0
-2,0,SEC,Arizona Cardinals,0
-0,Big Ten,Big Ten,Green Bay Packers,3
-1,Green Bay Packers,Big Ten,Green Bay Packers,3
-2,3,Big Ten,Green Bay Packers,3
-0,Pac12,Pac12,Philadelphia Eagles,0
-1,Philadelphia Eagles,Pac12,Philadelphia Eagles,0
-2,0,Pac12,Philadelphia Eagles,0
-0,SEC,SEC,Kansas City Chiefs,0
-1,Kansas City Chiefs,SEC,Kansas City Chiefs,0
-2,0,SEC,Kansas City Chiefs,0
-0,SEC,SEC,Cincinnati Bengals,0
-1,Cincinnati Bengals,SEC,Cincinnati Bengals,0
-2,0,SEC,Cincinnati Bengals,0
-0,Other,Other,Los Angeles Chargers,0
-1,Los Angeles Chargers,Other,Los Angeles Chargers,0
-2,0,Other,Los Angeles Chargers,0
-0,Other,Other,Indianapolis Colts,0
-1,Indianapolis Colts,Other,Indianapolis Colts,0
-2,0,Other,Indianapolis Colts,0
-0,SEC,SEC,New Orleans Saints,0
-1,New Orleans Saints,SEC,New Orleans Saints,0
-2,0,SEC,New Orleans Saints,0
-0,ACC,ACC,Atlanta Falcons,0
-1,Atlanta Falcons,ACC,Atlanta Falcons,0
-2,0,ACC,Atlanta Falcons,0
-0,SEC,SEC,New Orleans Saints,0
-1,New Orleans Saints,SEC,New Orleans Saints,0
-2,0,SEC,New Orleans Saints,0
-0,Other,Other,San Francisco 49ers,1
-1,San Francisco 49ers,Other,San Francisco 49ers,1
-2,1,Other,San Francisco 49ers,1
-0,Other,Other,Miami Dolphins,0
-1,Miami Dolphins,Other,Miami Dolphins,0
-2,0,Other,Miami Dolphins,0
-0,Other,Other,Seattle Seahawks,0
-1,Seattle Seahawks,Other,Seattle Seahawks,0
-2,0,Other,Seattle Seahawks,0
-0,SEC,SEC,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,SEC,Pittsburgh Steelers,0
-2,0,SEC,Pittsburgh Steelers,0
-0,Pac12,Pac12,New York Giants,0
-1,New York Giants,Pac12,New York Giants,0
-2,0,Pac12,New York Giants,0
-0,Big Ten,Big Ten,Baltimore Ravens,0
-1,Baltimore Ravens,Big Ten,Baltimore Ravens,0
-2,0,Big Ten,Baltimore Ravens,0
-0,Big Ten,Big Ten,Green Bay Packers,0
-1,Green Bay Packers,Big Ten,Green Bay Packers,0
-2,0,Big Ten,Green Bay Packers,0
-0,SEC,SEC,Houston Texans,0
-1,Houston Texans,SEC,Houston Texans,0
-2,0,SEC,Houston Texans,0
-0,SEC,SEC,Tennessee Titans,0
-1,Tennessee Titans,SEC,Tennessee Titans,0
-2,0,SEC,Tennessee Titans,0
-0,SEC,SEC,New England Patriots,0
-1,New England Patriots,SEC,New England Patriots,0
-2,0,SEC,New England Patriots,0
-0,Other,Other,San Francisco 49ers,0
-1,San Francisco 49ers,Other,San Francisco 49ers,0
-2,0,Other,San Francisco 49ers,0
-0,SEC,SEC,Houston Texans,0
-1,Houston Texans,SEC,Houston Texans,0
-2,0,SEC,Houston Texans,0
-0,ACC,ACC,Minnesota Vikings,0
-1,Minnesota Vikings,ACC,Minnesota Vikings,0
-2,0,ACC,Minnesota Vikings,0
-0,Other,Other,Chicago Bears,0
-1,Chicago Bears,Other,Chicago Bears,0
-2,0,Other,Chicago Bears,0
-0,Other,Other,Minnesota Vikings,0
-1,Minnesota Vikings,Other,Minnesota Vikings,0
-2,0,Other,Minnesota Vikings,0
-0,Other,Other,Tampa Bay Buccaneers,0
-1,Tampa Bay Buccaneers,Other,Tampa Bay Buccaneers,0
-2,0,Other,Tampa Bay Buccaneers,0
-0,Big 12,Big 12,Washington Commanders,0
-1,Washington Commanders,Big 12,Washington Commanders,0
-2,0,Big 12,Washington Commanders,0
-0,Other,Other,New York Giants,0
-1,New York Giants,Other,New York Giants,0
-2,0,Other,New York Giants,0
-0,SEC,SEC,Los Angeles Rams,0
-1,Los Angeles Rams,SEC,Los Angeles Rams,0
-2,0,SEC,Los Angeles Rams,0
-0,Other,Other,Detroit Lions,0
-1,Detroit Lions,Other,Detroit Lions,0
-2,0,Other,Detroit Lions,0
-0,Other,Other,Miami Dolphins,0
-1,Miami Dolphins,Other,Miami Dolphins,0
-2,0,Other,Miami Dolphins,0
-0,ACC,ACC,Chicago Bears,0
-1,Chicago Bears,ACC,Chicago Bears,0
-2,0,ACC,Chicago Bears,0
-0,Pac12,Pac12,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,Pac12,Pittsburgh Steelers,0
-2,0,Pac12,Pittsburgh Steelers,0
-0,SEC,SEC,Kansas City Chiefs,0
-1,Kansas City Chiefs,SEC,Kansas City Chiefs,0
-2,0,SEC,Kansas City Chiefs,0
-0,Other,Other,Baltimore Ravens,0
-1,Baltimore Ravens,Other,Baltimore Ravens,0
-2,0,Other,Baltimore Ravens,0
-0,Other,Other,New York Jets,0
-1,New York Jets,Other,New York Jets,0
-2,0,Other,New York Jets,0
-0,Other,Other,Arizona Cardinals,0
-1,Arizona Cardinals,Other,Arizona Cardinals,0
-2,0,Other,Arizona Cardinals,0
-0,Big 12,Big 12,Green Bay Packers,0
-1,Green Bay Packers,Big 12,Green Bay Packers,0
-2,0,Big 12,Green Bay Packers,0
-0,Other,Other,New England Patriots,1
-1,New England Patriots,Other,New England Patriots,1
-2,1,Other,New England Patriots,1
-0,Other,Other,Seattle Seahawks,0
-1,Seattle Seahawks,Other,Seattle Seahawks,0
-2,0,Other,Seattle Seahawks,0
-0,Other,Other,Kansas City Chiefs,1
-1,Kansas City Chiefs,Other,Kansas City Chiefs,1
-2,1,Other,Kansas City Chiefs,1
-0,Pac12,Pac12,Los Angeles Chargers,0
-1,Los Angeles Chargers,Pac12,Los Angeles Chargers,0
-2,0,Pac12,Los Angeles Chargers,0
-0,Big 12,Big 12,New Orleans Saints,0
-1,New Orleans Saints,Big 12,New Orleans Saints,0
-2,0,Big 12,New Orleans Saints,0
-0,Other,Other,Indianapolis Colts,0
-1,Indianapolis Colts,Other,Indianapolis Colts,0
-2,0,Other,Indianapolis Colts,0
-0,Pac12,Pac12,Carolina Panthers,2
-1,Carolina Panthers,Pac12,Carolina Panthers,2
-2,2,Pac12,Carolina Panthers,2
-0,ACC,ACC,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,ACC,Jacksonville Jaguars,0
-2,0,ACC,Jacksonville Jaguars,0
-0,ACC,ACC,New England Patriots,0
-1,New England Patriots,ACC,New England Patriots,0
-2,0,ACC,New England Patriots,0
-0,Other,Other,Denver Broncos,1
-1,Denver Broncos,Other,Denver Broncos,1
-2,1,Other,Denver Broncos,1
-0,Other,Other,Seattle Seahawks,0
-1,Seattle Seahawks,Other,Seattle Seahawks,0
-2,0,Other,Seattle Seahawks,0
-0,Big Ten,Big Ten,New York Jets,0
-1,New York Jets,Big Ten,New York Jets,0
-2,0,Big Ten,New York Jets,0
-0,Other,Other,New York Jets,0
-1,New York Jets,Other,New York Jets,0
-2,0,Other,New York Jets,0
-0,SEC,SEC,Houston Texans,0
-1,Houston Texans,SEC,Houston Texans,0
-2,0,SEC,Houston Texans,0
-0,Pac12,Pac12,Cincinnati Bengals,0
-1,Cincinnati Bengals,Pac12,Cincinnati Bengals,0
-2,0,Pac12,Cincinnati Bengals,0
-0,ACC,ACC,New York Jets,0
-1,New York Jets,ACC,New York Jets,0
-2,0,ACC,New York Jets,0
-0,Other,Other,Los Angeles Rams,1
-1,Los Angeles Rams,Other,Los Angeles Rams,1
-2,1,Other,Los Angeles Rams,1
-0,SEC,SEC,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,SEC,Pittsburgh Steelers,0
-2,0,SEC,Pittsburgh Steelers,0
-0,SEC,SEC,Houston Texans,0
-1,Houston Texans,SEC,Houston Texans,0
-2,0,SEC,Houston Texans,0
-0,Big Ten,Big Ten,Washington Commanders,0
-1,Washington Commanders,Big Ten,Washington Commanders,0
-2,0,Big Ten,Washington Commanders,0
-0,ACC,ACC,Baltimore Ravens,0
-1,Baltimore Ravens,ACC,Baltimore Ravens,0
-2,0,ACC,Baltimore Ravens,0
-0,Other,Other,Las Vegas Raiders,0
-1,Las Vegas Raiders,Other,Las Vegas Raiders,0
-2,0,Other,Las Vegas Raiders,0
-0,Other,Other,Minnesota Vikings,0
-1,Minnesota Vikings,Other,Minnesota Vikings,0
-2,0,Other,Minnesota Vikings,0
-0,Other,Other,Buffalo Bills,0
-1,Buffalo Bills,Other,Buffalo Bills,0
-2,0,Other,Buffalo Bills,0
-0,Other,Other,Jacksonville Jaguars,0
-1,Jacksonville Jaguars,Other,Jacksonville Jaguars,0
-2,0,Other,Jacksonville Jaguars,0
-0,ACC,ACC,Minnesota Vikings,0
-1,Minnesota Vikings,ACC,Minnesota Vikings,0
-2,0,ACC,Minnesota Vikings,0
-0,Big Ten,Big Ten,Philadelphia Eagles,1
-1,Philadelphia Eagles,Big Ten,Philadelphia Eagles,1
-2,1,Big Ten,Philadelphia Eagles,1
-0,ACC,ACC,Minnesota Vikings,0
-1,Minnesota Vikings,ACC,Minnesota Vikings,0
-2,0,ACC,Minnesota Vikings,0
-0,Other,Other,Los Angeles Rams,0
-1,Los Angeles Rams,Other,Los Angeles Rams,0
-2,0,Other,Los Angeles Rams,0
-0,SEC,SEC,Seattle Seahawks,0
-1,Seattle Seahawks,SEC,Seattle Seahawks,0
-2,0,SEC,Seattle Seahawks,0
-0,SEC,SEC,Washington Commanders,0
-1,Washington Commanders,SEC,Washington Commanders,0
-2,0,SEC,Washington Commanders,0
-0,ACC,ACC,Detroit Lions,0
-1,Detroit Lions,ACC,Detroit Lions,0
-2,0,ACC,Detroit Lions,0
-0,Other,Other,Pittsburgh Steelers,0
-1,Pittsburgh Steelers,Other,Pittsburgh Steelers,0
-2,0,Other,Pittsburgh Steelers,0
-0,Pac12,Pac12,Dallas Cowboys,0
-1,Dallas Cowboys,Pac12,Dallas Cowboys,0
-2,0,Pac12,Dallas Cowboys,0
-0,Other,Other,Indianapolis Colts,1
-1,Indianapolis Colts,Other,Indianapolis Colts,1
-2,1,Other,Indianapolis Colts,1
-0,Pac12,Pac12,New York Jets,0
-1,New York Jets,Pac12,New York Jets,0
-2,0,Pac12,New York Jets,0
-0,Other,Other,Miami Dolphins,0
-1,Miami Dolphins,Other,Miami Dolphins,0
-2,0,Other,Miami Dolphins,0
-0,Other,Other,Las Vegas Raiders,0
-1,Las Vegas Raiders,Other,Las Vegas Raiders,0
-2,0,Other,Las Vegas Raiders,0
-0,Other,Other,Green Bay Packers,0
-1,Green Bay Packers,Other,Green Bay Packers,0
-2,0,Other,Green Bay Packers,0
-0,ACC,ACC,Buffalo Bills,0
-1,Buffalo Bills,ACC,Buffalo Bills,0
-2,0,ACC,Buffalo Bills,0
-0,Big 12,Big 12,Dallas Cowboys,0
-1,Dallas Cowboys,Big 12,Dallas Cowboys,0
-2,0,Big 12,Dallas Cowboys,0
-0,SEC,SEC,Cincinnati Bengals,0
-1,Cincinnati Bengals,SEC,Cincinnati Bengals,0
-2,0,SEC,Cincinnati Bengals,0
-0,Big 12,Big 12,Los Angeles Chargers,0
-1,Los Angeles Chargers,Big 12,Los Angeles Chargers,0
-2,0,Big 12,Los Angeles Chargers,0
-0,Big Ten,Big Ten,Los Angeles Rams,0
-1,Los Angeles Rams,Big Ten,Los Angeles Rams,0
-2,0,Big Ten,Los Angeles Rams,0
-0,Big 12,Big 12,Denver Broncos,1
-1,Denver Broncos,Big 12,Denver Broncos,1
-2,1,Big 12,Denver Broncos,1
-0,ACC,ACC,San Francisco 49ers,0
-1,San Francisco 49ers,ACC,San Francisco 49ers,0
-2,0,ACC,San Francisco 49ers,0
-0,Big Ten,Big Ten,New England Patriots,0
-1,New England Patriots,Big Ten,New England Patriots,0
-2,0,Big Ten,New England Patriots,0
-0,Big 12,Big 12,San Francisco 49ers,0
-1,San Francisco 49ers,Big 12,San Francisco 49ers,0
-2,0,Big 12,San Francisco 49ers,0
-0,Other,Other,Chicago Bears,1
-1,Chicago Bears,Other,Chicago Bears,1
-2,1,Other,Chicago Bears,1
-0,Other,Other,Las Vegas Raiders,0
-1,Las Vegas Raiders,Other,Las Vegas Raiders,0
-2,0,Other,Las Vegas Raiders,0
-0,Big 12,Big 12,Dallas Cowboys,0
-1,Dallas Cowboys,Big 12,Dallas Cowboys,0
-2,0,Big 12,Dallas Cowboys,0
-0,SEC,SEC,Los Angeles Rams,0
-1,Los Angeles Rams,SEC,Los Angeles Rams,0
-2,0,SEC,Los Angeles Rams,0
-0,Other,Other,Los Angeles Rams,0
-1,Los Angeles Rams,Other,Los Angeles Rams,0
-2,0,Other,Los Angeles Rams,0
-0,Other,Other,Dallas Cowboys,0
-1,Dallas Cowboys,Other,Dallas Cowboys,0
-2,0,Other,Dallas Cowboys,0
-0,Other,Other,Cincinnati Bengals,0
-1,Cincinnati Bengals,Other,Cincinnati Bengals,0
-2,0,Other,Cincinnati Bengals,0
-0,Other,Other,Atlanta Falcons,0
-1,Atlanta Falcons,Other,Atlanta Falcons,0
-2,0,Other,Atlanta Falcons,0
-0,Pac12,Pac12,Dallas Cowboys,0
-1,Dallas Cowboys,Pac12,Dallas Cowboys,0
-2,0,Pac12,Dallas Cowboys,0
-0,Other,Other,Atlanta Falcons,0
-1,Atlanta Falcons,Other,Atlanta Falcons,0
-2,0,Other,Atlanta Falcons,0
-0,Other,Other,Houston Texans,0
-1,Houston Texans,Other,Houston Texans,0
-2,0,Other,Houston Texans,0
+axis,value,conf,team,MVP,SB_MVP,SB_WIN,OPOY,DPOY,OROY,DROY,First_AP,Second_AP,Pro_Bowl,Player,Team,College,Pos
+0,SEC,SEC,Houston Texans,0,0,0,0,0,0,0,0,1,3,Jadeveon Clowney,Houston Texans,South Carolina,DE
+1,Houston Texans,SEC,Houston Texans,0,0,0,0,0,0,0,0,1,3,Jadeveon Clowney,Houston Texans,South Carolina,DE
+2,0,SEC,Houston Texans,0,0,0,0,0,0,0,0,1,3,Jadeveon Clowney,Houston Texans,South Carolina,DE
+0,SEC,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Greg Robinson,Los Angeles Rams,Auburn,OT
+1,Los Angeles Rams,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Greg Robinson,Los Angeles Rams,Auburn,OT
+2,0,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Greg Robinson,Los Angeles Rams,Auburn,OT
+0,Other,Other,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Blake Bortles,Jacksonville Jaguars,UCF,QB
+1,Jacksonville Jaguars,Other,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Blake Bortles,Jacksonville Jaguars,UCF,QB
+2,0,Other,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Blake Bortles,Jacksonville Jaguars,UCF,QB
+0,ACC,ACC,Buffalo Bills,0,0,1,0,0,0,0,0,0,0,Sammy Watkins,Buffalo Bills,Clemson,WR
+1,Buffalo Bills,ACC,Buffalo Bills,0,0,1,0,0,0,0,0,0,0,Sammy Watkins,Buffalo Bills,Clemson,WR
+2,0,ACC,Buffalo Bills,0,0,1,0,0,0,0,0,0,0,Sammy Watkins,Buffalo Bills,Clemson,WR
+0,Other,Other,Las Vegas Raiders,0,0,0,0,1,0,0,4,1,8,Khalil Mack,Las Vegas Raiders,Buffalo,LB
+1,Las Vegas Raiders,Other,Las Vegas Raiders,0,0,0,0,1,0,0,4,1,8,Khalil Mack,Las Vegas Raiders,Buffalo,LB
+2,0,Other,Las Vegas Raiders,0,0,0,0,1,0,0,4,1,8,Khalil Mack,Las Vegas Raiders,Buffalo,LB
+0,SEC,SEC,Atlanta Falcons,0,0,0,0,0,0,0,0,0,1,Jake Matthews,Atlanta Falcons,Texas AM,OT
+1,Atlanta Falcons,SEC,Atlanta Falcons,0,0,0,0,0,0,0,0,0,1,Jake Matthews,Atlanta Falcons,Texas AM,OT
+2,0,SEC,Atlanta Falcons,0,0,0,0,0,0,0,0,0,1,Jake Matthews,Atlanta Falcons,Texas AM,OT
+0,SEC,SEC,Tampa Bay Buccaneers,0,0,1,0,0,0,0,0,2,5,Mike Evans,Tampa Bay Buccaneers,Texas AM,WR
+1,Tampa Bay Buccaneers,SEC,Tampa Bay Buccaneers,0,0,1,0,0,0,0,0,2,5,Mike Evans,Tampa Bay Buccaneers,Texas AM,WR
+2,0,SEC,Tampa Bay Buccaneers,0,0,1,0,0,0,0,0,2,5,Mike Evans,Tampa Bay Buccaneers,Texas AM,WR
+0,Big 12,Big 12,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Justin Gilbert,Cleveland Browns,Oklahoma State,CB
+1,Cleveland Browns,Big 12,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Justin Gilbert,Cleveland Browns,Oklahoma State,CB
+2,0,Big 12,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Justin Gilbert,Cleveland Browns,Oklahoma State,CB
+0,Pac12,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,4,Anthony Barr,Minnesota Vikings,UCLA,LB
+1,Minnesota Vikings,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,4,Anthony Barr,Minnesota Vikings,UCLA,LB
+2,0,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,4,Anthony Barr,Minnesota Vikings,UCLA,LB
+0,ACC,ACC,Detroit Lions,0,0,0,0,0,0,0,0,0,1,Eric Ebron,Detroit Lions,North Carolina,TE
+1,Detroit Lions,ACC,Detroit Lions,0,0,0,0,0,0,0,0,0,1,Eric Ebron,Detroit Lions,North Carolina,TE
+2,0,ACC,Detroit Lions,0,0,0,0,0,0,0,0,0,1,Eric Ebron,Detroit Lions,North Carolina,TE
+0,Big Ten,Big Ten,Tennessee Titans,0,0,0,0,0,0,0,0,0,3,Taylor Lewan,Tennessee Titans,Michigan,OT
+1,Tennessee Titans,Big Ten,Tennessee Titans,0,0,0,0,0,0,0,0,0,3,Taylor Lewan,Tennessee Titans,Michigan,OT
+2,0,Big Ten,Tennessee Titans,0,0,0,0,0,0,0,0,0,3,Taylor Lewan,Tennessee Titans,Michigan,OT
+0,SEC,SEC,New York Giants,0,0,1,0,0,1,0,0,2,3,Odell Beckham Jr,New York Giants,LSU,WR
+1,New York Giants,SEC,New York Giants,0,0,1,0,0,1,0,0,2,3,Odell Beckham Jr,New York Giants,LSU,WR
+2,0,SEC,New York Giants,0,0,1,0,0,1,0,0,2,3,Odell Beckham Jr,New York Giants,LSU,WR
+0,ACC,ACC,Los Angeles Rams,0,0,1,0,3,0,1,8,0,10,Aaron Donald,Los Angeles Rams,Pittsburgh,DT
+1,Los Angeles Rams,ACC,Los Angeles Rams,0,0,1,0,3,0,1,8,0,10,Aaron Donald,Los Angeles Rams,Pittsburgh,DT
+2,0,ACC,Los Angeles Rams,0,0,1,0,3,0,1,8,0,10,Aaron Donald,Los Angeles Rams,Pittsburgh,DT
+0,ACC,ACC,Chicago Bears,0,0,0,0,0,0,0,1,0,2,Kyle Fuller,Chicago Bears,Virginia Tech,CB
+1,Chicago Bears,ACC,Chicago Bears,0,0,0,0,0,0,0,1,0,2,Kyle Fuller,Chicago Bears,Virginia Tech,CB
+2,0,ACC,Chicago Bears,0,0,0,0,0,0,0,1,0,2,Kyle Fuller,Chicago Bears,Virginia Tech,CB
+0,Big Ten,Big Ten,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,2,Ryan Shazier,Pittsburgh Steelers,Ohio State,LB
+1,Pittsburgh Steelers,Big Ten,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,2,Ryan Shazier,Pittsburgh Steelers,Ohio State,LB
+2,0,Big Ten,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,2,Ryan Shazier,Pittsburgh Steelers,Ohio State,LB
+0,Other,Other,Dallas Cowboys,0,0,0,0,0,0,0,7,2,9,Zack Martin,Dallas Cowboys,Notre Dame,OG
+1,Dallas Cowboys,Other,Dallas Cowboys,0,0,0,0,0,0,0,7,2,9,Zack Martin,Dallas Cowboys,Notre Dame,OG
+2,0,Other,Dallas Cowboys,0,0,0,0,0,0,0,7,2,9,Zack Martin,Dallas Cowboys,Notre Dame,OG
+0,SEC,SEC,Baltimore Ravens,0,0,0,0,0,0,0,0,5,5,C J Mosley,Baltimore Ravens,Alabama,LB
+1,Baltimore Ravens,SEC,Baltimore Ravens,0,0,0,0,0,0,0,0,5,5,C J Mosley,Baltimore Ravens,Alabama,LB
+2,0,SEC,Baltimore Ravens,0,0,0,0,0,0,0,0,5,5,C J Mosley,Baltimore Ravens,Alabama,LB
+0,Other,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Calvin Pryor,New York Jets,Louisville,S
+1,New York Jets,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Calvin Pryor,New York Jets,Louisville,S
+2,0,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Calvin Pryor,New York Jets,Louisville,S
+0,SEC,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,JaWuan James,Miami Dolphins,Tennessee,OT
+1,Miami Dolphins,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,JaWuan James,Miami Dolphins,Tennessee,OT
+2,0,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,JaWuan James,Miami Dolphins,Tennessee,OT
+0,Pac12,Pac12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Brandin Cooks,New Orleans Saints,Oregon State,WR
+1,New Orleans Saints,Pac12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Brandin Cooks,New Orleans Saints,Oregon State,WR
+2,0,Pac12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Brandin Cooks,New Orleans Saints,Oregon State,WR
+0,SEC,SEC,Green Bay Packers,0,0,0,0,0,0,0,0,1,1,Ha Ha ClintonDix,Green Bay Packers,Alabama,S
+1,Green Bay Packers,SEC,Green Bay Packers,0,0,0,0,0,0,0,0,1,1,Ha Ha ClintonDix,Green Bay Packers,Alabama,S
+2,0,SEC,Green Bay Packers,0,0,0,0,0,0,0,0,1,1,Ha Ha ClintonDix,Green Bay Packers,Alabama,S
+0,SEC,SEC,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Johnny Manziel,Cleveland Browns,Texas AM,QB
+1,Cleveland Browns,SEC,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Johnny Manziel,Cleveland Browns,Texas AM,QB
+2,0,SEC,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Johnny Manziel,Cleveland Browns,Texas AM,QB
+0,SEC,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,1,Dee Ford,Kansas City Chiefs,Auburn,DE
+1,Kansas City Chiefs,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,1,Dee Ford,Kansas City Chiefs,Auburn,DE
+2,0,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,1,Dee Ford,Kansas City Chiefs,Auburn,DE
+0,Big Ten,Big Ten,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Darqueze Dennard,Cincinnati Bengals,Michigan State,CB
+1,Cincinnati Bengals,Big Ten,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Darqueze Dennard,Cincinnati Bengals,Michigan State,CB
+2,0,Big Ten,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Darqueze Dennard,Cincinnati Bengals,Michigan State,CB
+0,Big 12,Big 12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,1,Jason Verrett,Los Angeles Chargers,TCU,CB
+1,Los Angeles Chargers,Big 12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,1,Jason Verrett,Los Angeles Chargers,TCU,CB
+2,0,Big 12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,1,Jason Verrett,Los Angeles Chargers,TCU,CB
+0,Other,Other,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Marcus Smith,Philadelphia Eagles,Louisville,LB
+1,Philadelphia Eagles,Other,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Marcus Smith,Philadelphia Eagles,Louisville,LB
+2,0,Other,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Marcus Smith,Philadelphia Eagles,Louisville,LB
+0,Pac12,Pac12,Arizona Cardinals,0,0,1,0,0,0,0,0,0,0,Deone Bucannon,Arizona Cardinals,Washington State,S
+1,Arizona Cardinals,Pac12,Arizona Cardinals,0,0,1,0,0,0,0,0,0,0,Deone Bucannon,Arizona Cardinals,Washington State,S
+2,0,Pac12,Arizona Cardinals,0,0,1,0,0,0,0,0,0,0,Deone Bucannon,Arizona Cardinals,Washington State,S
+0,ACC,ACC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Kelvin Benjamin,Carolina Panthers,Florida State,WR
+1,Carolina Panthers,ACC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Kelvin Benjamin,Carolina Panthers,Florida State,WR
+2,0,ACC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Kelvin Benjamin,Carolina Panthers,Florida State,WR
+0,SEC,SEC,New England Patriots,0,0,1,0,0,0,0,0,0,0,Dominique Easley,New England Patriots,Florida,DT
+1,New England Patriots,SEC,New England Patriots,0,0,1,0,0,0,0,0,0,0,Dominique Easley,New England Patriots,Florida,DT
+2,0,SEC,New England Patriots,0,0,1,0,0,0,0,0,0,0,Dominique Easley,New England Patriots,Florida,DT
+0,Other,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Jimmie Ward,San Francisco 49ers,Northern Illinois,S
+1,San Francisco 49ers,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Jimmie Ward,San Francisco 49ers,Northern Illinois,S
+2,0,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Jimmie Ward,San Francisco 49ers,Northern Illinois,S
+0,Big Ten,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Bradley Roby,Denver Broncos,Ohio State,CB
+1,Denver Broncos,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Bradley Roby,Denver Broncos,Ohio State,CB
+2,0,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Bradley Roby,Denver Broncos,Ohio State,CB
+0,Other,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,1,Teddy Bridgewater,Minnesota Vikings,Louisville,QB
+1,Minnesota Vikings,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,1,Teddy Bridgewater,Minnesota Vikings,Louisville,QB
+2,0,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,1,Teddy Bridgewater,Minnesota Vikings,Louisville,QB
+0,Pac12,Pac12,Houston Texans,0,0,0,0,0,0,0,0,0,0,Xavier SuaFilo,Houston Texans,UCLA,OG
+1,Houston Texans,Pac12,Houston Texans,0,0,0,0,0,0,0,0,0,0,Xavier SuaFilo,Houston Texans,UCLA,OG
+2,0,Pac12,Houston Texans,0,0,0,0,0,0,0,0,0,0,Xavier SuaFilo,Houston Texans,UCLA,OG
+0,Other,Other,Dallas Cowboys,0,0,0,0,0,0,0,0,1,4,DeMarcus Lawrence,Dallas Cowboys,Boise State,DE
+1,Dallas Cowboys,Other,Dallas Cowboys,0,0,0,0,0,0,0,0,1,4,DeMarcus Lawrence,Dallas Cowboys,Boise State,DE
+2,0,Other,Dallas Cowboys,0,0,0,0,0,0,0,0,1,4,DeMarcus Lawrence,Dallas Cowboys,Boise State,DE
+0,Other,Other,Cleveland Browns,0,0,0,0,0,0,0,2,3,6,Joel Bitonio,Cleveland Browns,Nevada,OT
+1,Cleveland Browns,Other,Cleveland Browns,0,0,0,0,0,0,0,2,3,6,Joel Bitonio,Cleveland Browns,Nevada,OT
+2,0,Other,Cleveland Browns,0,0,0,0,0,0,0,2,3,6,Joel Bitonio,Cleveland Browns,Nevada,OT
+0,Other,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,4,Derek Carr,Las Vegas Raiders,Fresno State,QB
+1,Las Vegas Raiders,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,4,Derek Carr,Las Vegas Raiders,Fresno State,QB
+2,0,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,4,Derek Carr,Las Vegas Raiders,Fresno State,QB
+0,Big Ten,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,RaShede Hageman,Atlanta Falcons,Minnesota,DT
+1,Atlanta Falcons,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,RaShede Hageman,Atlanta Falcons,Minnesota,DT
+2,0,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,RaShede Hageman,Atlanta Falcons,Minnesota,DT
+0,Pac12,Pac12,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Austin SeferianJenkins,Tampa Bay Buccaneers,Washington,TE
+1,Tampa Bay Buccaneers,Pac12,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Austin SeferianJenkins,Tampa Bay Buccaneers,Washington,TE
+2,0,Pac12,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Austin SeferianJenkins,Tampa Bay Buccaneers,Washington,TE
+0,Pac12,Pac12,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Marqise Lee,Jacksonville Jaguars,USC,WR
+1,Jacksonville Jaguars,Pac12,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Marqise Lee,Jacksonville Jaguars,USC,WR
+2,0,Pac12,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Marqise Lee,Jacksonville Jaguars,USC,WR
+0,Other,Other,Detroit Lions,0,0,2,0,0,0,0,0,0,0,Kyle Van Noy,Detroit Lions,BYU,LB
+1,Detroit Lions,Other,Detroit Lions,0,0,2,0,0,0,0,0,0,0,Kyle Van Noy,Detroit Lions,BYU,LB
+2,0,Other,Detroit Lions,0,0,2,0,0,0,0,0,0,0,Kyle Van Noy,Detroit Lions,BYU,LB
+0,ACC,ACC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Lamarcus Joyner,Los Angeles Rams,Florida State,S
+1,Los Angeles Rams,ACC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Lamarcus Joyner,Los Angeles Rams,Florida State,S
+2,0,ACC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Lamarcus Joyner,Los Angeles Rams,Florida State,S
+0,SEC,SEC,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Jordan Matthews,Philadelphia Eagles,Vanderbilt,WR
+1,Philadelphia Eagles,SEC,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Jordan Matthews,Philadelphia Eagles,Vanderbilt,WR
+2,0,SEC,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Jordan Matthews,Philadelphia Eagles,Vanderbilt,WR
+0,Other,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Weston Richburg,New York Giants,Colorado State,C
+1,New York Giants,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Weston Richburg,New York Giants,Colorado State,C
+2,0,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Weston Richburg,New York Giants,Colorado State,C
+0,SEC,SEC,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Cyrus Kouandjio,Buffalo Bills,Alabama,OT
+1,Buffalo Bills,SEC,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Cyrus Kouandjio,Buffalo Bills,Alabama,OT
+2,0,SEC,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Cyrus Kouandjio,Buffalo Bills,Alabama,OT
+0,Pac12,Pac12,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Paul Richardson,Seattle Seahawks,Colorado,WR
+1,Seattle Seahawks,Pac12,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Paul Richardson,Seattle Seahawks,Colorado,WR
+2,0,Pac12,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Paul Richardson,Seattle Seahawks,Colorado,WR
+0,Other,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Stephon Tuitt,Pittsburgh Steelers,Notre Dame,DE
+1,Pittsburgh Steelers,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Stephon Tuitt,Pittsburgh Steelers,Notre Dame,DE
+2,0,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Stephon Tuitt,Pittsburgh Steelers,Notre Dame,DE
+0,Pac12,Pac12,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Trent Murphy,Washington Commanders,Stanford,LB
+1,Washington Commanders,Pac12,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Trent Murphy,Washington Commanders,Stanford,LB
+2,0,Pac12,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Trent Murphy,Washington Commanders,Stanford,LB
+0,ACC,ACC,Baltimore Ravens,0,0,1,0,0,0,0,0,0,0,Timmy Jernigan,Baltimore Ravens,Florida State,DT
+1,Baltimore Ravens,ACC,Baltimore Ravens,0,0,1,0,0,0,0,0,0,0,Timmy Jernigan,Baltimore Ravens,Florida State,DT
+2,0,ACC,Baltimore Ravens,0,0,1,0,0,0,0,0,0,0,Timmy Jernigan,Baltimore Ravens,Florida State,DT
+0,Big 12,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jace Amaro,New York Jets,Texas Tech,TE
+1,New York Jets,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jace Amaro,New York Jets,Texas Tech,TE
+2,0,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jace Amaro,New York Jets,Texas Tech,TE
+0,ACC,ACC,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Jeremiah Attaochu,Los Angeles Chargers,Georgia Tech,LB
+1,Los Angeles Chargers,ACC,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Jeremiah Attaochu,Los Angeles Chargers,Georgia Tech,LB
+2,0,ACC,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Jeremiah Attaochu,Los Angeles Chargers,Georgia Tech,LB
+0,SEC,SEC,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Ego Ferguson,Chicago Bears,LSU,DT
+1,Chicago Bears,SEC,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Ego Ferguson,Chicago Bears,LSU,DT
+2,0,SEC,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Ego Ferguson,Chicago Bears,LSU,DT
+0,Other,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Troy Niklas,Arizona Cardinals,Notre Dame,TE
+1,Arizona Cardinals,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Troy Niklas,Arizona Cardinals,Notre Dame,TE
+2,0,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Troy Niklas,Arizona Cardinals,Notre Dame,TE
+0,Other,Other,Green Bay Packers,0,0,0,0,0,0,0,3,0,6,Davante Adams,Green Bay Packers,Fresno State,WR
+1,Green Bay Packers,Other,Green Bay Packers,0,0,0,0,0,0,0,3,0,6,Davante Adams,Green Bay Packers,Fresno State,WR
+2,0,Other,Green Bay Packers,0,0,0,0,0,0,0,3,0,6,Davante Adams,Green Bay Packers,Fresno State,WR
+0,Pac12,Pac12,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Bishop Sankey,Tennessee Titans,Washington,RB
+1,Tennessee Titans,Pac12,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Bishop Sankey,Tennessee Titans,Washington,RB
+2,0,Pac12,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Bishop Sankey,Tennessee Titans,Washington,RB
+0,SEC,SEC,Cincinnati Bengals,0,0,1,0,0,0,0,0,0,0,Jeremy Hill,Cincinnati Bengals,LSU,RB
+1,Cincinnati Bengals,SEC,Cincinnati Bengals,0,0,1,0,0,0,0,0,0,0,Jeremy Hill,Cincinnati Bengals,LSU,RB
+2,0,SEC,Cincinnati Bengals,0,0,1,0,0,0,0,0,0,0,Jeremy Hill,Cincinnati Bengals,LSU,RB
+0,Big Ten,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Cody Latimer,Denver Broncos,Indiana,WR
+1,Denver Broncos,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Cody Latimer,Denver Broncos,Indiana,WR
+2,0,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Cody Latimer,Denver Broncos,Indiana,WR
+0,Big Ten,Big Ten,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Carlos Hyde,San Francisco 49ers,Ohio State,RB
+1,San Francisco 49ers,Big Ten,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Carlos Hyde,San Francisco 49ers,Ohio State,RB
+2,0,Big Ten,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Carlos Hyde,San Francisco 49ers,Ohio State,RB
+0,Big Ten,Big Ten,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Stanley JeanBaptiste,New Orleans Saints,Nebraska,CB
+1,New Orleans Saints,Big Ten,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Stanley JeanBaptiste,New Orleans Saints,Nebraska,CB
+2,0,Big Ten,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Stanley JeanBaptiste,New Orleans Saints,Nebraska,CB
+0,Big Ten,Big Ten,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Jack Mewhort,Indianapolis Colts,Ohio State,OT
+1,Indianapolis Colts,Big Ten,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Jack Mewhort,Indianapolis Colts,Ohio State,OT
+2,0,Big Ten,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Jack Mewhort,Indianapolis Colts,Ohio State,OT
+0,SEC,SEC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Kony Ealy,Carolina Panthers,Missouri,DE
+1,Carolina Panthers,SEC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Kony Ealy,Carolina Panthers,Missouri,DE
+2,0,SEC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Kony Ealy,Carolina Panthers,Missouri,DE
+0,Big Ten,Big Ten,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,1,Allen Robinson,Jacksonville Jaguars,Penn State,WR
+1,Jacksonville Jaguars,Big Ten,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,1,Allen Robinson,Jacksonville Jaguars,Penn State,WR
+2,0,Big Ten,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,1,Allen Robinson,Jacksonville Jaguars,Penn State,WR
+0,Other,Other,New England Patriots,0,0,2,0,0,0,0,0,0,0,Jimmy Garoppolo,New England Patriots,Eastern Illinois,QB
+1,New England Patriots,Other,New England Patriots,0,0,2,0,0,0,0,0,0,0,Jimmy Garoppolo,New England Patriots,Eastern Illinois,QB
+2,0,Other,New England Patriots,0,0,2,0,0,0,0,0,0,0,Jimmy Garoppolo,New England Patriots,Eastern Illinois,QB
+0,SEC,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,5,Jarvis Landry,Miami Dolphins,LSU,WR
+1,Miami Dolphins,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,5,Jarvis Landry,Miami Dolphins,LSU,WR
+2,0,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,5,Jarvis Landry,Miami Dolphins,LSU,WR
+0,SEC,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Justin Britt,Seattle Seahawks,Missouri,OT
+1,Seattle Seahawks,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Justin Britt,Seattle Seahawks,Missouri,OT
+2,0,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Justin Britt,Seattle Seahawks,Missouri,OT
+0,Big Ten,Big Ten,Houston Texans,0,0,0,0,0,0,0,0,0,0,C J Fiedorowicz,Houston Texans,Iowa,TE
+1,Houston Texans,Big Ten,Houston Texans,0,0,0,0,0,0,0,0,0,0,C J Fiedorowicz,Houston Texans,Iowa,TE
+2,0,Big Ten,Houston Texans,0,0,0,0,0,0,0,0,0,0,C J Fiedorowicz,Houston Texans,Iowa,TE
+0,ACC,ACC,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Morgan Moses,Washington Commanders,Virginia,OT
+1,Washington Commanders,ACC,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Morgan Moses,Washington Commanders,Virginia,OT
+2,0,ACC,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Morgan Moses,Washington Commanders,Virginia,OT
+0,Other,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Billy Turner,Miami Dolphins,North Dakota State,OT
+1,Miami Dolphins,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Billy Turner,Miami Dolphins,North Dakota State,OT
+2,0,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Billy Turner,Miami Dolphins,North Dakota State,OT
+0,Big Ten,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Dezmen Southward,Atlanta Falcons,Wisconsin,S
+1,Atlanta Falcons,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Dezmen Southward,Atlanta Falcons,Wisconsin,S
+2,0,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Dezmen Southward,Atlanta Falcons,Wisconsin,S
+0,Big 12,Big 12,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Charles Sims,Tampa Bay Buccaneers,West Virginia,RB
+1,Tampa Bay Buccaneers,Big 12,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Charles Sims,Tampa Bay Buccaneers,West Virginia,RB
+2,0,Big 12,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Charles Sims,Tampa Bay Buccaneers,West Virginia,RB
+0,Pac12,Pac12,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Marcus Martin,San Francisco 49ers,USC,C
+1,San Francisco 49ers,Pac12,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Marcus Martin,San Francisco 49ers,USC,C
+2,0,Pac12,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Marcus Martin,San Francisco 49ers,USC,C
+0,Big Ten,Big Ten,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Christian Kirksey,Cleveland Browns,Iowa,LB
+1,Cleveland Browns,Big Ten,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Christian Kirksey,Cleveland Browns,Iowa,LB
+2,0,Big Ten,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Christian Kirksey,Cleveland Browns,Iowa,LB
+0,Pac12,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Scott Crichton,Minnesota Vikings,Oregon State,DE
+1,Minnesota Vikings,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Scott Crichton,Minnesota Vikings,Oregon State,DE
+2,0,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Scott Crichton,Minnesota Vikings,Oregon State,DE
+0,Other,Other,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Preston Brown,Buffalo Bills,Louisville,LB
+1,Buffalo Bills,Other,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Preston Brown,Buffalo Bills,Louisville,LB
+2,0,Other,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Preston Brown,Buffalo Bills,Louisville,LB
+0,ACC,ACC,New York Giants,0,0,0,0,0,0,0,0,0,0,Jay Bromley,New York Giants,Syracuse,DT
+1,New York Giants,ACC,New York Giants,0,0,0,0,0,0,0,0,0,0,Jay Bromley,New York Giants,Syracuse,DT
+2,0,ACC,New York Giants,0,0,0,0,0,0,0,0,0,0,Jay Bromley,New York Giants,Syracuse,DT
+0,SEC,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Tre Mason,Los Angeles Rams,Auburn,RB
+1,Los Angeles Rams,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Tre Mason,Los Angeles Rams,Auburn,RB
+2,0,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Tre Mason,Los Angeles Rams,Auburn,RB
+0,SEC,SEC,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Travis Swanson,Detroit Lions,Arkansas,C
+1,Detroit Lions,SEC,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Travis Swanson,Detroit Lions,Arkansas,C
+2,0,SEC,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Travis Swanson,Detroit Lions,Arkansas,C
+0,Big Ten,Big Ten,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Chris Borland,San Francisco 49ers,Wisconsin,LB
+1,San Francisco 49ers,Big Ten,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Chris Borland,San Francisco 49ers,Wisconsin,LB
+2,0,Big Ten,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Chris Borland,San Francisco 49ers,Wisconsin,LB
+0,Big Ten,Big Ten,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Spencer Long,Washington Commanders,Nebraska,OG
+1,Washington Commanders,Big Ten,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Spencer Long,Washington Commanders,Nebraska,OG
+2,0,Big Ten,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Spencer Long,Washington Commanders,Nebraska,OG
+0,ACC,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Terrence Brooks,Baltimore Ravens,Florida State,S
+1,Baltimore Ravens,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Terrence Brooks,Baltimore Ravens,Florida State,S
+2,0,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Terrence Brooks,Baltimore Ravens,Florida State,S
+0,ACC,ACC,New York Jets,0,0,0,0,0,0,0,0,0,0,Dexter McDougle,New York Jets,Maryland,CB
+1,New York Jets,ACC,New York Jets,0,0,0,0,0,0,0,0,0,0,Dexter McDougle,New York Jets,Maryland,CB
+2,0,ACC,New York Jets,0,0,0,0,0,0,0,0,0,0,Dexter McDougle,New York Jets,Maryland,CB
+0,SEC,SEC,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Gabe Jackson,Las Vegas Raiders,Mississippi State,OG
+1,Las Vegas Raiders,SEC,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Gabe Jackson,Las Vegas Raiders,Mississippi State,OG
+2,0,SEC,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Gabe Jackson,Las Vegas Raiders,Mississippi State,OG
+0,Pac12,Pac12,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Will Sutton,Chicago Bears,Arizona State,DT
+1,Chicago Bears,Pac12,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Will Sutton,Chicago Bears,Arizona State,DT
+2,0,Pac12,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Will Sutton,Chicago Bears,Arizona State,DT
+0,Other,Other,Houston Texans,0,0,0,0,0,0,0,0,0,0,Louis Nix,Houston Texans,Notre Dame,DT
+1,Houston Texans,Other,Houston Texans,0,0,0,0,0,0,0,0,0,0,Louis Nix,Houston Texans,Notre Dame,DT
+2,0,Other,Houston Texans,0,0,0,0,0,0,0,0,0,0,Louis Nix,Houston Texans,Notre Dame,DT
+0,ACC,ACC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Kareem Martin,Arizona Cardinals,North Carolina,DE
+1,Arizona Cardinals,ACC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Kareem Martin,Arizona Cardinals,North Carolina,DE
+2,0,ACC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Kareem Martin,Arizona Cardinals,North Carolina,DE
+0,Other,Other,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Khyri Thornton,Green Bay Packers,Southern Miss,DT
+1,Green Bay Packers,Other,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Khyri Thornton,Green Bay Packers,Southern Miss,DT
+2,0,Other,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Khyri Thornton,Green Bay Packers,Southern Miss,DT
+0,Pac12,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Josh Huff,Philadelphia Eagles,Oregon,WR
+1,Philadelphia Eagles,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Josh Huff,Philadelphia Eagles,Oregon,WR
+2,0,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Josh Huff,Philadelphia Eagles,Oregon,WR
+0,Other,Other,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Phillip Gaines,Kansas City Chiefs,Rice,CB
+1,Kansas City Chiefs,Other,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Phillip Gaines,Kansas City Chiefs,Rice,CB
+2,0,Other,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Phillip Gaines,Kansas City Chiefs,Rice,CB
+0,Big 12,Big 12,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Will Clarke,Cincinnati Bengals,West Virginia,DE
+1,Cincinnati Bengals,Big 12,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Will Clarke,Cincinnati Bengals,West Virginia,DE
+2,0,Big 12,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Will Clarke,Cincinnati Bengals,West Virginia,DE
+0,Other,Other,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Chris Watt,Los Angeles Chargers,Notre Dame,OG
+1,Los Angeles Chargers,Other,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Chris Watt,Los Angeles Chargers,Notre Dame,OG
+2,0,Other,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Chris Watt,Los Angeles Chargers,Notre Dame,OG
+0,SEC,SEC,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Donte Moncrief,Indianapolis Colts,Ole Miss,WR
+1,Indianapolis Colts,SEC,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Donte Moncrief,Indianapolis Colts,Ole Miss,WR
+2,0,SEC,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Donte Moncrief,Indianapolis Colts,Ole Miss,WR
+0,Other,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,John Brown,Arizona Cardinals,Pittsburg State,WR
+1,Arizona Cardinals,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,John Brown,Arizona Cardinals,Pittsburg State,WR
+2,0,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,John Brown,Arizona Cardinals,Pittsburg State,WR
+0,SEC,SEC,Carolina Panthers,0,0,0,0,0,0,0,0,0,5,Trai Turner,Carolina Panthers,LSU,OG
+1,Carolina Panthers,SEC,Carolina Panthers,0,0,0,0,0,0,0,0,0,5,Trai Turner,Carolina Panthers,LSU,OG
+2,0,SEC,Carolina Panthers,0,0,0,0,0,0,0,0,0,5,Trai Turner,Carolina Panthers,LSU,OG
+0,ACC,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Brandon Linder,Jacksonville Jaguars,Miami FL,OG
+1,Jacksonville Jaguars,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Brandon Linder,Jacksonville Jaguars,Miami FL,OG
+2,0,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Brandon Linder,Jacksonville Jaguars,Miami FL,OG
+0,Other,Other,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Terrance West,Cleveland Browns,Towson,RB
+1,Cleveland Browns,Other,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Terrance West,Cleveland Browns,Towson,RB
+2,0,Other,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Terrance West,Cleveland Browns,Towson,RB
+0,Big Ten,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Michael Schofield,Denver Broncos,Michigan,OT
+1,Denver Broncos,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Michael Schofield,Denver Broncos,Michigan,OT
+2,0,Big Ten,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Michael Schofield,Denver Broncos,Michigan,OT
+0,Other,Other,Minnesota Vikings,0,0,2,0,0,0,0,0,0,0,Jerick McKinnon,Minnesota Vikings,Georgia Southern,RB
+1,Minnesota Vikings,Other,Minnesota Vikings,0,0,2,0,0,0,0,0,0,0,Jerick McKinnon,Minnesota Vikings,Georgia Southern,RB
+2,0,Other,Minnesota Vikings,0,0,2,0,0,0,0,0,0,0,Jerick McKinnon,Minnesota Vikings,Georgia Southern,RB
+0,Other,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Dri Archer,Pittsburgh Steelers,Kent State,RB
+1,Pittsburgh Steelers,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Dri Archer,Pittsburgh Steelers,Kent State,RB
+2,0,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Dri Archer,Pittsburgh Steelers,Kent State,RB
+0,Pac12,Pac12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Richard Rodgers II,Green Bay Packers,California,TE
+1,Green Bay Packers,Pac12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Richard Rodgers II,Green Bay Packers,California,TE
+2,0,Pac12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Richard Rodgers II,Green Bay Packers,California,TE
+0,Other,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Crockett Gillmore,Baltimore Ravens,Colorado State,TE
+1,Baltimore Ravens,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Crockett Gillmore,Baltimore Ravens,Colorado State,TE
+2,0,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Crockett Gillmore,Baltimore Ravens,Colorado State,TE
+0,ACC,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Brandon Thomas,San Francisco 49ers,Clemson,OG
+1,San Francisco 49ers,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Brandon Thomas,San Francisco 49ers,Clemson,OG
+2,0,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Brandon Thomas,San Francisco 49ers,Clemson,OG
+0,SEC,SEC,Philadelphia Eagles,0,0,1,0,0,0,0,0,0,0,Jaylen Watkins,Philadelphia Eagles,Florida,CB
+1,Philadelphia Eagles,SEC,Philadelphia Eagles,0,0,1,0,0,0,0,0,0,0,Jaylen Watkins,Philadelphia Eagles,Florida,CB
+2,0,SEC,Philadelphia Eagles,0,0,1,0,0,0,0,0,0,0,Jaylen Watkins,Philadelphia Eagles,Florida,CB
+0,ACC,ACC,Washington Commanders,0,0,1,0,0,0,0,0,0,0,Bashaud Breeland,Washington Commanders,Clemson,CB
+1,Washington Commanders,ACC,Washington Commanders,0,0,1,0,0,0,0,0,0,0,Bashaud Breeland,Washington Commanders,Clemson,CB
+2,0,ACC,Washington Commanders,0,0,1,0,0,0,0,0,0,0,Bashaud Breeland,Washington Commanders,Clemson,CB
+0,ACC,ACC,Atlanta Falcons,0,0,0,0,0,0,0,0,1,2,Devonta Freeman,Atlanta Falcons,Florida State,RB
+1,Atlanta Falcons,ACC,Atlanta Falcons,0,0,0,0,0,0,0,0,1,2,Devonta Freeman,Atlanta Falcons,Florida State,RB
+2,0,ACC,Atlanta Falcons,0,0,0,0,0,0,0,0,1,2,Devonta Freeman,Atlanta Falcons,Florida State,RB
+0,Big 12,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jalen Saunders,New York Jets,Oklahoma,WR
+1,New York Jets,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jalen Saunders,New York Jets,Oklahoma,WR
+2,0,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jalen Saunders,New York Jets,Oklahoma,WR
+0,ACC,ACC,New England Patriots,0,0,1,0,0,0,0,0,0,0,Bryan Stork,New England Patriots,Florida State,C
+1,New England Patriots,ACC,New England Patriots,0,0,1,0,0,0,0,0,0,0,Bryan Stork,New England Patriots,Florida State,C
+2,0,ACC,New England Patriots,0,0,1,0,0,0,0,0,0,0,Bryan Stork,New England Patriots,Florida State,C
+0,SEC,SEC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Bruce Ellington,San Francisco 49ers,South Carolina,WR
+1,San Francisco 49ers,SEC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Bruce Ellington,San Francisco 49ers,South Carolina,WR
+2,0,SEC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Bruce Ellington,San Francisco 49ers,South Carolina,WR
+0,Other,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Justin Ellis,Las Vegas Raiders,Louisiana Tech,DT
+1,Las Vegas Raiders,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Justin Ellis,Las Vegas Raiders,Louisiana Tech,DT
+2,0,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Justin Ellis,Las Vegas Raiders,Louisiana Tech,DT
+0,Pac12,Pac12,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Cassius Marsh,Seattle Seahawks,UCLA,DE
+1,Seattle Seahawks,Pac12,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Cassius Marsh,Seattle Seahawks,UCLA,DE
+2,0,Pac12,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Cassius Marsh,Seattle Seahawks,UCLA,DE
+0,ACC,ACC,Buffalo Bills,0,0,1,0,0,0,0,0,0,0,Ross Cockrell,Buffalo Bills,Duke,CB
+1,Buffalo Bills,ACC,Buffalo Bills,0,0,1,0,0,0,0,0,0,0,Ross Cockrell,Buffalo Bills,Duke,CB
+2,0,ACC,Buffalo Bills,0,0,1,0,0,0,0,0,0,0,Ross Cockrell,Buffalo Bills,Duke,CB
+0,Other,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Maurice Alexander,Los Angeles Rams,Utah State,S
+1,Los Angeles Rams,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Maurice Alexander,Los Angeles Rams,Utah State,S
+2,0,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Maurice Alexander,Los Angeles Rams,Utah State,S
+0,ACC,ACC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Russell Bodine,Cincinnati Bengals,North Carolina,C
+1,Cincinnati Bengals,ACC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Russell Bodine,Cincinnati Bengals,North Carolina,C
+2,0,ACC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Russell Bodine,Cincinnati Bengals,North Carolina,C
+0,Big Ten,Big Ten,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,DaQuan Jones,Tennessee Titans,Penn State,DT
+1,Tennessee Titans,Big Ten,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,DaQuan Jones,Tennessee Titans,Penn State,DT
+2,0,Big Ten,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,DaQuan Jones,Tennessee Titans,Penn State,DT
+0,ACC,ACC,New York Giants,0,0,0,0,0,0,0,0,0,0,Andre Williams,New York Giants,Boston College,RB
+1,New York Giants,ACC,New York Giants,0,0,0,0,0,0,0,0,0,0,Andre Williams,New York Giants,Boston College,RB
+2,0,ACC,New York Giants,0,0,0,0,0,0,0,0,0,0,Andre Williams,New York Giants,Boston College,RB
+0,Big 12,Big 12,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Aaron Colvin,Jacksonville Jaguars,Oklahoma,CB
+1,Jacksonville Jaguars,Big 12,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Aaron Colvin,Jacksonville Jaguars,Oklahoma,CB
+2,0,Big 12,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Aaron Colvin,Jacksonville Jaguars,Oklahoma,CB
+0,Pac12,Pac12,New York Jets,0,0,0,0,0,0,0,0,0,0,Shaq Evans,New York Jets,UCLA,WR
+1,New York Jets,Pac12,New York Jets,0,0,0,0,0,0,0,0,0,0,Shaq Evans,New York Jets,UCLA,WR
+2,0,Pac12,New York Jets,0,0,0,0,0,0,0,0,0,0,Shaq Evans,New York Jets,UCLA,WR
+0,Pac12,Pac12,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Keith McGill,Las Vegas Raiders,Utah,CB
+1,Las Vegas Raiders,Pac12,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Keith McGill,Las Vegas Raiders,Utah,CB
+2,0,Pac12,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Keith McGill,Las Vegas Raiders,Utah,CB
+0,Pac12,Pac12,Chicago Bears,0,0,0,0,0,0,0,0,0,0,KaDeem Carey,Chicago Bears,Arizona,RB
+1,Chicago Bears,Pac12,Chicago Bears,0,0,0,0,0,0,0,0,0,0,KaDeem Carey,Chicago Bears,Arizona,RB
+2,0,Pac12,Chicago Bears,0,0,0,0,0,0,0,0,0,0,KaDeem Carey,Chicago Bears,Arizona,RB
+0,ACC,ACC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Martavis Bryant,Pittsburgh Steelers,Clemson,WR
+1,Pittsburgh Steelers,ACC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Martavis Bryant,Pittsburgh Steelers,Clemson,WR
+2,0,ACC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Martavis Bryant,Pittsburgh Steelers,Clemson,WR
+0,Big Ten,Big Ten,Dallas Cowboys,0,0,1,0,0,0,0,0,0,0,Anthony Hitchens,Dallas Cowboys,Iowa,LB
+1,Dallas Cowboys,Big Ten,Dallas Cowboys,0,0,1,0,0,0,0,0,0,0,Anthony Hitchens,Dallas Cowboys,Iowa,LB
+2,0,Big Ten,Dallas Cowboys,0,0,1,0,0,0,0,0,0,0,Anthony Hitchens,Dallas Cowboys,Iowa,LB
+0,ACC,ACC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Logan Thomas,Arizona Cardinals,Virginia Tech,QB
+1,Arizona Cardinals,ACC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Logan Thomas,Arizona Cardinals,Virginia Tech,QB
+2,0,ACC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Logan Thomas,Arizona Cardinals,Virginia Tech,QB
+0,Pac12,Pac12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Carl Bradford,Green Bay Packers,Arizona State,LB
+1,Green Bay Packers,Pac12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Carl Bradford,Green Bay Packers,Arizona State,LB
+2,0,Pac12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Carl Bradford,Green Bay Packers,Arizona State,LB
+0,Other,Other,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Marqueston Huff,Tennessee Titans,Wyoming,S
+1,Tennessee Titans,Other,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Marqueston Huff,Tennessee Titans,Wyoming,S
+2,0,Other,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Marqueston Huff,Tennessee Titans,Wyoming,S
+0,SEC,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kevin Norwood,Seattle Seahawks,Alabama,WR
+1,Seattle Seahawks,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kevin Norwood,Seattle Seahawks,Alabama,WR
+2,0,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kevin Norwood,Seattle Seahawks,Alabama,WR
+0,Pac12,Pac12,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,DeAnthony Thomas,Kansas City Chiefs,Oregon,RB
+1,Kansas City Chiefs,Pac12,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,DeAnthony Thomas,Kansas City Chiefs,Oregon,RB
+2,0,Pac12,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,DeAnthony Thomas,Kansas City Chiefs,Oregon,RB
+0,Other,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Walt Aikens,Miami Dolphins,Liberty,CB
+1,Miami Dolphins,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Walt Aikens,Miami Dolphins,Liberty,CB
+2,0,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Walt Aikens,Miami Dolphins,Liberty,CB
+0,Pac12,Pac12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Khairi Fortt,New Orleans Saints,California,LB
+1,New Orleans Saints,Pac12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Khairi Fortt,New Orleans Saints,California,LB
+2,0,Pac12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Khairi Fortt,New Orleans Saints,California,LB
+0,Other,Other,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Pierre Desir,Cleveland Browns,Lindenwood,CB
+1,Cleveland Browns,Other,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Pierre Desir,Cleveland Browns,Lindenwood,CB
+2,0,Other,Cleveland Browns,0,0,0,0,0,0,0,0,0,0,Pierre Desir,Cleveland Browns,Lindenwood,CB
+0,ACC,ACC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Tre Boston,Carolina Panthers,North Carolina,S
+1,Carolina Panthers,ACC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Tre Boston,Carolina Panthers,North Carolina,S
+2,0,ACC,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Tre Boston,Carolina Panthers,North Carolina,S
+0,ACC,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Dontae Johnson,San Francisco 49ers,NC State,CB
+1,San Francisco 49ers,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Dontae Johnson,San Francisco 49ers,NC State,CB
+2,0,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Dontae Johnson,San Francisco 49ers,NC State,CB
+0,Big Ten,Big Ten,New England Patriots,0,0,3,0,0,0,0,0,0,0,James White,New England Patriots,Wisconsin,RB
+1,New England Patriots,Big Ten,New England Patriots,0,0,3,0,0,0,0,0,0,0,James White,New England Patriots,Wisconsin,RB
+2,0,Big Ten,New England Patriots,0,0,3,0,0,0,0,0,0,0,James White,New England Patriots,Wisconsin,RB
+0,Big Ten,Big Ten,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Brock Vereen,Chicago Bears,Minnesota,S
+1,Chicago Bears,Big Ten,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Brock Vereen,Chicago Bears,Minnesota,S
+2,0,Big Ten,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Brock Vereen,Chicago Bears,Minnesota,S
+0,ACC,ACC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kevin PierreLouis,Seattle Seahawks,Boston College,LB
+1,Seattle Seahawks,ACC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kevin PierreLouis,Seattle Seahawks,Boston College,LB
+2,0,ACC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kevin PierreLouis,Seattle Seahawks,Boston College,LB
+0,Other,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Nevin Lawson,Detroit Lions,Utah State,CB
+1,Detroit Lions,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Nevin Lawson,Detroit Lions,Utah State,CB
+2,0,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Nevin Lawson,Detroit Lions,Utah State,CB
+0,ACC,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Brent Urban,Baltimore Ravens,Virginia,DT
+1,Baltimore Ravens,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Brent Urban,Baltimore Ravens,Virginia,DT
+2,0,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Brent Urban,Baltimore Ravens,Virginia,DT
+0,ACC,ACC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Tom Savage,Houston Texans,Pittsburgh,QB
+1,Houston Texans,ACC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Tom Savage,Houston Texans,Pittsburgh,QB
+2,0,ACC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Tom Savage,Houston Texans,Pittsburgh,QB
+0,Other,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Larry Webster III,Detroit Lions,Bloomsburg,DE
+1,Detroit Lions,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Larry Webster III,Detroit Lions,Bloomsburg,DE
+2,0,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Larry Webster III,Detroit Lions,Bloomsburg,DE
+0,Other,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Dakota Dozier,New York Jets,Furman,OG
+1,New York Jets,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Dakota Dozier,New York Jets,Furman,OG
+2,0,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Dakota Dozier,New York Jets,Furman,OG
+0,Other,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Lorenzo Taliaferro,Baltimore Ravens,Coastal Carolina,RB
+1,Baltimore Ravens,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Lorenzo Taliaferro,Baltimore Ravens,Coastal Carolina,RB
+2,0,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Lorenzo Taliaferro,Baltimore Ravens,Coastal Carolina,RB
+0,Other,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Prince Shembo,Atlanta Falcons,Notre Dame,LB
+1,Atlanta Falcons,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Prince Shembo,Atlanta Falcons,Notre Dame,LB
+2,0,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Prince Shembo,Atlanta Falcons,Notre Dame,LB
+0,Pac12,Pac12,New England Patriots,0,0,2,0,0,0,0,0,0,0,Cameron Fleming,New England Patriots,Stanford,OT
+1,New England Patriots,Pac12,New England Patriots,0,0,2,0,0,0,0,0,0,0,Cameron Fleming,New England Patriots,Stanford,OT
+2,0,Pac12,New England Patriots,0,0,2,0,0,0,0,0,0,0,Cameron Fleming,New England Patriots,Stanford,OT
+0,Pac12,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Taylor Hart,Philadelphia Eagles,Oregon,DE
+1,Philadelphia Eagles,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Taylor Hart,Philadelphia Eagles,Oregon,DE
+2,0,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Taylor Hart,Philadelphia Eagles,Oregon,DE
+0,Other,Other,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Ryan Grant,Washington Commanders,Tulane,WR
+1,Washington Commanders,Other,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Ryan Grant,Washington Commanders,Tulane,WR
+2,0,Other,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Ryan Grant,Washington Commanders,Tulane,WR
+0,Other,Other,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Kadeem Edwards,Tampa Bay Buccaneers,Tennessee State,OG
+1,Tampa Bay Buccaneers,Other,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Kadeem Edwards,Tampa Bay Buccaneers,Tennessee State,OG
+2,0,Other,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Kadeem Edwards,Tampa Bay Buccaneers,Tennessee State,OG
+0,ACC,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,1,1,Telvin Smith,Jacksonville Jaguars,Florida State,LB
+1,Jacksonville Jaguars,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,1,1,Telvin Smith,Jacksonville Jaguars,Florida State,LB
+2,0,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,1,1,Telvin Smith,Jacksonville Jaguars,Florida State,LB
+0,Pac12,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,David Yankey,Minnesota Vikings,Stanford,OG
+1,Minnesota Vikings,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,David Yankey,Minnesota Vikings,Stanford,OG
+2,0,Pac12,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,David Yankey,Minnesota Vikings,Stanford,OG
+0,ACC,ACC,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Devin Street,Dallas Cowboys,Pittsburgh,WR
+1,Dallas Cowboys,ACC,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Devin Street,Dallas Cowboys,Pittsburgh,WR
+2,0,ACC,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Devin Street,Dallas Cowboys,Pittsburgh,WR
+0,Big Ten,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Ricardo Allen,Atlanta Falcons,Purdue,CB
+1,Atlanta Falcons,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Ricardo Allen,Atlanta Falcons,Purdue,CB
+2,0,Big Ten,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Ricardo Allen,Atlanta Falcons,Purdue,CB
+0,Other,Other,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Bené Benwikere,Carolina Panthers,San Jose State,CB
+1,Carolina Panthers,Other,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Bené Benwikere,Carolina Panthers,San Jose State,CB
+2,0,Other,Carolina Panthers,0,0,0,0,0,0,0,0,0,0,Bené Benwikere,Carolina Panthers,San Jose State,CB
+0,Big Ten,Big Ten,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Kevin Pamphile,Tampa Bay Buccaneers,Purdue,OT
+1,Tampa Bay Buccaneers,Big Ten,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Kevin Pamphile,Tampa Bay Buccaneers,Purdue,OT
+2,0,Big Ten,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Kevin Pamphile,Tampa Bay Buccaneers,Purdue,OT
+0,Other,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Aaron Lynch,San Francisco 49ers,South Florida,DE
+1,San Francisco 49ers,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Aaron Lynch,San Francisco 49ers,South Florida,DE
+2,0,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Aaron Lynch,San Francisco 49ers,South Florida,DE
+0,SEC,SEC,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Avery Williamson,Tennessee Titans,Kentucky,LB
+1,Tennessee Titans,SEC,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Avery Williamson,Tennessee Titans,Kentucky,LB
+2,0,SEC,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Avery Williamson,Tennessee Titans,Kentucky,LB
+0,Other,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Nat Berhe,New York Giants,San Diego State,S
+1,New York Giants,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Nat Berhe,New York Giants,San Diego State,S
+2,0,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Nat Berhe,New York Giants,San Diego State,S
+0,Big 12,Big 12,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Cyril Richardson,Buffalo Bills,Baylor,OG
+1,Buffalo Bills,Big 12,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Cyril Richardson,Buffalo Bills,Baylor,OG
+2,0,Big 12,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Cyril Richardson,Buffalo Bills,Baylor,OG
+0,Big 12,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jeremiah George,New York Jets,Iowa State,LB
+1,New York Jets,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jeremiah George,New York Jets,Iowa State,LB
+2,0,Big 12,New York Jets,0,0,0,0,0,0,0,0,0,0,Jeremiah George,New York Jets,Iowa State,LB
+0,SEC,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Arthur Lynch,Miami Dolphins,Georgia,TE
+1,Miami Dolphins,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Arthur Lynch,Miami Dolphins,Georgia,TE
+2,0,SEC,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Arthur Lynch,Miami Dolphins,Georgia,TE
+0,SEC,SEC,Denver Broncos,0,0,0,0,0,0,0,0,0,0,Lamin Barrow,Denver Broncos,LSU,LB
+1,Denver Broncos,SEC,Denver Broncos,0,0,0,0,0,0,0,0,0,0,Lamin Barrow,Denver Broncos,LSU,LB
+2,0,SEC,Denver Broncos,0,0,0,0,0,0,0,0,0,0,Lamin Barrow,Denver Broncos,LSU,LB
+0,Pac12,Pac12,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Shaquille Richardson,Pittsburgh Steelers,Arizona,CB
+1,Pittsburgh Steelers,Pac12,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Shaquille Richardson,Pittsburgh Steelers,Arizona,CB
+2,0,Pac12,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Shaquille Richardson,Pittsburgh Steelers,Arizona,CB
+0,Other,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Caraun Reid,Detroit Lions,Princeton,DT
+1,Detroit Lions,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Caraun Reid,Detroit Lions,Princeton,DT
+2,0,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Caraun Reid,Detroit Lions,Princeton,DT
+0,SEC,SEC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Chris Smith,Jacksonville Jaguars,Arkansas,DE
+1,Jacksonville Jaguars,SEC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Chris Smith,Jacksonville Jaguars,Arkansas,DE
+2,0,SEC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Chris Smith,Jacksonville Jaguars,Arkansas,DE
+0,SEC,SEC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Ed Stinson,Arizona Cardinals,Alabama,DE
+1,Arizona Cardinals,SEC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Ed Stinson,Arizona Cardinals,Alabama,DE
+2,0,SEC,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Ed Stinson,Arizona Cardinals,Alabama,DE
+0,Big Ten,Big Ten,Green Bay Packers,0,0,0,0,0,0,0,1,1,1,Corey Linsley,Green Bay Packers,Ohio State,C
+1,Green Bay Packers,Big Ten,Green Bay Packers,0,0,0,0,0,0,0,1,1,1,Corey Linsley,Green Bay Packers,Ohio State,C
+2,0,Big Ten,Green Bay Packers,0,0,0,0,0,0,0,1,1,1,Corey Linsley,Green Bay Packers,Ohio State,C
+0,Pac12,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Ed Reynolds,Philadelphia Eagles,Stanford,S
+1,Philadelphia Eagles,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Ed Reynolds,Philadelphia Eagles,Stanford,S
+2,0,Pac12,Philadelphia Eagles,0,0,0,0,0,0,0,0,0,0,Ed Reynolds,Philadelphia Eagles,Stanford,S
+0,SEC,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Aaron Murray,Kansas City Chiefs,Georgia,QB
+1,Kansas City Chiefs,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Aaron Murray,Kansas City Chiefs,Georgia,QB
+2,0,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Aaron Murray,Kansas City Chiefs,Georgia,QB
+0,SEC,SEC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,A J McCarron,Cincinnati Bengals,Alabama,QB
+1,Cincinnati Bengals,SEC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,A J McCarron,Cincinnati Bengals,Alabama,QB
+2,0,SEC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,A J McCarron,Cincinnati Bengals,Alabama,QB
+0,Other,Other,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Ryan Carrethers,Los Angeles Chargers,Arkansas State,DT
+1,Los Angeles Chargers,Other,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Ryan Carrethers,Los Angeles Chargers,Arkansas State,DT
+2,0,Other,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Ryan Carrethers,Los Angeles Chargers,Arkansas State,DT
+0,Other,Other,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Jonathan Newsome,Indianapolis Colts,Ball State,DE
+1,Indianapolis Colts,Other,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Jonathan Newsome,Indianapolis Colts,Ball State,DE
+2,0,Other,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Jonathan Newsome,Indianapolis Colts,Ball State,DE
+0,SEC,SEC,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Vinnie Sunseri,New Orleans Saints,Alabama,S
+1,New Orleans Saints,SEC,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Vinnie Sunseri,New Orleans Saints,Alabama,S
+2,0,SEC,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Vinnie Sunseri,New Orleans Saints,Alabama,S
+0,ACC,ACC,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Marquis Spruill,Atlanta Falcons,Syracuse,LB
+1,Atlanta Falcons,ACC,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Marquis Spruill,Atlanta Falcons,Syracuse,LB
+2,0,ACC,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Marquis Spruill,Atlanta Falcons,Syracuse,LB
+0,SEC,SEC,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Ronald Powell,New Orleans Saints,Florida,OLB
+1,New Orleans Saints,SEC,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Ronald Powell,New Orleans Saints,Florida,OLB
+2,0,SEC,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Ronald Powell,New Orleans Saints,Florida,OLB
+0,Other,Other,San Francisco 49ers,0,0,1,0,0,0,0,0,0,0,Keith Reaser,San Francisco 49ers,Florida Atlantic,CB
+1,San Francisco 49ers,Other,San Francisco 49ers,0,0,1,0,0,0,0,0,0,0,Keith Reaser,San Francisco 49ers,Florida Atlantic,CB
+2,0,Other,San Francisco 49ers,0,0,1,0,0,0,0,0,0,0,Keith Reaser,San Francisco 49ers,Florida Atlantic,CB
+0,Other,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Jordan Tripp,Miami Dolphins,Montana,LB
+1,Miami Dolphins,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Jordan Tripp,Miami Dolphins,Montana,LB
+2,0,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Jordan Tripp,Miami Dolphins,Montana,LB
+0,Other,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Jimmy Staten,Seattle Seahawks,Middle Tennessee,DT
+1,Seattle Seahawks,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Jimmy Staten,Seattle Seahawks,Middle Tennessee,DT
+2,0,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Jimmy Staten,Seattle Seahawks,Middle Tennessee,DT
+0,SEC,SEC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Wesley Johnson,Pittsburgh Steelers,Vanderbilt,C
+1,Pittsburgh Steelers,SEC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Wesley Johnson,Pittsburgh Steelers,Vanderbilt,C
+2,0,SEC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Wesley Johnson,Pittsburgh Steelers,Vanderbilt,C
+0,Pac12,Pac12,New York Giants,0,0,0,0,0,0,0,0,0,0,Devon Kennard,New York Giants,USC,OLB
+1,New York Giants,Pac12,New York Giants,0,0,0,0,0,0,0,0,0,0,Devon Kennard,New York Giants,USC,OLB
+2,0,Pac12,New York Giants,0,0,0,0,0,0,0,0,0,0,Devon Kennard,New York Giants,USC,OLB
+0,Big Ten,Big Ten,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,John Urschel,Baltimore Ravens,Penn State,OG
+1,Baltimore Ravens,Big Ten,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,John Urschel,Baltimore Ravens,Penn State,OG
+2,0,Big Ten,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,John Urschel,Baltimore Ravens,Penn State,OG
+0,Big Ten,Big Ten,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Jared Abbrederis,Green Bay Packers,Wisconsin,WR
+1,Green Bay Packers,Big Ten,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Jared Abbrederis,Green Bay Packers,Wisconsin,WR
+2,0,Big Ten,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Jared Abbrederis,Green Bay Packers,Wisconsin,WR
+0,SEC,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Jeoffrey Pagan,Houston Texans,Alabama,DE
+1,Houston Texans,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Jeoffrey Pagan,Houston Texans,Alabama,DE
+2,0,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Jeoffrey Pagan,Houston Texans,Alabama,DE
+0,SEC,SEC,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Zach Mettenberger,Tennessee Titans,LSU,QB
+1,Tennessee Titans,SEC,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Zach Mettenberger,Tennessee Titans,LSU,QB
+2,0,SEC,Tennessee Titans,0,0,0,0,0,0,0,0,0,0,Zach Mettenberger,Tennessee Titans,LSU,QB
+0,SEC,SEC,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jon Halapio,New England Patriots,Florida,OG
+1,New England Patriots,SEC,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jon Halapio,New England Patriots,Florida,OG
+2,0,SEC,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jon Halapio,New England Patriots,Florida,OG
+0,Other,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Kenneth Acker,San Francisco 49ers,SMU,CB
+1,San Francisco 49ers,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Kenneth Acker,San Francisco 49ers,SMU,CB
+2,0,Other,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Kenneth Acker,San Francisco 49ers,SMU,CB
+0,SEC,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Alfred Blue,Houston Texans,LSU,RB
+1,Houston Texans,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Alfred Blue,Houston Texans,LSU,RB
+2,0,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Alfred Blue,Houston Texans,LSU,RB
+0,ACC,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Antone Exum,Minnesota Vikings,Virginia Tech,CB
+1,Minnesota Vikings,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Antone Exum,Minnesota Vikings,Virginia Tech,CB
+2,0,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Antone Exum,Minnesota Vikings,Virginia Tech,CB
+0,Other,Other,Chicago Bears,0,0,0,0,0,0,0,0,0,0,David Fales,Chicago Bears,San Jose State,QB
+1,Chicago Bears,Other,Chicago Bears,0,0,0,0,0,0,0,0,0,0,David Fales,Chicago Bears,San Jose State,QB
+2,0,Other,Chicago Bears,0,0,0,0,0,0,0,0,0,0,David Fales,Chicago Bears,San Jose State,QB
+0,Other,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Kendall James,Minnesota Vikings,Maine,CB
+1,Minnesota Vikings,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Kendall James,Minnesota Vikings,Maine,CB
+2,0,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Kendall James,Minnesota Vikings,Maine,CB
+0,Other,Other,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Robert Herron,Tampa Bay Buccaneers,Wyoming,WR
+1,Tampa Bay Buccaneers,Other,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Robert Herron,Tampa Bay Buccaneers,Wyoming,WR
+2,0,Other,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0,0,Robert Herron,Tampa Bay Buccaneers,Wyoming,WR
+0,Big 12,Big 12,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Lache Seastrunk,Washington Commanders,Baylor,RB
+1,Washington Commanders,Big 12,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Lache Seastrunk,Washington Commanders,Baylor,RB
+2,0,Big 12,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Lache Seastrunk,Washington Commanders,Baylor,RB
+0,Other,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Bennett Jackson,New York Giants,Notre Dame,CB
+1,New York Giants,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Bennett Jackson,New York Giants,Notre Dame,CB
+2,0,Other,New York Giants,0,0,0,0,0,0,0,0,0,0,Bennett Jackson,New York Giants,Notre Dame,CB
+0,SEC,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,E J Gaines,Los Angeles Rams,Missouri,CB
+1,Los Angeles Rams,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,E J Gaines,Los Angeles Rams,Missouri,CB
+2,0,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,E J Gaines,Los Angeles Rams,Missouri,CB
+0,Other,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,T J Jones,Detroit Lions,Notre Dame,WR
+1,Detroit Lions,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,T J Jones,Detroit Lions,Notre Dame,WR
+2,0,Other,Detroit Lions,0,0,0,0,0,0,0,0,0,0,T J Jones,Detroit Lions,Notre Dame,WR
+0,Other,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Matt Hazel,Miami Dolphins,Coastal Carolina,WR
+1,Miami Dolphins,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Matt Hazel,Miami Dolphins,Coastal Carolina,WR
+2,0,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Matt Hazel,Miami Dolphins,Coastal Carolina,WR
+0,ACC,ACC,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Pat ODonnell,Chicago Bears,Miami FL,P
+1,Chicago Bears,ACC,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Pat ODonnell,Chicago Bears,Miami FL,P
+2,0,ACC,Chicago Bears,0,0,0,0,0,0,0,0,0,0,Pat ODonnell,Chicago Bears,Miami FL,P
+0,Pac12,Pac12,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Jordan Zumwalt,Pittsburgh Steelers,UCLA,OLB
+1,Pittsburgh Steelers,Pac12,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Jordan Zumwalt,Pittsburgh Steelers,UCLA,OLB
+2,0,Pac12,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Jordan Zumwalt,Pittsburgh Steelers,UCLA,OLB
+0,SEC,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Zach Fulton,Kansas City Chiefs,Tennessee,OG
+1,Kansas City Chiefs,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Zach Fulton,Kansas City Chiefs,Tennessee,OG
+2,0,SEC,Kansas City Chiefs,0,0,0,0,0,0,0,0,0,0,Zach Fulton,Kansas City Chiefs,Tennessee,OG
+0,Other,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Keith Wenning,Baltimore Ravens,Ball State,QB
+1,Baltimore Ravens,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Keith Wenning,Baltimore Ravens,Ball State,QB
+2,0,Other,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Keith Wenning,Baltimore Ravens,Ball State,QB
+0,Other,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Brandon Dixon,New York Jets,Northwest Missouri State,CB
+1,New York Jets,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Brandon Dixon,New York Jets,Northwest Missouri State,CB
+2,0,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,Brandon Dixon,New York Jets,Northwest Missouri State,CB
+0,Other,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Walt Powell,Arizona Cardinals,Murray State,WR
+1,Arizona Cardinals,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Walt Powell,Arizona Cardinals,Murray State,WR
+2,0,Other,Arizona Cardinals,0,0,0,0,0,0,0,0,0,0,Walt Powell,Arizona Cardinals,Murray State,WR
+0,Big 12,Big 12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Demetri Goodson,Green Bay Packers,Baylor,CB
+1,Green Bay Packers,Big 12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Demetri Goodson,Green Bay Packers,Baylor,CB
+2,0,Big 12,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Demetri Goodson,Green Bay Packers,Baylor,CB
+0,Other,Other,New England Patriots,0,0,1,0,0,0,0,0,0,0,Zach Moore,New England Patriots,ConcordiaSt Paul,DE
+1,New England Patriots,Other,New England Patriots,0,0,1,0,0,0,0,0,0,0,Zach Moore,New England Patriots,ConcordiaSt Paul,DE
+2,0,Other,New England Patriots,0,0,1,0,0,0,0,0,0,0,Zach Moore,New England Patriots,ConcordiaSt Paul,DE
+0,Other,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Garrett Scott,Seattle Seahawks,Marshall,OT
+1,Seattle Seahawks,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Garrett Scott,Seattle Seahawks,Marshall,OT
+2,0,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Garrett Scott,Seattle Seahawks,Marshall,OT
+0,Other,Other,Kansas City Chiefs,0,0,1,0,0,0,0,0,0,0,Laurent DuvernayTardif,Kansas City Chiefs,McGill,OT
+1,Kansas City Chiefs,Other,Kansas City Chiefs,0,0,1,0,0,0,0,0,0,0,Laurent DuvernayTardif,Kansas City Chiefs,McGill,OT
+2,0,Other,Kansas City Chiefs,0,0,1,0,0,0,0,0,0,0,Laurent DuvernayTardif,Kansas City Chiefs,McGill,OT
+0,Pac12,Pac12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Marion Grice,Los Angeles Chargers,Arizona State,RB
+1,Los Angeles Chargers,Pac12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Marion Grice,Los Angeles Chargers,Arizona State,RB
+2,0,Pac12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Marion Grice,Los Angeles Chargers,Arizona State,RB
+0,Big 12,Big 12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Tavon Rooks,New Orleans Saints,Kansas State,OT
+1,New Orleans Saints,Big 12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Tavon Rooks,New Orleans Saints,Kansas State,OT
+2,0,Big 12,New Orleans Saints,0,0,0,0,0,0,0,0,0,0,Tavon Rooks,New Orleans Saints,Kansas State,OT
+0,Other,Other,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Andrew Jackson,Indianapolis Colts,Western Kentucky,LB
+1,Indianapolis Colts,Other,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Andrew Jackson,Indianapolis Colts,Western Kentucky,LB
+2,0,Other,Indianapolis Colts,0,0,0,0,0,0,0,0,0,0,Andrew Jackson,Indianapolis Colts,Western Kentucky,LB
+0,Pac12,Pac12,Carolina Panthers,0,0,2,0,0,0,0,0,0,0,Tyler Gaffney,Carolina Panthers,Stanford,RB
+1,Carolina Panthers,Pac12,Carolina Panthers,0,0,2,0,0,0,0,0,0,0,Tyler Gaffney,Carolina Panthers,Stanford,RB
+2,0,Pac12,Carolina Panthers,0,0,2,0,0,0,0,0,0,0,Tyler Gaffney,Carolina Panthers,Stanford,RB
+0,ACC,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Luke Bowanko,Jacksonville Jaguars,Virginia,C
+1,Jacksonville Jaguars,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Luke Bowanko,Jacksonville Jaguars,Virginia,C
+2,0,ACC,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Luke Bowanko,Jacksonville Jaguars,Virginia,C
+0,ACC,ACC,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jemea Thomas,New England Patriots,Georgia Tech,S
+1,New England Patriots,ACC,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jemea Thomas,New England Patriots,Georgia Tech,S
+2,0,ACC,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jemea Thomas,New England Patriots,Georgia Tech,S
+0,Other,Other,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Matt Paradis,Denver Broncos,Boise State,C
+1,Denver Broncos,Other,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Matt Paradis,Denver Broncos,Boise State,C
+2,0,Other,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Matt Paradis,Denver Broncos,Boise State,C
+0,Other,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Eric Pinkins,Seattle Seahawks,San Diego State,SS
+1,Seattle Seahawks,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Eric Pinkins,Seattle Seahawks,San Diego State,SS
+2,0,Other,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Eric Pinkins,Seattle Seahawks,San Diego State,SS
+0,Big Ten,Big Ten,New York Jets,0,0,0,0,0,0,0,0,0,0,Quincy Enunwa,New York Jets,Nebraska,WR
+1,New York Jets,Big Ten,New York Jets,0,0,0,0,0,0,0,0,0,0,Quincy Enunwa,New York Jets,Nebraska,WR
+2,0,Big Ten,New York Jets,0,0,0,0,0,0,0,0,0,0,Quincy Enunwa,New York Jets,Nebraska,WR
+0,Other,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,IK Enemkpali,New York Jets,Louisiana Tech,DE
+1,New York Jets,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,IK Enemkpali,New York Jets,Louisiana Tech,DE
+2,0,Other,New York Jets,0,0,0,0,0,0,0,0,0,0,IK Enemkpali,New York Jets,Louisiana Tech,DE
+0,SEC,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Jay Prosch,Houston Texans,Auburn,FB
+1,Houston Texans,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Jay Prosch,Houston Texans,Auburn,FB
+2,0,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Jay Prosch,Houston Texans,Auburn,FB
+0,Pac12,Pac12,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Marquis Flowers,Cincinnati Bengals,Arizona,LB
+1,Cincinnati Bengals,Pac12,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Marquis Flowers,Cincinnati Bengals,Arizona,LB
+2,0,Pac12,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Marquis Flowers,Cincinnati Bengals,Arizona,LB
+0,ACC,ACC,New York Jets,0,0,0,0,0,0,0,0,0,0,Tajh Boyd,New York Jets,Clemson,QB
+1,New York Jets,ACC,New York Jets,0,0,0,0,0,0,0,0,0,0,Tajh Boyd,New York Jets,Clemson,QB
+2,0,ACC,New York Jets,0,0,0,0,0,0,0,0,0,0,Tajh Boyd,New York Jets,Clemson,QB
+0,Other,Other,Los Angeles Rams,0,0,1,0,0,0,0,0,0,0,Garrett Gilbert,Los Angeles Rams,SMU,QB
+1,Los Angeles Rams,Other,Los Angeles Rams,0,0,1,0,0,0,0,0,0,0,Garrett Gilbert,Los Angeles Rams,SMU,QB
+2,0,Other,Los Angeles Rams,0,0,1,0,0,0,0,0,0,0,Garrett Gilbert,Los Angeles Rams,SMU,QB
+0,SEC,SEC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Daniel McCullers,Pittsburgh Steelers,Tennessee,DT
+1,Pittsburgh Steelers,SEC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Daniel McCullers,Pittsburgh Steelers,Tennessee,DT
+2,0,SEC,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Daniel McCullers,Pittsburgh Steelers,Tennessee,DT
+0,SEC,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Andre Hal,Houston Texans,Vanderbilt,CB
+1,Houston Texans,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Andre Hal,Houston Texans,Vanderbilt,CB
+2,0,SEC,Houston Texans,0,0,0,0,0,0,0,0,0,0,Andre Hal,Houston Texans,Vanderbilt,CB
+0,Big Ten,Big Ten,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Ted Bolser,Washington Commanders,Indiana,TE
+1,Washington Commanders,Big Ten,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Ted Bolser,Washington Commanders,Indiana,TE
+2,0,Big Ten,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Ted Bolser,Washington Commanders,Indiana,TE
+0,ACC,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Michael Campanaro,Baltimore Ravens,Wake Forest,WR
+1,Baltimore Ravens,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Michael Campanaro,Baltimore Ravens,Wake Forest,WR
+2,0,ACC,Baltimore Ravens,0,0,0,0,0,0,0,0,0,0,Michael Campanaro,Baltimore Ravens,Wake Forest,WR
+0,Other,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Travis Carrie,Las Vegas Raiders,Ohio,CB
+1,Las Vegas Raiders,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Travis Carrie,Las Vegas Raiders,Ohio,CB
+2,0,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Travis Carrie,Las Vegas Raiders,Ohio,CB
+0,Other,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Shamar Stephen,Minnesota Vikings,UConn,DT
+1,Minnesota Vikings,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Shamar Stephen,Minnesota Vikings,UConn,DT
+2,0,Other,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Shamar Stephen,Minnesota Vikings,UConn,DT
+0,Other,Other,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Randell Johnson,Buffalo Bills,Florida Atlantic,LB
+1,Buffalo Bills,Other,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Randell Johnson,Buffalo Bills,Florida Atlantic,LB
+2,0,Other,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Randell Johnson,Buffalo Bills,Florida Atlantic,LB
+0,Other,Other,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Storm Johnson,Jacksonville Jaguars,UCF,RB
+1,Jacksonville Jaguars,Other,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Storm Johnson,Jacksonville Jaguars,UCF,RB
+2,0,Other,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0,0,Storm Johnson,Jacksonville Jaguars,UCF,RB
+0,ACC,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Brandon Watts,Minnesota Vikings,Georgia Tech,LB
+1,Minnesota Vikings,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Brandon Watts,Minnesota Vikings,Georgia Tech,LB
+2,0,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Brandon Watts,Minnesota Vikings,Georgia Tech,LB
+0,Big Ten,Big Ten,Philadelphia Eagles,0,0,1,0,0,0,0,0,0,0,Beau Allen,Philadelphia Eagles,Wisconsin,DT
+1,Philadelphia Eagles,Big Ten,Philadelphia Eagles,0,0,1,0,0,0,0,0,0,0,Beau Allen,Philadelphia Eagles,Wisconsin,DT
+2,0,Big Ten,Philadelphia Eagles,0,0,1,0,0,0,0,0,0,0,Beau Allen,Philadelphia Eagles,Wisconsin,DT
+0,ACC,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Jabari Price,Minnesota Vikings,North Carolina,CB
+1,Minnesota Vikings,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Jabari Price,Minnesota Vikings,North Carolina,CB
+2,0,ACC,Minnesota Vikings,0,0,0,0,0,0,0,0,0,0,Jabari Price,Minnesota Vikings,North Carolina,CB
+0,Other,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Mitchell Van Dyk,Los Angeles Rams,Portland State,OT
+1,Los Angeles Rams,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Mitchell Van Dyk,Los Angeles Rams,Portland State,OT
+2,0,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Mitchell Van Dyk,Los Angeles Rams,Portland State,OT
+0,SEC,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kiero Small,Seattle Seahawks,Arkansas,RB
+1,Seattle Seahawks,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kiero Small,Seattle Seahawks,Arkansas,RB
+2,0,SEC,Seattle Seahawks,0,0,0,0,0,0,0,0,0,0,Kiero Small,Seattle Seahawks,Arkansas,RB
+0,SEC,SEC,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Zach Hocker,Washington Commanders,Arkansas,K
+1,Washington Commanders,SEC,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Zach Hocker,Washington Commanders,Arkansas,K
+2,0,SEC,Washington Commanders,0,0,0,0,0,0,0,0,0,0,Zach Hocker,Washington Commanders,Arkansas,K
+0,ACC,ACC,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Nate Freese,Detroit Lions,Boston College,K
+1,Detroit Lions,ACC,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Nate Freese,Detroit Lions,Boston College,K
+2,0,ACC,Detroit Lions,0,0,0,0,0,0,0,0,0,0,Nate Freese,Detroit Lions,Boston College,K
+0,Other,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Rob Blanchflower,Pittsburgh Steelers,UMass,TE
+1,Pittsburgh Steelers,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Rob Blanchflower,Pittsburgh Steelers,UMass,TE
+2,0,Other,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0,0,Rob Blanchflower,Pittsburgh Steelers,UMass,TE
+0,Pac12,Pac12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ben Gardner,Dallas Cowboys,Stanford,DE
+1,Dallas Cowboys,Pac12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ben Gardner,Dallas Cowboys,Stanford,DE
+2,0,Pac12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ben Gardner,Dallas Cowboys,Stanford,DE
+0,Other,Other,Indianapolis Colts,0,0,1,0,0,0,0,0,0,0,Ulrick John,Indianapolis Colts,Georgia State,OT
+1,Indianapolis Colts,Other,Indianapolis Colts,0,0,1,0,0,0,0,0,0,0,Ulrick John,Indianapolis Colts,Georgia State,OT
+2,0,Other,Indianapolis Colts,0,0,1,0,0,0,0,0,0,0,Ulrick John,Indianapolis Colts,Georgia State,OT
+0,Pac12,Pac12,New York Jets,0,0,0,0,0,0,0,0,0,0,Trevor Reilly,New York Jets,Utah,LB
+1,New York Jets,Pac12,New York Jets,0,0,0,0,0,0,0,0,0,0,Trevor Reilly,New York Jets,Utah,LB
+2,0,Pac12,New York Jets,0,0,0,0,0,0,0,0,0,0,Trevor Reilly,New York Jets,Utah,LB
+0,Other,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Terrence Fede,Miami Dolphins,Marist,DE
+1,Miami Dolphins,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Terrence Fede,Miami Dolphins,Marist,DE
+2,0,Other,Miami Dolphins,0,0,0,0,0,0,0,0,0,0,Terrence Fede,Miami Dolphins,Marist,DE
+0,Other,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Shelby Harris,Las Vegas Raiders,Illinois State,DE
+1,Las Vegas Raiders,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Shelby Harris,Las Vegas Raiders,Illinois State,DE
+2,0,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Shelby Harris,Las Vegas Raiders,Illinois State,DE
+0,Other,Other,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Jeff Janis,Green Bay Packers,Saginaw Valley State,WR
+1,Green Bay Packers,Other,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Jeff Janis,Green Bay Packers,Saginaw Valley State,WR
+2,0,Other,Green Bay Packers,0,0,0,0,0,0,0,0,0,0,Jeff Janis,Green Bay Packers,Saginaw Valley State,WR
+0,ACC,ACC,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Seantrel Henderson,Buffalo Bills,Miami FL,OT
+1,Buffalo Bills,ACC,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Seantrel Henderson,Buffalo Bills,Miami FL,OT
+2,0,ACC,Buffalo Bills,0,0,0,0,0,0,0,0,0,0,Seantrel Henderson,Buffalo Bills,Miami FL,OT
+0,Big 12,Big 12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Will Smith,Dallas Cowboys,Texas Tech,LB
+1,Dallas Cowboys,Big 12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Will Smith,Dallas Cowboys,Texas Tech,LB
+2,0,Big 12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Will Smith,Dallas Cowboys,Texas Tech,LB
+0,SEC,SEC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,James Wright,Cincinnati Bengals,LSU,WR
+1,Cincinnati Bengals,SEC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,James Wright,Cincinnati Bengals,LSU,WR
+2,0,SEC,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,James Wright,Cincinnati Bengals,LSU,WR
+0,Big 12,Big 12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Tevin Reese,Los Angeles Chargers,Baylor,WR
+1,Los Angeles Chargers,Big 12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Tevin Reese,Los Angeles Chargers,Baylor,WR
+2,0,Big 12,Los Angeles Chargers,0,0,0,0,0,0,0,0,0,0,Tevin Reese,Los Angeles Chargers,Baylor,WR
+0,Big Ten,Big Ten,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Christian Bryant,Los Angeles Rams,Ohio State,FS
+1,Los Angeles Rams,Big Ten,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Christian Bryant,Los Angeles Rams,Ohio State,FS
+2,0,Big Ten,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Christian Bryant,Los Angeles Rams,Ohio State,FS
+0,Big 12,Big 12,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Corey Nelson,Denver Broncos,Oklahoma,LB
+1,Denver Broncos,Big 12,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Corey Nelson,Denver Broncos,Oklahoma,LB
+2,0,Big 12,Denver Broncos,0,0,1,0,0,0,0,0,0,0,Corey Nelson,Denver Broncos,Oklahoma,LB
+0,ACC,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Kaleb Ramsey,San Francisco 49ers,Boston College,DT
+1,San Francisco 49ers,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Kaleb Ramsey,San Francisco 49ers,Boston College,DT
+2,0,ACC,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Kaleb Ramsey,San Francisco 49ers,Boston College,DT
+0,Big Ten,Big Ten,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jeremy Gallon,New England Patriots,Michigan,WR
+1,New England Patriots,Big Ten,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jeremy Gallon,New England Patriots,Michigan,WR
+2,0,Big Ten,New England Patriots,0,0,0,0,0,0,0,0,0,0,Jeremy Gallon,New England Patriots,Michigan,WR
+0,Big 12,Big 12,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Trey Millard,San Francisco 49ers,Oklahoma,FB
+1,San Francisco 49ers,Big 12,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Trey Millard,San Francisco 49ers,Oklahoma,FB
+2,0,Big 12,San Francisco 49ers,0,0,0,0,0,0,0,0,0,0,Trey Millard,San Francisco 49ers,Oklahoma,FB
+0,Other,Other,Chicago Bears,0,0,0,0,0,0,0,0,0,1,Charles Leno,Chicago Bears,Boise State,OT
+1,Chicago Bears,Other,Chicago Bears,0,0,0,0,0,0,0,0,0,1,Charles Leno,Chicago Bears,Boise State,OT
+2,0,Other,Chicago Bears,0,0,0,0,0,0,0,0,0,1,Charles Leno,Chicago Bears,Boise State,OT
+0,Other,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Jonathan Dowling,Las Vegas Raiders,Western Kentucky,SS
+1,Las Vegas Raiders,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Jonathan Dowling,Las Vegas Raiders,Western Kentucky,SS
+2,0,Other,Las Vegas Raiders,0,0,0,0,0,0,0,0,0,0,Jonathan Dowling,Las Vegas Raiders,Western Kentucky,SS
+0,Big 12,Big 12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ahmad Dixon,Dallas Cowboys,Baylor,SS
+1,Dallas Cowboys,Big 12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ahmad Dixon,Dallas Cowboys,Baylor,SS
+2,0,Big 12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ahmad Dixon,Dallas Cowboys,Baylor,SS
+0,SEC,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Michael Sam,Los Angeles Rams,Missouri,DE
+1,Los Angeles Rams,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Michael Sam,Los Angeles Rams,Missouri,DE
+2,0,SEC,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Michael Sam,Los Angeles Rams,Missouri,DE
+0,Other,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Demetrius Rhaney,Los Angeles Rams,Tennessee State,C
+1,Los Angeles Rams,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Demetrius Rhaney,Los Angeles Rams,Tennessee State,C
+2,0,Other,Los Angeles Rams,0,0,0,0,0,0,0,0,0,0,Demetrius Rhaney,Los Angeles Rams,Tennessee State,C
+0,Other,Other,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ken Bishop,Dallas Cowboys,Northern Illinois,DT
+1,Dallas Cowboys,Other,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ken Bishop,Dallas Cowboys,Northern Illinois,DT
+2,0,Other,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Ken Bishop,Dallas Cowboys,Northern Illinois,DT
+0,Other,Other,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Lavelle Westbrooks,Cincinnati Bengals,Georgia Southern,CB
+1,Cincinnati Bengals,Other,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Lavelle Westbrooks,Cincinnati Bengals,Georgia Southern,CB
+2,0,Other,Cincinnati Bengals,0,0,0,0,0,0,0,0,0,0,Lavelle Westbrooks,Cincinnati Bengals,Georgia Southern,CB
+0,Other,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Yawin Smallwood,Atlanta Falcons,UConn,LB
+1,Atlanta Falcons,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Yawin Smallwood,Atlanta Falcons,UConn,LB
+2,0,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Yawin Smallwood,Atlanta Falcons,UConn,LB
+0,Pac12,Pac12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Terrance Mitchell,Dallas Cowboys,Oregon,CB
+1,Dallas Cowboys,Pac12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Terrance Mitchell,Dallas Cowboys,Oregon,CB
+2,0,Pac12,Dallas Cowboys,0,0,0,0,0,0,0,0,0,0,Terrance Mitchell,Dallas Cowboys,Oregon,CB
+0,Other,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Tyler Starr,Atlanta Falcons,South Dakota,LB
+1,Atlanta Falcons,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Tyler Starr,Atlanta Falcons,South Dakota,LB
+2,0,Other,Atlanta Falcons,0,0,0,0,0,0,0,0,0,0,Tyler Starr,Atlanta Falcons,South Dakota,LB
+0,Other,Other,Houston Texans,0,0,0,0,0,0,0,0,0,0,Lonnie Ballentine,Houston Texans,Memphis,FS
+1,Houston Texans,Other,Houston Texans,0,0,0,0,0,0,0,0,0,0,Lonnie Ballentine,Houston Texans,Memphis,FS
+2,0,Other,Houston Texans,0,0,0,0,0,0,0,0,0,0,Lonnie Ballentine,Houston Texans,Memphis,FS
