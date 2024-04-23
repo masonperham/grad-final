@@ -17,7 +17,7 @@
         .axis {
           opacity: 0.4;
         }
-        
+
         .axis:hover {
           opacity: 1;
         }
@@ -84,7 +84,7 @@
             const margin = { top: 30, right: 50, bottom: 10, left: 50 },
                 width = 1200 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
-        
+
             // Append the svg object to the body of the page
             const svg = d3.select("#svg-container1")
                 .append("svg")
@@ -92,7 +92,7 @@
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", `translate(${margin.left},${margin.top})`);
-        
+
 
             // Parse and load the data
             d3.csv("python/results/total/joindf_total.csv", function(data) {
@@ -123,13 +123,13 @@
                         .domain( d3.extent(data, function(d) { return +d[name]; }) )
                         .range([height, 0])
                 }
-        
+
                 // Build the X scale -> it finds the best position for each Y axis
                 const x = d3.scalePoint()
                     .range([0, width])
                     .padding(1)
                     .domain(dimensions);
-        
+
                 // Highlight the specie that is hovered
                 var highlight = function(d){
 
@@ -160,11 +160,11 @@
                         .style("stroke", function(d){ return( color(d.Pos))} )
                         .style("opacity", ".2")
                 }
-        
+
                 // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
                 function path(d) {
-                    return d3.line()(dimensions.map(function(p) { 
-                        return [x(p), y[p](d[p])]; 
+                    return d3.line()(dimensions.map(function(p) {
+                        return [x(p), y[p](d[p])];
                     }));
                 }
 
@@ -203,7 +203,7 @@
                     .style("font-family", "Helvetica")
 
 
-                // make legend 
+                // make legend
                 svg.selectAll('.legend-circle')
                     .data(positions)
                     .enter()
@@ -252,7 +252,7 @@
             const margin = { top: 30, right: 50, bottom: 10, left: 50 },
                 width = 1200 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
-        
+
             // Append the svg object to the body of the page
             const svg = d3.select("#svg-container2")
                 .append("svg")
@@ -260,7 +260,7 @@
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", `translate(${margin.left},${margin.top})`);
-        
+
 
             // Parse and load the data
             d3.csv("python/results/total/joindf_total.csv", function(data) {
@@ -297,13 +297,13 @@
                         .domain( d3.extent(data, function(d) { return +d[name]; }) )
                         .range([height, 0])
                 }
-        
+
                 // Build the X scale -> it finds the best position for each Y axis
                 const x = d3.scalePoint()
                     .range([0, width])
                     .padding(1)
                     .domain(dimensions);
-        
+
                 // Highlight the specie that is hovered
                 var highlight = function(d){
 
@@ -334,11 +334,11 @@
                         .style("stroke", function(d){ return( color(d.Conf_Clean))} )
                         .style("opacity", ".2")
                 }
-        
+
                 // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
                 function path(d) {
-                    return d3.line()(dimensions.map(function(p) { 
-                        return [x(p), y[p](d[p])]; 
+                    return d3.line()(dimensions.map(function(p) {
+                        return [x(p), y[p](d[p])];
                     }));
                 }
 
@@ -377,7 +377,7 @@
                     .style("font-family", "Helvetica")
 
 
-                // make legend 
+                // make legend
                 svg.selectAll('.legend-circle')
                     .data(confs)
                     .enter()
@@ -559,7 +559,7 @@
                             .attr('y', function(c) { return yScale(c.val); })
                             .attr('height', function(c) { return height - yScale(c.val); })
                             .attr('fill', function(c) { return c.color; })
-                            
+
                     d3.select("svg." + d.accolades)
                         .selectAll(".bar-label")
                         .data(d.Values)
@@ -572,10 +572,10 @@
                             .attr('fill', 'white')
                             .style("font-family", "helvetica")
                             .style("font-size", "9px")
-                            .text(function(c) { 
+                            .text(function(c) {
                                 if(c.val == yScale.domain()[1]) {
                                     return c.val;
-                                } 
+                                }
                             });
 
                     d3.select("svg." + d.accolades)
@@ -593,7 +593,7 @@
                         .append('g')
                         .attr('transform', 'translate(0,' + height + ')')
                         .call(xAxis);
-                });  
+                });
             });
         }
 
@@ -665,7 +665,7 @@
                             .attr("stroke-width", 1.5)
                             .attr("d", function(d){
                                 return d3.line()
-                                    .x(function(d) { 
+                                    .x(function(d) {
                                         return x(d.Year); })
                                     .y(function(d) { return y(+d[a]); })
                                     (d.values)
